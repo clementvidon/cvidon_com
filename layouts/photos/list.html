@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <section class="section-list">
+    <h1>Photos</h1>
+
+    <div class="entry-list">
+      {{ range .RegularPages.ByDate.Reverse }}
+        <article class="entry">
+          <div class="entry-date">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          </div>
+
+          <div class="entry-body">
+            <a class="entry-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ with .Params.source }}
+              <div class="entry-source">{{ . }}</div>
+            {{ end }}
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

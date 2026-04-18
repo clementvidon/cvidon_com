@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🌱</text></svg>'>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/">home</a>
+        <a href="/posts/">writing</a>
+        <a href="/photos/">photos</a>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="site-footer">
+      <ul class="social-links">
+        <li>
+          <a class="footer-link" href="/posts/index.xml">
+            <svg viewBox="0 0 12 12" aria-hidden="true">
+              <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor"></path>
+            </svg>
+            <span>rss</span>
+          </a>
+        </li>
+
+        <li class="email-item">
+          <input type="checkbox" id="email-toggle" hidden>
+
+          <label for="email-toggle" class="footer-link email-trigger">
+            <svg viewBox="0 0 12 12" aria-hidden="true">
+              <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor"></path>
+            </svg>
+            <span>email</span>
+          </label>
+
+          <span class="email-address">cvidon@student.42.com</span>
+        </li>
+
+        <li>
+          <a class="footer-link" href="https://github.com/clementvidon/" rel="me">
+            <svg viewBox="0 0 12 12" aria-hidden="true">
+              <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor"></path>
+            </svg>
+            <span>github</span>
+          </a>
+        </li>
+        <li>
+          <a class="footer-link" href="https://substack.com/@cl3don" rel="me">
+            <svg viewBox="0 0 12 12" aria-hidden="true">
+              <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor"></path>
+            </svg>
+            <span>substack</span>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</body>
+</html>

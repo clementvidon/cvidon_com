@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <article class="single-page photo-series">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+
+      <div class="page-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+        {{ with .Params.source }}
+          <span class="page-source">{{ . }}</span>
+        {{ end }}
+      </div>
+    </header>
+
+    <div class="gallery">
+      {{ range .Params.images }}
+        <picture>
+          <source srcset="{{ . }}.webp" type="image/webp">
+          <img src="{{ . }}.jpg" loading="lazy" alt="">
+        </picture>
+      {{ end }}
+    </div>
+  </article>
+{{ end }}

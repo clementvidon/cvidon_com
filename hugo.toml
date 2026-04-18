@@ -1,0 +1,8 @@
+baseURL = "https://cvidon.com/"
+languageCode = "en-us"
+title = "Clément Vidon"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+description = "CVidon's Blog."
