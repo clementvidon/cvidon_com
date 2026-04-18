@@ -1,16 +1,17 @@
 :root {
   /* Colors */
-  --color-page-background: #eaeaea;
+  --color-page-background: #fafafa;
   --color-text-primary: #1f1f1f;
   --color-text-muted: #5e5e5e;
   --color-selection-background: #000000;
   --color-selection-text: #eaeaea;
 
-  /* Width */
+  /* Layout width */
   --page-max-width: 40rem;
-  --page-side-padding: 1rem;
+  --page-centered-side-padding: 2rem;
+  --page-fixed-left-margin: 1.25rem;
 
-  /* Vertical rhythm */
+  /* Global vertical spacing */
   --page-top-padding: 3rem;
   --header-to-content-gap: 5rem;
   --content-to-footer-gap: 3rem;
@@ -18,25 +19,25 @@
   /* Home */
   --home-title-to-bio-gap: 2rem;
 
-  /* Section lists */
+  /* List pages */
   --section-title-to-list-gap: 3rem;
-  --list-item-vertical-gap: 1.5rem;
-  --entry-date-column-width: 8rem;
-  --entry-columns-gap: 1rem;
+  --list-row-gap: 1.5rem;
+  --list-date-column-width: 7rem;
+  --list-columns-gap: 1rem;
 
   /* Single pages */
-  --page-header-to-body-gap: 3rem;
-  --page-title-to-meta-gap: 0.65rem;
+  --single-header-to-content-gap: 3rem;
+  --single-title-to-meta-gap: 0.65rem;
   --body-paragraph-gap: 1.5rem;
 
-  /* Photos */
+  /* Photo series */
   --gallery-image-gap: 1.25rem;
 
   /* Footer */
   --footer-links-row-gap: 1rem;
   --footer-links-column-gap: 1.25rem;
   --footer-link-icon-gap: 0.4rem;
-  --footer-mobile-gap: 0.75rem;
+  --footer-links-mobile-gap: 0.6rem;
 
   /* Typography */
   --base-font-size: 16px;
@@ -59,6 +60,7 @@ html {
 
 body {
   margin: 0;
+  min-width: 320px;
   background: var(--color-page-background);
   color: var(--color-text-primary);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -99,7 +101,7 @@ h1 {
 }
 
 /* =========================
-   Global page layout
+   Global layout
    ========================= */
 
 .site-shell {
@@ -107,18 +109,28 @@ h1 {
   padding-bottom: var(--content-to-footer-gap);
 }
 
+/* État 1 : grand écran -> contenu centré */
 .site-header,
 .site-main,
 .site-footer {
-  width: min(calc(100% - (var(--page-side-padding) * 2)), var(--page-max-width));
-  margin-left: var(--page-side-padding);
+  width: min(
+    calc(100% - (var(--page-centered-side-padding) * 2)),
+    var(--page-max-width)
+  );
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (min-width: 1100px) {
+/* État 2 : demi-desktop et moins -> contenu plaqué à gauche */
+@media (max-width: 1000px) {
   .site-header,
   .site-main,
   .site-footer {
-    margin-left: auto;
+    width: min(
+      calc(100% - (var(--page-fixed-left-margin) * 2)),
+      var(--page-max-width)
+    );
+    margin-left: var(--page-fixed-left-margin);
     margin-right: auto;
   }
 }
@@ -161,13 +173,13 @@ h1 {
 
 .entry-list {
   display: grid;
-  gap: var(--list-item-vertical-gap);
+  gap: var(--list-row-gap);
 }
 
 .entry {
   display: grid;
-  grid-template-columns: var(--entry-date-column-width) 1fr;
-  column-gap: var(--entry-columns-gap);
+  grid-template-columns: var(--list-date-column-width) minmax(0, 1fr);
+  column-gap: var(--list-columns-gap);
   align-items: start;
 }
 
@@ -195,11 +207,11 @@ h1 {
    ========================= */
 
 .page-header {
-  margin-bottom: var(--page-header-to-body-gap);
+  margin-bottom: var(--single-header-to-content-gap);
 }
 
 .page-header h1 {
-  margin-bottom: var(--page-title-to-meta-gap);
+  margin-bottom: var(--single-title-to-meta-gap);
 }
 
 .prose p + p {
@@ -216,7 +228,7 @@ h1 {
 }
 
 /* =========================
-   Footer links
+   Footer
    ========================= */
 
 .social-links {
@@ -271,17 +283,13 @@ h1 {
 }
 
 /* =========================
-   Responsive
+   Footer only breakpoint
    ========================= */
 
 @media (max-width: 700px) {
-  .entry {
-    grid-template-columns: 1fr;
-    row-gap: 0.25rem;
-  }
-
   .social-links {
     display: grid;
-    gap: var(--footer-mobile-gap);
+    grid-auto-flow: row;
+    gap: var(--footer-links-mobile-gap);
   }
 }

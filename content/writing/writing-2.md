@@ -1,9 +1,9 @@
 +++
-title = "Quiet Systems"
+title = "Lazy Systems"
 date = 2024-11-24T10:00:00+02:00
 source = "Blog"
 draft = false
-description = "On quiet systems, legibility, and small personal infrastructures."
+description = "On lazy systems, legibility, and small personal infrastructures."
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at sem nec velit
