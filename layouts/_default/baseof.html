@@ -2,22 +2,36 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- sync with CSS var(--color-page-background) -->
   <meta name="theme-color" content="#fafafa">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+
+  <!-- Open Graph -->
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
+
+  <!-- Icons -->
   <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🌱</text></svg>'>
+
+  <!-- Prefetch -->
   <link rel="prefetch" href="/writing/">
   <link rel="prefetch" href="/photo/">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="/style.css">
 
+  <!-- Scripts -->
   <script src="https://instant.page/5.2.0" type="module"></script>
-  <!-- Umami analytics (privacy-friendly) -->
+
+  <!-- Umami analytics -->
   {{ if not hugo.IsServer }}
   <script defer src="https://cloud.umami.is/script.js" data-website-id="5a7aa315-c4a2-459e-a4f3-1c7fb4362fb2"></script>
   {{ end }}
