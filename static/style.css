@@ -63,9 +63,10 @@ body {
   min-width: 320px;
   background: var(--color-page-background);
   color: var(--color-text-primary);
-  font-family: "Geist", ui-sans-serif, system-ui, sans-serif;
+  font-family: ui-sans-serif, system-ui;
   line-height: var(--base-line-height);
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
@@ -101,6 +102,7 @@ h1 {
   font-size: var(--heading-font-size);
   line-height: 1.15;
   font-weight: 600;
+  letter-spacing: -0.04em;
 }
 
 /* =========================
