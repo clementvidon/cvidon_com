@@ -1,7 +1,7 @@
 +++
 title = "Lazy Systems"
 date = 2024-11-24T10:00:00+02:00
-source = "Blog"
+category = "Blog"
 draft = false
 description = "On lazy systems, legibility, and small personal infrastructures."
 +++

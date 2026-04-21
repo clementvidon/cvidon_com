@@ -3,33 +3,67 @@
 <head>
   <meta charset="utf-8">
 
-  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <title>
+  {{ if .Params.seo_title }}
+    {{ .Params.seo_title }} · {{ site.Title }}
+  {{ else if .IsHome }}
+    {{ site.Title }}
+  {{ else }}
+    {{ .Title }} · {{ site.Title }}
+  {{ end }}
+  </title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
 
   <!-- sync with CSS var(--color-page-background) -->
   <meta name="theme-color" content="#fafafa">
 
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ .Permalink }}">
+  <link rel="canonical" href="{{ .Permalink }}">
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ if .Params.images }}
+    <meta property="og:image" content="{{ (index .Params.images 0) | absURL }}.jpg">
+  {{ else }}
+    <meta property="og:image" content="{{ "images/elvis-party-portrait-1.jpg" | absURL }}">
+  {{ end }}
   <!-- Icons -->
   <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🌱</text></svg>'>
 
   <!-- Prefetch -->
   <link rel="prefetch" href="/writing/">
-  <link rel="prefetch" href="/photo/">
+  <link rel="prefetch" href="/photography/">
 
   <!-- CSS -->
   <link rel="stylesheet" href="/style.css">
 
   <!-- Scripts -->
   <script src="https://instant.page/5.2.0" type="module"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Clément Vidon",
+    "url": "https://cvidon.com",
+    "jobTitle": "Photographer",
+    "knowsAbout": ["Photography", "Software Engineering", "Creative Coding"],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris",
+      "addressCountry": "FR"
+    },
+    "sameAs": [
+      "https://github.com/clementvidon",
+      "https://substack.com/@cl3don"
+    ]
+  }
+  </script>
 
   <!-- Umami analytics -->
   {{ if not hugo.IsServer }}
@@ -43,7 +77,7 @@
       <nav class="site-nav" aria-label="Primary">
         <a href="/" {{ if .IsHome }}aria-current="page"{{ end }}>home</a>
         <a href="/writing/" {{ if hasPrefix .RelPermalink "/writing/" }}aria-current="page"{{ end }}>writing</a>
-        <a href="/photo/" {{ if hasPrefix .RelPermalink "/photo/" }}aria-current="page"{{ end }}>photo</a>
+        <a href="/photography/" {{ if hasPrefix .RelPermalink "/photography/" }}aria-current="page"{{ end }}>photography</a>
       </nav>
     </header>
 

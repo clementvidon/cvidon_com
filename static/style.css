@@ -91,6 +91,7 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  aspect-ratio: auto;
 }
 
 p,
@@ -198,8 +199,8 @@ h1 {
   display: inline-block;
 }
 
-.entry-source,
-.page-source {
+.entry-category,
+.page-category {
   display: block;
   margin-top: 0.1rem;
   color: var(--color-text-muted);

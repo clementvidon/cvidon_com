@@ -1,7 +1,7 @@
 +++
 title = "Drift Notes"
 date = 2025-05-30T10:00:00+02:00
-source = "Essay"
+category = "Essay"
 draft = false
 description = "A short essay on attention, drift, and building slowly."
 +++

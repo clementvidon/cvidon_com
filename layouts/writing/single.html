@@ -5,14 +5,17 @@
 
       <div class="page-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-        {{ with .Params.source }}
-          <span class="page-source">{{ . }}</span>
+        {{ with .Params.category }}
+          <span class="page-category">{{ . }}</span>
         {{ end }}
       </div>
     </header>
 
-    <div class="page-content prose">
-      {{ .Content }}
-    </div>
+    {{ if .Content }}
+      <div class="page-content prose">
+        {{ .Content }}
+      </div>
+    {{ end }}
+
   </article>
 {{ end }}

@@ -1,8 +1,13 @@
 baseURL = "https://cvidon.com/"
-languageCode = "en-us"
+languageCode = "en"
+defaultContentLanguage = "en"
 title = "Clément Vidon"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 
 [params]
-description = "Clément Vidon's Personal Website"
+description = "Personal website of Clément Vidon."
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
