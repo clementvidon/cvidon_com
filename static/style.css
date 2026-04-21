@@ -265,7 +265,7 @@ h1 {
 .email-address {
   display: none;
   user-select: all;
-  cursor: text;
+  cursor: copy;
   white-space: nowrap;
 }
 
