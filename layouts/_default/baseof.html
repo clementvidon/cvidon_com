@@ -6,6 +6,10 @@
   <meta name="theme-color" content="#fafafa">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Permalink }}">
   <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🌱</text></svg>'>
   <link rel="prefetch" href="/writing/">
   <link rel="prefetch" href="/photo/">
@@ -25,9 +29,9 @@
   <div class="site-shell">
     <header class="site-header">
       <nav class="site-nav" aria-label="Primary">
-        <a href="/">home</a>
-        <a href="/writing/">writing</a>
-        <a href="/photo/">photo</a>
+        <a href="/" {{ if .IsHome }}aria-current="page"{{ end }}>home</a>
+        <a href="/writing/" {{ if hasPrefix .RelPermalink "/writing/" }}aria-current="page"{{ end }}>writing</a>
+        <a href="/photo/" {{ if hasPrefix .RelPermalink "/photo/" }}aria-current="page"{{ end }}>photo</a>
       </nav>
     </header>
 

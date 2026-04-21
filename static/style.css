@@ -83,6 +83,11 @@ a:hover {
   text-underline-offset: 0.12em;
 }
 
+.site-nav a[aria-current="page"] {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
 img {
   display: block;
   width: 100%;
