@@ -4,7 +4,7 @@
 
     <div class="entry-list">
       {{ range .RegularPages.ByDate.Reverse }}
-        <a href="{{ .RelPermalink }}" class="entry-link">
+        <a href="{{ .RelPermalink }}" class="entry-link" >
           <article class="entry">
             <div class="entry-date">
               <time datetime="{{ .Date.Format "2006-01-02" }}">
