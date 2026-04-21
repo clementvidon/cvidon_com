@@ -4,18 +4,22 @@
 
     <div class="entry-list">
       {{ range .RegularPages.ByDate.Reverse }}
-        <article class="entry">
-          <div class="entry-date">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-          </div>
+        <a href="{{ .RelPermalink }}" class="entry-link">
+          <article class="entry">
+            <div class="entry-date">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">
+                {{ .Date.Format "Jan 2, 2006" }}
+              </time>
+            </div>
 
-          <div class="entry-body">
-            <a class="entry-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ with .Params.source }}
-              <div class="entry-source">{{ . }}</div>
-            {{ end }}
-          </div>
-        </article>
+            <div class="entry-body">
+              <div class="entry-title">{{ .Title }}</div>
+              {{ with .Params.source }}
+                <div class="entry-source">{{ . }}</div>
+              {{ end }}
+            </div>
+          </article>
+        </a>
       {{ end }}
     </div>
   </section>
