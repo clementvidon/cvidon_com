@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+  <!-- sync with CSS var(--color-page-background) -->
   <meta name="theme-color" content="#fafafa">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
@@ -15,13 +16,6 @@
   <link rel="prefetch" href="/writing/">
   <link rel="prefetch" href="/photo/">
   <link rel="stylesheet" href="/style.css">
-
-  <style>
-    html, body {
-      background: #fafafa;
-      color: #1f1f1f;
-    }
-  </style>
 
   <script src="https://instant.page/5.2.0" type="module"></script>
 </head>
