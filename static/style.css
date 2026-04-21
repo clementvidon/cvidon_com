@@ -76,16 +76,14 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
-a:hover {
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
-}
-
-.site-nav a[aria-current="page"] {
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
 }
 
 img {
@@ -256,11 +254,6 @@ h1 {
   width: 0.75rem;
   height: 0.75rem;
   flex-shrink: 0;
-}
-
-.footer-link:hover span {
-  text-decoration: underline;
-  text-underline-offset: 0.12em;
 }
 
 /* =========================
