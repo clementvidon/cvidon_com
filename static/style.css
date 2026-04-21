@@ -32,6 +32,7 @@
 
   /* Photo series */
   --gallery-image-gap: 1.25rem;
+  --intro-to-gallery-gap: 1.25rem;
 
   /* Footer */
   --footer-links-row-gap: 1rem;
@@ -230,7 +231,12 @@ h1 {
 
 .gallery {
   display: grid;
+  margin-top: var(--intro-to-gallery-gap);
   gap: var(--gallery-image-gap);
+}
+
+.gallery.no-intro {
+  margin-top: 0;
 }
 
 /* =========================

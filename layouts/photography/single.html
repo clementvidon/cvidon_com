@@ -12,13 +12,13 @@
     </header>
 
     {{ if .Content }}
-      <div class="page-content prose">
+      <div class="prose">
         {{ .Content }}
       </div>
     {{ end }}
 
     {{ if .Params.images }}
-    <div class="gallery">
+      <div class="gallery {{ if not .Content }}no-intro{{ end }}">
       {{ range .Params.images }}
         <picture>
           <source srcset="{{ . }}.webp" type="image/webp">

@@ -3,7 +3,7 @@ title = "Elvis Party"
 date = 2026-04-12T20:00:00+02:00
 category = "Photo report"
 draft = false
-description = "Photo report from Elvis’s 28th birthday party, Paris."
+description = "Photo report from Elvis’s 28th birthday party in Paris."
 
 images = [
   "/images/elvis-party-portrait-1",
@@ -21,3 +21,5 @@ images = [
   "/images/elvis-party-portrait-13"
 ]
 +++
+
+*28th birthday, friends and Swiss raclette*
