@@ -1,10 +1,10 @@
 :root {
   /* Colors */
   --color-page-background: #fafafa;
-  --color-text-primary: #1f1f1f;
+  --color-text-primary: #212121;
   --color-text-muted: #5e5e5e;
-  --color-selection-background: #1f1f1f;
-  --color-selection-text: #fafafa;
+  --color-selection-background: var(--color-text-primary);
+  --color-selection-text: var(--color-page-background);
 
   /* Layout width */
   --page-max-width: 40rem;
