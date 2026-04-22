@@ -2,7 +2,7 @@
 title = "Portfolio"
 date = 2026-04-21T20:00:00+02:00
 category = "Portfolio"
-draft = false
+draft = true
 description = "Clément Vidon's photography portfolio."
 weight = 1
 pinned = true
