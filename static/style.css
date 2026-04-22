@@ -211,7 +211,6 @@ h1 {
 .entry-category {
   display: block;
   margin-top: 0;
-  line-height: 1.2;
   color: var(--color-text-primary);
   font-style: italic;
   font-size: var(--list-category-font-size);
