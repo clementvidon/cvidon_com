@@ -17,9 +17,14 @@
     {{ if .Params.images }}
       <div class="gallery {{ if not .Content }}no-intro{{ end }}">
       {{ range .Params.images }}
+
         {{ $imagePath := . }}
-        {{ $imageName := path.Base $imagePath }}
-        {{ $alt := or (index site.Data.image_alts $imageName) (printf "%s — image by Clément Vidon" $.Title) }}
+        {{ $imageName := replace (path.Base $imagePath) ".jpg" "" }}
+
+        {{ $alt := index site.Data.image_alts $imageName }}
+        {{ if not $alt }}
+          {{ errorf "Missing alt for image: %s" $imageName }}
+        {{ end }}
 
         <picture>
           <source srcset="{{ $imagePath }}.webp" type="image/webp">
@@ -29,6 +34,7 @@
             alt="{{ $alt }}"
           >
         </picture>
+
       {{ end }}
       </div>
     {{ end }}
