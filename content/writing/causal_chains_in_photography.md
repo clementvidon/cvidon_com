@@ -21,4 +21,4 @@ Optical systems do not create or break this relation. They shape it.
 
 What varies is not the existence of a physical link, but the number and nature of its mediations. At the limit, the least mediated case would be propagation in vacuum.
 
-Photography remains, in this sense, indexical.
+Photography remains, in this sense, indexical, and analog photography is not inherently closer to the real than digital photography.
