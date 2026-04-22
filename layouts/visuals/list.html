@@ -1,6 +1,6 @@
 {{ define "main" }}
   <section class="section-list">
-    <h1>Photography</h1>
+    <h1>{{ .Title }}</h1>
 
     <div class="entry-list">
       {{ $pinned := where .RegularPages "Params.pinned" true }}

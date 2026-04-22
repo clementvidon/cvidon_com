@@ -1,11 +1,11 @@
 +++
-title = "Portfolio"
+title = "Photography Portfolio"
 date = 2026-04-21T20:00:00+02:00
-category = "Portfolio"
-draft = true
+category = "Photography"
 description = "Clément Vidon's photography portfolio."
 weight = 1
 pinned = true
+draft = true
 +++
 
 Portrait and event photographer based in Paris.

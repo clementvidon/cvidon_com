@@ -5,9 +5,6 @@
 
       <div class="page-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-        {{ with .Params.category }}
-          <span class="page-category">{{ . }}</span>
-        {{ end }}
       </div>
     </header>
 

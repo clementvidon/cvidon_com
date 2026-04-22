@@ -1,13 +1,10 @@
 {{ define "main" }}
-  <article class="single-page photo-series">
+  <article class="single-page">
     <header class="page-header">
       <h1>{{ .Title }}</h1>
 
       <div class="page-meta">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-        {{ with .Params.category }}
-          <span class="page-category">{{ . }}</span>
-        {{ end }}
       </div>
     </header>
 
@@ -20,17 +17,20 @@
     {{ if .Params.images }}
       <div class="gallery {{ if not .Content }}no-intro{{ end }}">
       {{ range .Params.images }}
+        {{ $imagePath := . }}
+        {{ $imageName := path.Base $imagePath }}
+        {{ $alt := or (index site.Data.image_alts $imageName) (printf "%s — image by Clément Vidon" $.Title) }}
+
         <picture>
-          <source srcset="{{ . }}.webp" type="image/webp">
+          <source srcset="{{ $imagePath }}.webp" type="image/webp">
           <img
-            src="{{ . }}.jpg"
+            src="{{ $imagePath }}.jpg"
             loading="lazy"
-            alt="{{ $.Title }} – photography by Clément Vidon in Paris, France"
+            alt="{{ $alt }}"
           >
         </picture>
       {{ end }}
-    </div>
+      </div>
     {{ end }}
-
   </article>
 {{ end }}

@@ -2,12 +2,11 @@
   /* Colors */
   --color-page-background: #fafafa;
   --color-text-primary: #212121;
-  --color-text-muted: #5e5e5e;
   --color-selection-background: var(--color-text-primary);
   --color-selection-text: var(--color-page-background);
 
   /* Layout width */
-  --page-max-width: 40rem;
+  --page-max-width: 36rem;
   --page-centered-side-padding: 2rem;
   --page-fixed-left-margin: 1.25rem;
 
@@ -20,17 +19,17 @@
   --home-title-to-bio-gap: 2rem;
 
   /* List pages */
-  --section-title-to-list-gap: 3rem;
+  --section-title-to-list-gap: var(--home-title-to-bio-gap);
   --list-row-gap: 1.5rem;
   --list-date-column-width: 7rem;
   --list-columns-gap: 1rem;
 
   /* Single pages */
-  --single-header-to-content-gap: 3rem;
-  --single-title-to-meta-gap: 0.65rem;
+  --single-header-to-content-gap: var(--home-title-to-bio-gap);
+  --single-title-to-meta-gap: 0.5rem;
   --body-paragraph-gap: 1.5rem;
 
-  /* Photo series */
+  /* Gallery */
   --gallery-image-gap: 1.25rem;
   --intro-to-gallery-gap: 1.25rem;
 
@@ -44,8 +43,12 @@
   --base-font-size: 16px;
   --base-line-height: 1.5;
   --lede-line-height: 1.5;
-  --meta-font-size: 0.95rem;
   --heading-font-size: 1.5rem;
+
+  --list-title-font-size: 1rem;
+  --list-date-font-size: 1rem;
+  --list-category-font-size: 0.92rem;
+  --single-date-font-size: var(--list-category-font-size);
 }
 
 *,
@@ -190,23 +193,28 @@ h1 {
   align-items: start;
 }
 
-.entry-date,
+.entry-date {
+  color: var(--color-text-primary);
+  font-size: var(--list-date-font-size);
+}
+
 .page-meta {
-  color: var(--color-text-muted);
-  font-size: var(--meta-font-size);
+  color: var(--color-text-primary);
+  font-size: var(--single-date-font-size);
 }
 
 .entry-title {
   display: inline-block;
+  font-size: var(--list-title-font-size);
 }
 
-.entry-category,
-.page-category {
+.entry-category {
   display: block;
-  margin-top: 0.1rem;
-  color: var(--color-text-muted);
+  margin-top: 0;
+  line-height: 1.2;
+  color: var(--color-text-primary);
   font-style: italic;
-  font-size: var(--meta-font-size);
+  font-size: var(--list-category-font-size);
 }
 
 /* =========================
@@ -226,7 +234,7 @@ h1 {
 }
 
 /* =========================
-   Photo series
+   Gallery
    ========================= */
 
 .gallery {
