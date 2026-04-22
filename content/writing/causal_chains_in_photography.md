@@ -1,0 +1,24 @@
++++
+title = "Causal Chains in Photography"
+date = 2025-04-22T14:00:00+02:00
+category = "Essay"
+draft = false
+description = "On causal chains in photography."
++++
+
+A photograph does not establish a direct physical relation between the object and the photosensitive surface.
+
+What it records is a causal chain: light from the object travels through space and reaches the recording surface, where it produces a trace.
+
+This remains true across all forms of photography, whether analog or digital, with or without optics.
+
+Optical systems do not create or break this relation. They shape it.
+
+- a lens refracts light through a medium
+- a mirror redirects light through interaction with matter
+- glass is never a simple passage
+- nor is air: no medium is neutral
+
+What varies is not the existence of a physical link, but the number and nature of its mediations. At the limit, the least mediated case would be propagation in vacuum.
+
+Photography remains, in this sense, indexical.
