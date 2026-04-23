@@ -280,7 +280,7 @@ h1 {
 .email-address {
   display: none;
   user-select: all;
-  cursor: copy;
+  cursor: text;
   white-space: nowrap;
 }
 
