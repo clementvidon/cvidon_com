@@ -1,10 +1,10 @@
 +++
-title = "Causal Chains in Photography"
-seo_title = "Causal Chains in Photography — Essay by Clément Vidon"
+title = "Causal Chain of Photography"
+seo_title = "Causal Chain of Photography — Essay by Clément Vidon"
 date = 2025-04-22T14:00:00+02:00
 category = "Essay"
 draft = false
-description = "On causal chains in photography."
+description = "On causal chain of photography."
 +++
 
 Most people think photography captures reality.
