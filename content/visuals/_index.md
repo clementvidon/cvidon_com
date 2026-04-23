@@ -1,6 +1,6 @@
 +++
 title = "Visuals"
-seo_title = "Visuals and Photography by Clément Vidon — Paris"
+seo_title = "Photography and Visual Work — Clément Vidon, Paris"
 description = "Visual work by Clément Vidon, including portrait and documentary photography, based in Paris."
 +++
 

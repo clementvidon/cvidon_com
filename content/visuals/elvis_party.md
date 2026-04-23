@@ -1,7 +1,8 @@
 +++
 title = "Elvis Party"
+seo_title = "Elvis Party — Photo Report in Paris by Clément Vidon"
 date = 2026-04-12T20:00:00+02:00
-category = "Photography"
+category = "Photo report"
 draft = false
 description = "Photo report from Elvis’s 28th birthday party in Paris."
 

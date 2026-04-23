@@ -1,5 +1,6 @@
 +++
 title = "Causal Chains in Photography"
+seo_title = "Causal Chains in Photography — Essay by Clément Vidon"
 date = 2025-04-22T14:00:00+02:00
 category = "Essay"
 draft = false
