@@ -53,7 +53,8 @@
 
   <!-- Prefetch -->
   <link rel="prefetch" href="/writing/">
-  <link rel="prefetch" href="/visuals/">
+  <link rel="prefetch" href="/photo/">
+  <link rel="prefetch" href="/experiments/">
 
   <!-- CSS -->
   <link rel="stylesheet" href="/style.css">
@@ -107,7 +108,8 @@
       <nav class="site-nav" aria-label="Primary">
         <a href="/" {{ if .IsHome }}aria-current="page"{{ end }}>home</a>
         <a href="/writing/" {{ if hasPrefix .RelPermalink "/writing/" }}aria-current="page"{{ end }}>writing</a>
-        <a href="/visuals/" {{ if hasPrefix .RelPermalink "/visuals/" }}aria-current="page"{{ end }}>visuals</a>
+        <a href="/photo/" {{ if hasPrefix .RelPermalink "/photo/" }}aria-current="page"{{ end }}>photo</a>
+        <a href="/experiments/" {{ if hasPrefix .RelPermalink "/experiments/" }}aria-current="page"{{ end }}>experiments</a>
       </nav>
     </header>
 
