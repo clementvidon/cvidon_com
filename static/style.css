@@ -21,8 +21,8 @@
   /* List pages */
   --section-title-to-list-gap: var(--home-title-to-bio-gap);
   --list-row-gap: 1.5rem;
-  --list-date-column-width: 7rem;
-  --list-columns-gap: 1rem;
+  --list-layout-gap: 1.5rem;
+  --list-date-column-width: 6rem;
 
   /* Single pages */
   --single-header-to-content-gap: var(--home-title-to-bio-gap);
@@ -95,7 +95,6 @@ img {
   display: block;
   width: 100%;
   height: auto;
-  aspect-ratio: auto;
 }
 
 p,
@@ -188,7 +187,7 @@ h1 {
 .entry {
   display: grid;
   grid-template-columns: var(--list-date-column-width) minmax(0, 1fr);
-  column-gap: var(--list-columns-gap);
+  column-gap: var(--list-layout-gap);
   align-items: start;
 }
 
@@ -305,5 +304,11 @@ h1 {
     display: grid;
     grid-auto-flow: row;
     gap: var(--footer-links-mobile-gap);
+  }
+}
+
+@media (max-width: 400px) {
+  :root {
+    --list-layout-gap: 0.4rem;
   }
 }
