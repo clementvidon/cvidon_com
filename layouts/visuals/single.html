@@ -21,7 +21,7 @@
         {{ $imagePath := . }}
         {{ $imageName := replace (path.Base $imagePath) ".jpg" "" }}
 
-        {{ $alt := index site.Data.image_alts $imageName }}
+        {{ $alt := index hugo.Data.image_alts $imageName }}
         {{ if not $alt }}
           {{ errorf "Missing alt for image: %s" $imageName }}
         {{ end }}
