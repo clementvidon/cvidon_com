@@ -227,8 +227,11 @@ h1 {
   margin-bottom: var(--single-title-to-meta-gap);
 }
 
-.prose p + p {
-  margin-top: var(--body-paragraph-gap);
+.prose a {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
 }
 
 .prose ul {
