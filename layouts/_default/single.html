@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <article class="single-page">
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+    </header>
+
+    {{ if .Content }}
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </article>
+{{ end }}
