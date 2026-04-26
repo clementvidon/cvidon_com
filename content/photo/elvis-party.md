@@ -23,4 +23,4 @@ images = [
 ]
 +++
 
-*28th birthday, friends and Swiss raclette*
+28th birthday, friends and Swiss raclette.

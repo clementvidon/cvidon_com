@@ -4,7 +4,7 @@ seo_title = "Vertige Party — Photo Report by Clément Vidon at Maxim's, Paris"
 date = 2026-04-24T22:00:00+02:00
 category = "Photo report"
 draft = false
-description = "Photo report from Vertige masquerade ball at Maxim's, Paris."
+description = "Photo report from Vertige masquerade party at Maxim's, Paris."
 
 images = [
   "/images/vertige-party-1",
@@ -25,5 +25,5 @@ images = [
 ]
 +++
 
-*Vertige masquerade ball at Maxim's, Paris*
+Vertige masquerade party at Maxim's, Paris.
 
