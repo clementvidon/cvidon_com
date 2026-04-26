@@ -286,7 +286,7 @@ h1 {
   display: inline-flex;
   align-items: center;
   gap: var(--footer-link-icon-gap);
-  cursor: text;
+  cursor: pointer;
 }
 
 .footer-link svg {
@@ -302,7 +302,6 @@ h1 {
 .email-address {
   display: none;
   user-select: all;
-  cursor: text;
   white-space: nowrap;
 }
 
