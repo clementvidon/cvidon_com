@@ -13,25 +13,21 @@
   /* Global vertical spacing */
   --page-top-padding: 2.5rem;
   --header-to-content-gap: 4.5rem;
+  --title-to-content-gap: 2rem;
   --content-to-footer-gap: 3rem;
 
-  /* Home */
-  --home-title-to-bio-gap: 2rem;
-
   /* List pages */
-  --section-title-to-list-gap: var(--home-title-to-bio-gap);
   --list-row-gap: 1.5rem;
   --list-layout-gap: 1.5rem;
   --list-date-column-width: 6rem;
 
   /* Single pages */
-  --single-header-to-content-gap: var(--home-title-to-bio-gap);
   --single-title-to-meta-gap: 0.5rem;
   --body-paragraph-gap: 1.5rem;
 
   /* Gallery */
   --gallery-image-gap: 1.25rem;
-  --intro-to-gallery-gap: 1.25rem;
+  --content-to-gallery-gap: 1.25rem;
 
   /* Footer */
   --footer-links-row-gap: 1rem;
@@ -163,7 +159,7 @@ h1 {
    ========================= */
 
 .home-intro h1 {
-  margin-bottom: var(--home-title-to-bio-gap);
+  margin-bottom: var(--title-to-content-gap);
 }
 
 .lede {
@@ -176,7 +172,7 @@ h1 {
    ========================= */
 
 .section-list h1 {
-  margin-bottom: var(--section-title-to-list-gap);
+  margin-bottom: var(--title-to-content-gap);
 }
 
 .entry-list {
@@ -220,7 +216,7 @@ h1 {
    ========================= */
 
 .page-header {
-  margin-bottom: var(--single-header-to-content-gap);
+  margin-bottom: var(--title-to-content-gap);
 }
 
 .page-header h1 {
@@ -265,7 +261,7 @@ h1 {
 
 .gallery {
   display: grid;
-  margin-top: var(--intro-to-gallery-gap);
+  margin-top: var(--content-to-gallery-gap);
   gap: var(--gallery-image-gap);
 }
 

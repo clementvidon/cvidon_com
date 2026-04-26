@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8">
 
+  {{ if eq .Kind "404" }}
+    <meta name="robots" content="noindex">
+  {{ end }}
+
   <title>
   {{ if .Params.seo_title }}
     {{ .Params.seo_title }} · {{ site.Title }}
