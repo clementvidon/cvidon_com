@@ -139,19 +139,23 @@ h1 {
   }
 }
 
-.site-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-size: 1rem;
-}
-
 .site-main {
   margin-top: var(--header-to-content-gap);
 }
 
 .site-footer {
   margin-top: var(--content-to-footer-gap);
+}
+
+/* =========================
+   Header
+   ========================= */
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-size: 1rem;
 }
 
 /* =========================
@@ -252,6 +256,10 @@ h1 {
 }
 
 .prose ul + p {
+  margin-top: var(--body-paragraph-gap);
+}
+
+.prose p + p {
   margin-top: var(--body-paragraph-gap);
 }
 
