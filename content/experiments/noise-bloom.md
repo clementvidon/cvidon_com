@@ -16,6 +16,4 @@ images = [
 ]
 +++
 
-Sound unfolds into form.
-
-A field of ellipses emerges from audio signals and noise, capturing not sound itself, but its [causal trace](https://cvidon.com/writing/causal-chain-of-photography/).
+Sound unfolds into form. A field of ellipses emerges from audio signals and noise, capturing not sound itself, but its [causal trace](https://cvidon.com/writing/causal-chain-of-photography/).
