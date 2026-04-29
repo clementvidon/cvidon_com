@@ -6,8 +6,6 @@ description = "Usage terms for texts, images, photographs, and other works by Cl
 
 All content on this site is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
-Non-commercial reuse is allowed with credit:
+Non-commercial reuse is allowed, with credit:
 
 **Clément Vidon — cvidon.com**
-
-For commercial use, publication, commissions, or professional prints, [contact me](/contact/).
