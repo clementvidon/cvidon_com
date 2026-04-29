@@ -160,7 +160,7 @@ h1 {
 }
 
 body:has(.home-intro) .site-nav a[href="/photo/"] {
-  animation: photo-spin 0.5s ease-in-out 1s 1 both;
+  animation: photo-spin 0.5s ease-in-out 2s 1 both;
   display: inline-block;
 }
 
@@ -278,18 +278,18 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   margin-top: var(--body-paragraph-gap);
 }
 
-.work-footer {
+.single-page-footer {
   margin-top: var(--content-to-license-gap);
   font-size: var(--single-date-font-size);
 }
 
-.work-footer-links {
+.single-page-footer-links {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
 }
 
-.work-footer-links a {
+.single-page-footer-links a {
   text-decoration: underline;
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
