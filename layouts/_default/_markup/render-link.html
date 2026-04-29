@@ -1,0 +1,1 @@
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if or (in .Destination "instagram.com/cl3don") (in .Destination "substack.com/@cl3don") (in .Destination "github.com/clementvidon") }} rel="me"{{ end }}>{{ .Text | safeHTML }}</a>
