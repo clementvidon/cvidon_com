@@ -245,7 +245,6 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 
 .prose a {
   text-decoration: underline;
-  text-decoration-color: black;
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
 }
@@ -334,29 +333,6 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   width: 0.75rem;
   height: 0.75rem;
   flex-shrink: 0;
-}
-
-/* =========================
-   Email toggle
-   ========================= */
-
-.email-address {
-  display: none;
-  user-select: all;
-  white-space: nowrap;
-}
-
-.email-address::selection {
-  background: var(--color-selection-background);
-  color: var(--color-selection-text);
-}
-
-#email-toggle:checked + .email-trigger {
-  display: none;
-}
-
-#email-toggle:checked ~ .email-address {
-  display: inline;
 }
 
 /* =========================
