@@ -10,4 +10,4 @@ Find me elsewhere:
 - [Substack](https://substack.com/@cl3don)
 - [GitHub](https://github.com/clementvidon)
 
-See [license](/license/) for usage terms.
+Content usage: [license](/license/).
