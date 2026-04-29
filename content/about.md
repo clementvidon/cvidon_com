@@ -4,8 +4,10 @@ seo_title = "About Clément Vidon"
 description = "About and links for Clément Vidon."
 +++
 
-- [GitHub](https://github.com/clementvidon)
-- [Substack](https://substack.com/@cl3don)
-- [Instagram](https://www.instagram.com/cl3don/)
+Find me elsewhere:
 
-Usage terms for work on this site are available on the [license page](/license/).
+- [Instagram](https://www.instagram.com/cl3don/)
+- [Substack](https://substack.com/@cl3don)
+- [GitHub](https://github.com/clementvidon)
+
+See [license](/license/) for usage terms.
