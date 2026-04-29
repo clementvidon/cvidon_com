@@ -1,3 +1,3 @@
 # Clément Vidon
 
-*An engineer-artist-founder who hasn’t yet found the phrase that holds it all together.*
+Engineer-artist-founder who hasn’t yet found the phrase that holds it all together.  I make photographs, essays, experiments, and technical systems.
