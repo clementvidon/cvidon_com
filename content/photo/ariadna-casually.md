@@ -17,4 +17,4 @@ images = [
 ]
 +++
 
-Ariadna, casually — at home and nearby in Paris.
+Ariadna at home and in her neighborhood, with a Minox 35 GT on Portra.
