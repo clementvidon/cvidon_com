@@ -3,6 +3,7 @@ title = "Elvis Party"
 seo_title = "Elvis Party — Photo Report by Clément Vidon, Paris"
 date = 2026-04-12T20:00:00+02:00
 category = "Photo report"
+tags = ["party photography", "birthday", "photo report", "Paris", "raclette"]
 draft = false
 description = "Photo report from Elvis’s 28th birthday party in Paris."
 

@@ -3,6 +3,7 @@ title = "Ariadna, Casually"
 seo_title = "Ariadna, Casually — Portrait Series by Clément Vidon, Paris"
 date = 2021-03-01T12:00:00+02:00
 category = "Portrait"
+tags = ["portrait", "Paris", "analog photography", "Minox 35 GT", "Kodak Portra"]
 draft = false
 description = "Casual portrait series of Ariadna at home and nearby in Paris."
 
