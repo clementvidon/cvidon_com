@@ -243,7 +243,8 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   margin-bottom: var(--single-title-to-meta-gap);
 }
 
-.prose a {
+.prose a,
+.home-intro a {
   text-decoration: underline;
   text-underline-offset: 2px;
   text-decoration-thickness: 1px;
