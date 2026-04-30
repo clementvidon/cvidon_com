@@ -24,7 +24,7 @@
 
   /* Single pages */
   --single-title-to-meta-gap: 0.5rem;
-  --body-paragraph-gap: 1.5rem;
+  --body-paragraph-gap: 0.75rem;
 
   /* Gallery */
   --gallery-image-gap: 1.25rem;
@@ -41,6 +41,10 @@
   --base-line-height: 1.5;
   --lede-line-height: 1.5;
   --heading-font-size: 1.5rem;
+  --heading-2-top-gap: 1.5rem;
+  --heading-2-bottom-gap: 0.6rem;
+  --heading-3-top-gap: 1.25rem;
+  --heading-3-bottom-gap: 0.5rem;
 
   --list-title-font-size: 1rem;
   --list-date-font-size: 1rem;
@@ -95,15 +99,27 @@ img {
 }
 
 p,
-h1 {
+h1,
+h2,
+h3 {
   margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+  font-weight: 600;
+  letter-spacing: -0.04em;
 }
 
 h1 {
   font-size: var(--heading-font-size);
-  line-height: 1.15;
-  font-weight: 600;
-  letter-spacing: -0.04em;
+}
+
+h2,
+h3 {
+  font-size: 1rem;
 }
 
 /* =========================
@@ -243,6 +259,21 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   margin-bottom: var(--single-title-to-meta-gap);
 }
 
+.prose h2 {
+  margin-top: var(--heading-2-top-gap);
+  margin-bottom: var(--heading-2-bottom-gap);
+}
+
+.prose h3 {
+  margin-top: var(--heading-3-top-gap);
+  margin-bottom: var(--heading-3-bottom-gap);
+}
+
+.prose h2 + p,
+.prose h3 + p {
+  margin-top: 0;
+}
+
 .prose a,
 .home-intro a {
   text-decoration: underline;
@@ -256,13 +287,17 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   margin: 0;
 }
 
-.prose ul li {
-  padding-left: 1rem;
+.prose li {
   position: relative;
+  padding-left: 1rem;
 }
 
-.prose ul li::before {
-  content: "• ";
+.prose li + li {
+  margin-top: 0.1rem;
+}
+
+.prose li::before {
+  content: "-";
   position: absolute;
   left: 0;
 }

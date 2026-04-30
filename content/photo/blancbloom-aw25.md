@@ -24,8 +24,10 @@ images = [
 ]
 +++
 
-BlancBloom AW25 lookbook photographed in Paris.
+BlancBloom AW25, photographed in Paris.
 
-Model: Polly Levin
-Styling: Masha Mustaeva
-Assistant: Hoàng Lan
+## Credits
+
+Model: Polly Levin  
+Styling: Masha Mustaeva   
+Assistant: Hoàng Lan  
