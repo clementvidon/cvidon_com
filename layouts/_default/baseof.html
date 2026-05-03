@@ -5,6 +5,8 @@
 
   {{ if eq .Kind "404" }}
     <meta name="robots" content="noindex">
+  {{ else }}
+    <meta name="robots" content="{{ with .Params.robots }}{{ . }}{{ else }}index, follow{{ end }}">
   {{ end }}
 
   <title>
@@ -18,7 +20,6 @@
   </title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="{{ with .Params.robots }}{{ . }}{{ else }}index, follow{{ end }}">
 
   <!-- sync with CSS var(--color-page-background) -->
   <meta name="theme-color" content="#fafafa">

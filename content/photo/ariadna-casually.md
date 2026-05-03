@@ -1,5 +1,6 @@
 +++
 title = "Ariadna, Casually"
+list_title = "Ariadna, Casually"
 seo_title = "Ariadna, Casually — Portrait Series by Clément Vidon, Paris"
 date = 2021-03-01T12:00:00+02:00
 category = "Portrait"

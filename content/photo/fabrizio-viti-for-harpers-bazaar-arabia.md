@@ -1,5 +1,6 @@
 +++
 title = "Fabrizio Viti for Harper’s Bazaar Arabia"
+list_title = "Fabrizio Viti"
 seo_title = "Fabrizio Viti for Harper’s Bazaar Arabia — Editorial by Clément Vidon"
 date = 2019-06-19T12:00:00+02:00
 category = "Editorial"
@@ -23,5 +24,6 @@ Fabrizio Viti at his Paris home on Rue de Babylone, photographed for Harper’s 
 ## Credits
 
 Publication: [Harper’s Bazaar Arabia](https://www.harpersbazaararabia.com/)  
+Format: Print editorial  
 Words: Ayesha Shehmir  
 Photography: Clément Vidon  

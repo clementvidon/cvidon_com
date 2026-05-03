@@ -5,6 +5,12 @@
   --color-selection-background: var(--color-text-primary);
   --color-selection-text: var(--color-page-background);
 
+  /* Links */
+  --text-link-decoration-thickness: 1px;
+  --text-link-decoration-offset: 2px;
+  --text-link-decoration-opacity: 40%;
+  --text-link-decoration-transition: text-decoration-color 160ms ease;
+
   /* Layout width */
   --page-max-width: 40rem;
   --page-centered-side-padding: 2rem;
@@ -274,11 +280,20 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   margin-top: 0;
 }
 
-.prose a,
-.home-intro a {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px;
+.text-links a {
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--text-link-decoration-thickness);
+  text-underline-offset: var(--text-link-decoration-offset);
+  text-decoration-color: color-mix(
+    in srgb,
+    currentColor var(--text-link-decoration-opacity),
+    transparent
+  );
+  transition: var(--text-link-decoration-transition);
+}
+
+.text-links a:hover {
+  text-decoration-color: currentColor;
 }
 
 .prose ul {
@@ -323,12 +338,6 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-}
-
-.single-page-footer-links a {
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  text-decoration-thickness: 1px;
 }
 
 /* =========================

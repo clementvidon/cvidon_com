@@ -1,5 +1,6 @@
 +++
 title = "Elvis Party"
+list_title = "Elvis Party"
 seo_title = "Elvis Party — Photo Report by Clément Vidon, Paris"
 date = 2026-04-12T20:00:00+02:00
 category = "Photo report"
