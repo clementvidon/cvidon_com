@@ -1,6 +1,5 @@
 +++
 title = "Noise Bloom"
-list_title = "Noise Bloom"
 seo_title = "Noise Bloom — Indexical Sound Images"
 date = 2026-04-24T15:00:00+02:00
 category = "Generative"

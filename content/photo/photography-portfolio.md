@@ -1,6 +1,5 @@
 +++
-title = "Photography Portfolio"
-list_title = "Portfolio"
+title = "Portfolio"
 date = 2026-04-21T20:00:00+02:00
 category = "Photography"
 tags = ["photography portfolio", "portrait photography", "event photography", "Paris", "commissions"]

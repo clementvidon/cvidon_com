@@ -1,6 +1,5 @@
 +++
-title = "Salama Khalfan for Harper’s Bazaar Arabia"
-list_title = "Salama Khalfan"
+title = "Salama Khalfan"
 seo_title = "Salama Khalfan for Harper’s Bazaar Arabia — Editorial by Clément Vidon"
 date = 2017-12-03T12:00:00+01:00
 category = "Editorial"
@@ -22,7 +21,7 @@ Salama Khalfan at her country house in France, photographed for Harper’s Bazaa
 
 ## Credits
 
-Publication: [Harper’s Bazaar Arabia](https://www.harpersbazaararabia.com/)  
-Format: Print editorial  
-Words: Rebecca Anne Proctor  
-Photography: Clément Vidon  
+Publication: [Harper’s Bazaar Arabia](https://www.harpersbazaararabia.com/)
+Format: Print editorial
+Words: Rebecca Anne Proctor
+Photography: Clément Vidon

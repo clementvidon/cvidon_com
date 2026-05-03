@@ -1,6 +1,5 @@
 +++
 title = "Vertige Party"
-list_title = "Vertige Party"
 seo_title = "Vertige Party — Photo Report by Clément Vidon at Maxim's, Paris"
 date = 2026-04-24T22:00:00+02:00
 category = "Photo report"

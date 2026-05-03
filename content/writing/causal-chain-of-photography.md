@@ -1,6 +1,5 @@
 +++
 title = "Causal Chain of Photography"
-list_title = "Causal Chain of Photography"
 seo_title = "Causal Chain of Photography — Essay by Clément Vidon"
 date = 2026-04-22T14:00:00+02:00
 category = "Essay"

@@ -1,6 +1,5 @@
 +++
 title = "BlancBloom AW25"
-list_title = "BlancBloom AW25"
 seo_title = "BlancBloom AW25 — Lookbook by Clément Vidon, Paris"
 date = 2025-11-27T20:00:00+01:00
 category = "Lookbook"
@@ -29,8 +28,8 @@ BlancBloom AW25, photographed in Paris.
 
 ## Credits
 
-Brand: [BlancBloom](https://blancbloom.store/)  
-Model: Polly Levin  
-Styling: Masha Mustaeva  
-Assistant: Hoàng Lan  
-Photography: Clément Vidon  
+Brand: [BlancBloom](https://blancbloom.store/)
+Model: Polly Levin
+Styling: Masha Mustaeva
+Assistant: Hoàng Lan
+Photography: Clément Vidon

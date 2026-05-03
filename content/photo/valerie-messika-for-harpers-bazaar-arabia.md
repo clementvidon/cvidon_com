@@ -1,6 +1,5 @@
 +++
-title = "Valérie Messika for Harper’s Bazaar Arabia"
-list_title = "Valérie Messika"
+title = "Valérie Messika"
 seo_title = "Valérie Messika for Harper’s Bazaar Arabia — Editorial by Clément Vidon"
 date = 2018-04-10T12:00:00+02:00
 category = "Editorial"
@@ -25,7 +24,7 @@ Valérie Messika at her country house in France, photographed for Harper’s Baz
 
 ## Credits
 
-Publication: [Harper’s Bazaar Arabia](https://www.harpersbazaararabia.com/)  
-Format: Print editorial  
-Words: Rebecca Anne Proctor  
-Photography: Clément Vidon  
+Publication: [Harper’s Bazaar Arabia](https://www.harpersbazaararabia.com/)
+Format: Print editorial
+Words: Rebecca Anne Proctor
+Photography: Clément Vidon
