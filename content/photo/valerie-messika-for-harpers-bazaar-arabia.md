@@ -20,7 +20,7 @@ images = [
 ]
 +++
 
-Valérie Messika at her country house in France, photographed for Harper’s Bazaar Arabia.
+Valérie Messika at her country house in France for Harper’s Bazaar Arabia.
 
 ## Credits
 

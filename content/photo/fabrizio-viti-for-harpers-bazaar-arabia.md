@@ -18,7 +18,7 @@ images = [
 ]
 +++
 
-Fabrizio Viti at his Paris home on Rue de Babylone, photographed for Harper’s Bazaar Arabia.
+Fabrizio Viti at his Paris home on Rue de Babylone for Harper’s Bazaar Arabia.
 
 ## Credits
 

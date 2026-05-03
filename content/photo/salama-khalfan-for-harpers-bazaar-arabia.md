@@ -17,7 +17,7 @@ images = [
 ]
 +++
 
-Salama Khalfan at her country house in France, photographed for Harper’s Bazaar Arabia.
+Salama Khalfan at her country house in France for Harper’s Bazaar Arabia.
 
 ## Credits
 
