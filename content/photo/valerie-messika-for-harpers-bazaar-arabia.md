@@ -24,7 +24,7 @@ Valérie Messika at her country house in France for Harper’s Bazaar Arabia.
 
 ## Credits
 
-Publication: [Harper’s Bazaar Arabia](https://www.harpersbazaararabia.com/)
-Format: Print editorial
-Words: Rebecca Anne Proctor
-Photography: Clément Vidon
+- Publication: [Harper’s Bazaar Arabia](https://www.harpersbazaararabia.com/)
+- Format: Print editorial
+- Words: Rebecca Anne Proctor
+- Photography: Clément Vidon
