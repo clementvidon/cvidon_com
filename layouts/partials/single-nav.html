@@ -1,0 +1,65 @@
+{{- $current := . -}}
+{{- $pages := slice -}}
+
+{{- $pinned := where .CurrentSection.RegularPages "Params.pinned" true -}}
+{{- $others := where .CurrentSection.RegularPages "Params.pinned" "!=" true -}}
+
+{{- range $pinned.ByWeight -}}
+  {{- $pages = $pages | append . -}}
+{{- end -}}
+
+{{- range $others.ByDate.Reverse -}}
+  {{- $pages = $pages | append . -}}
+{{- end -}}
+
+{{- $currentIndex := -1 -}}
+
+{{- range $index, $page := $pages -}}
+  {{- if eq $page.RelPermalink $current.RelPermalink -}}
+    {{- $currentIndex = $index -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if ge $currentIndex 0 -}}
+  {{- $newerIndex := sub $currentIndex 1 -}}
+  {{- $olderIndex := add $currentIndex 1 -}}
+
+  {{- $newer := false -}}
+  {{- $older := false -}}
+
+  {{- if ge $newerIndex 0 -}}
+    {{- $newer = index $pages $newerIndex -}}
+  {{- end -}}
+
+  {{- if lt $olderIndex (len $pages) -}}
+    {{- $older = index $pages $olderIndex -}}
+  {{- end -}}
+
+  {{- if gt (len $pages) 0 -}}
+
+    <nav class="single-nav" aria-label="Adjacent pages">
+      <div class="single-nav-newer">
+        {{- with $newer -}}
+          <a href="{{ .RelPermalink }}" aria-label="Newer page: {{ .Title }}">
+            <span aria-hidden="true">←</span>
+            <span class="single-nav-title">{{ .Title }}</span>
+          </a>
+        {{- end -}}
+      </div>
+
+      <div class="single-nav-back">
+        <a href="{{ $current.CurrentSection.RelPermalink }}" aria-label="Back to {{ $current.CurrentSection.Title }}">back</a>
+      </div>
+
+      <div class="single-nav-older">
+        {{- with $older -}}
+          <a href="{{ .RelPermalink }}" aria-label="Older page: {{ .Title }}">
+            <span class="single-nav-title">{{ .Title }}</span>
+            <span aria-hidden="true">→</span>
+          </a>
+        {{- end -}}
+      </div>
+    </nav>
+
+  {{- end -}}
+{{- end -}}
