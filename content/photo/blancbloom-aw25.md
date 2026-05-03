@@ -13,15 +13,15 @@ styling = "Masha Mustaeva"
 assistant = "Hoàng Lan"
 
 images = [
-  "/images/blancbloom-lookbook-1",
-  "/images/blancbloom-lookbook-2",
-  "/images/blancbloom-lookbook-3",
-  "/images/blancbloom-lookbook-4",
-  "/images/blancbloom-lookbook-5",
-  "/images/blancbloom-lookbook-6",
-  "/images/blancbloom-lookbook-7",
-  "/images/blancbloom-lookbook-8",
-  "/images/blancbloom-lookbook-9",
+  "/images/blancbloom-aw25-1",
+  "/images/blancbloom-aw25-2",
+  "/images/blancbloom-aw25-3",
+  "/images/blancbloom-aw25-4",
+  "/images/blancbloom-aw25-5",
+  "/images/blancbloom-aw25-6",
+  "/images/blancbloom-aw25-7",
+  "/images/blancbloom-aw25-8",
+  "/images/blancbloom-aw25-9",
 ]
 +++
 
