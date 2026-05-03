@@ -28,6 +28,7 @@ BlancBloom AW25, photographed in Paris.
 
 ## Credits
 
-Model: Polly Levin  
-Styling: Masha Mustaeva   
-Assistant: Hoàng Lan  
+Model: Polly Levin
+Styling: Masha Mustaeva
+Assistant: Hoàng Lan
+Photography: Clément Vidon
