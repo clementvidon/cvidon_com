@@ -22,6 +22,6 @@ Fabrizio Viti at his Paris home on Rue de Babylone, photographed for Harper’s 
 
 ## Credits
 
-Publication: Harper’s Bazaar Arabia
-Words: Ayesha Shehmir
-Photography: Clément Vidon
+Publication: [Harper’s Bazaar Arabia](https://www.harpersbazaararabia.com/)  
+Words: Ayesha Shehmir  
+Photography: Clément Vidon  
