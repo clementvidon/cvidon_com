@@ -1,7 +1,7 @@
 +++
 title = "Ariadna I"
 seo_title = "Ariadna I — Analog Portrait Series by Clément Vidon, Paris"
-date = 2021-03-01T12:00:00+02:00
+date = 2021-03-11T12:00:00+02:00
 category = "Portrait"
 tags = ["portrait", "Paris", "Alma", "analog photography", "Minox 35 GT", "Kodak Portra"]
 draft = false
@@ -18,4 +18,4 @@ images = [
 ]
 +++
 
-Ariadna at her apartment and nearby, with a Minox 35 GT on Portra.
+Ariadna at her apartment and nearby.
