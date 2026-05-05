@@ -1,12 +1,9 @@
 {{- $current := . -}}
+
+{{- if not .Params.pinned -}}
+
 {{- $pages := slice -}}
-
-{{- $pinned := where .CurrentSection.RegularPages "Params.pinned" true -}}
 {{- $others := where .CurrentSection.RegularPages "Params.pinned" "!=" true -}}
-
-{{- range $pinned.ByWeight -}}
-  {{- $pages = $pages | append . -}}
-{{- end -}}
 
 {{- range $others.ByDate.Reverse -}}
   {{- $pages = $pages | append . -}}
@@ -35,31 +32,36 @@
     {{- $older = index $pages $olderIndex -}}
   {{- end -}}
 
-  {{- if gt (len $pages) 0 -}}
+  <nav class="single-nav
+    {{- if and (not $newer) $older }} single-nav-no-newer{{ end -}}
+    {{- if and $newer (not $older) }} single-nav-no-older{{ end -}}
+    {{- if and (not $newer) (not $older) }} single-nav-only-back{{ end -}}
+  " aria-label="Adjacent pages">
 
-    <nav class="single-nav" aria-label="Adjacent pages">
+    {{- if $newer -}}
       <div class="single-nav-newer">
-        {{- with $newer -}}
-          <a href="{{ .RelPermalink }}" aria-label="Newer page: {{ .Title }}">
-            <span aria-hidden="true">←</span>
-            <span class="single-nav-title">{{ .Title }}</span>
-          </a>
-        {{- end -}}
+        <a href="{{ $newer.RelPermalink }}" aria-label="Newer page: {{ $newer.Title }}">
+          <span aria-hidden="true">←</span>
+          <span class="single-nav-title">{{ $newer.Title }}</span>
+        </a>
       </div>
+    {{- end -}}
 
-      <div class="single-nav-back">
-        <a href="{{ $current.CurrentSection.RelPermalink }}" aria-label="Back to {{ $current.CurrentSection.Title }}">back</a>
-      </div>
+    <div class="single-nav-back">
+      <a href="{{ $current.CurrentSection.RelPermalink }}" aria-label="Back to {{ $current.CurrentSection.Title }}">back</a>
+    </div>
 
+    {{- if $older -}}
       <div class="single-nav-older">
-        {{- with $older -}}
-          <a href="{{ .RelPermalink }}" aria-label="Older page: {{ .Title }}">
-            <span class="single-nav-title">{{ .Title }}</span>
-            <span aria-hidden="true">→</span>
-          </a>
-        {{- end -}}
+        <a href="{{ $older.RelPermalink }}" aria-label="Older page: {{ $older.Title }}">
+          <span class="single-nav-title">{{ $older.Title }}</span>
+          <span aria-hidden="true">→</span>
+        </a>
       </div>
-    </nav>
+    {{- end -}}
 
-  {{- end -}}
+  </nav>
+
+{{- end -}}
+
 {{- end -}}
