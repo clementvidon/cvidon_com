@@ -25,6 +25,7 @@
 
   /* List pages */
   --list-row-gap: 1.5rem;
+  --pinned-list-row-gap: 1rem;
   --list-layout-gap: 1.5rem;
   --list-date-column-width: 6rem;
 
@@ -226,7 +227,7 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 
 .pinned-list {
   display: grid;
-  gap: var(--list-row-gap);
+  gap: var(--pinned-list-row-gap);
 }
 
 .entry-separator {
