@@ -13,7 +13,7 @@ pinned = true
 
 Paris-based fashion and event photographer.
 
-My work spans portraits, lookbooks, events, and visual stories.
+My work spans portraits, lookbooks, reportage, and editorial series.
 
 Publications include *Harper’s Bazaar Arabia*, *Gala*, and *Monsieur*.
 
