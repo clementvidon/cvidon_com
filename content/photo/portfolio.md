@@ -11,13 +11,12 @@ weight = 1
 pinned = true
 +++
 
-Fashion and event photographer based in Paris. I work across portraits, fashion, and parties, from
-individual images to full editorial stories.
+Fashion and event photographer based in Paris. From images to editorial stories.
 
 ## Selected work
 
-- [Vertige Party](/photo/vertige-party/) - *party reportage*
+- [Vertige Party](/photo/vertige-party/) - *reportage*
 - [BlancBloom AW25](/photo/blancbloom-aw25/) - *lookbook*
-- [Ariadna I](/photo/ariadna-i/) - *portrait series*
+- [Ariadna I](/photo/ariadna-i/) - *portrait*
 - [Fabrizio Viti](/photo/fabrizio-viti-for-harpers-bazaar-arabia/) - *editorial*
 - [Valérie Messika](/photo/valerie-messika-for-harpers-bazaar-arabia/) - *editorial*
