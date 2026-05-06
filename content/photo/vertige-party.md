@@ -2,8 +2,8 @@
 title = "Vertige Party"
 seo_title = "Vertige Party — Photo Report by Clément Vidon at Maxim's, Paris"
 date = 2026-04-24T22:00:00+02:00
-category = "Photo report"
-tags = ["party photography", "masquerade", "photo report", "Maxim's", "Paris"]
+category = "Reportage"
+tags = ["party photography", "masquerade", "party reportage", "Maxim's", "Paris"]
 draft = false
 description = "Photo report from Vertige masquerade party at Maxim's, Paris."
 
