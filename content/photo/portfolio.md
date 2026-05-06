@@ -11,7 +11,7 @@ weight = 1
 pinned = true
 +++
 
-Fashion and event photographer based in Paris. From individual images to full editorial stories.
+Paris-based fashion and event photographer.
 
 ## Selected work
 
