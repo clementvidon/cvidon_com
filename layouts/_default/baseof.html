@@ -24,10 +24,21 @@
   <!-- sync with CSS var(--color-page-background) -->
   <meta name="theme-color" content="#fafafa">
 
+  <!-- sync with static/site.webmanifest description -->
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <meta name="format-detection" content="telephone=no">
 
   <link rel="canonical" href="{{ .Permalink }}">
+
+  <!-- RSS autodiscovery -->
+  {{ with .OutputFormats.Get "rss" }}
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="{{ $.Site.Title }}"
+    href="{{ .RelPermalink }}"
+  >
+  {{ end }}
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}">
@@ -130,15 +141,6 @@
       <ul class="footer-links">
 
         <li>
-          <a class="footer-link" href="/about/" data-umami-event="click:about">
-            <svg viewBox="0 0 12 12" aria-hidden="true">
-              <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor"></path>
-            </svg>
-            <span>about</span>
-          </a>
-        </li>
-
-        <li>
           <a class="footer-link" href="/contact/" data-umami-event="click:contact">
             <svg viewBox="0 0 12 12" aria-hidden="true">
               <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor"></path>
@@ -148,11 +150,11 @@
         </li>
 
         <li>
-          <a class="footer-link" href="/rss/" data-umami-event="click:rss">
+          <a class="footer-link" href="/about/" data-umami-event="click:about">
             <svg viewBox="0 0 12 12" aria-hidden="true">
               <path d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z" fill="currentColor"></path>
             </svg>
-            <span>rss</span>
+            <span>about</span>
           </a>
         </li>
 
