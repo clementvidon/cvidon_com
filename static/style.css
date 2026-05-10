@@ -504,22 +504,16 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
    Interaction feedback
    ========================= */
 
-    /* =========================
-   Interaction feedback
-   ========================= */
-
 .text-links a:active {
   text-decoration-color: currentColor;
 }
 
 a:active,
 a:active *,
-
 a:not([href^="mailto:"]):focus:not(:focus-visible),
 a:not([href^="mailto:"]):focus:not(:focus-visible) *,
-
-a:focus-visible:active,
-a:focus-visible:active * {
+a.is-loading-link,
+a.is-loading-link * {
   text-shadow:
     -0.25px 0 0 currentColor,
      0.25px 0 0 currentColor;

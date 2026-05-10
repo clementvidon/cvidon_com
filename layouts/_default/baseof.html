@@ -110,6 +110,48 @@
   {{ end }}
 </head>
 
+<script>
+  (() => {
+    const minNavigationFeedback = 100;
+
+    const isModifiedClick = (event) =>
+      event.metaKey ||
+      event.ctrlKey ||
+      event.shiftKey ||
+      event.altKey ||
+      event.button !== 0;
+
+    const isInternalNavigationLink = (link) => {
+      if (!link.href) return false;
+      if (link.hasAttribute("download")) return false;
+      if (link.target && link.target !== "_self") return false;
+
+      const url = new URL(link.href);
+
+      return (
+        url.origin === window.location.origin &&
+        url.pathname !== window.location.pathname
+      );
+    };
+
+    document.addEventListener("click", (event) => {
+      const link = event.target.closest("a");
+
+      if (!link) return;
+      if (isModifiedClick(event)) return;
+      if (!isInternalNavigationLink(link)) return;
+
+      event.preventDefault();
+
+      link.classList.add("is-loading-link");
+
+      window.setTimeout(() => {
+        window.location.href = link.href;
+      }, minNavigationFeedback);
+    });
+  })();
+</script>
+
 <body>
   <div class="site-shell">
     <header class="site-header">
