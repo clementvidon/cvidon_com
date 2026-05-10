@@ -1,15 +1,15 @@
 +++
 title = "Portfolio"
 seo_title = "Photography Portfolio — Fashion and Event Photographer in Paris"
+description = "Fashion, event, portrait, and editorial photography portfolio by Clément Vidon, based in Paris."
+
 date = 2026-05-05T20:00:00+02:00
 category = "Photography"
 tags = ["photography portfolio", "fashion photography", "party photography", "event photography", "portrait photography", "Paris"]
-description = "Fashion, event, portrait, and editorial photography portfolio by Clément Vidon, based in Paris."
 
 weight = 1
 pinned = true
 draft = false
-show_date = true
 +++
 
 Paris-based fashion and event photographer.

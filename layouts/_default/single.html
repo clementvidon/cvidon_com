@@ -3,15 +3,13 @@
     <header class="page-header">
       <h1>{{ .Title }}</h1>
 
-      {{ if not (or (eq .Section "") (in (slice "about" "contact" "license" "rss") .File.ContentBaseName)) }}
-
-        {{ if .Params.show_date }}
-          <div class="page-meta">
-              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-          </div>
-        {{ end }}
-
-      {{ end }}
+       {{ with .Params.date }}
+       <div class="page-meta">
+           <time datetime="{{ time.Format "2006-01-02" . }}">
+           {{ time.Format "Jan 2, 2006" . }}
+           </time>
+       </div>
+       {{ end }}
     </header>
 
     {{ if .Content }}
