@@ -65,7 +65,8 @@
   <meta name="application-name" content="cvidon">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/style.css?v=20260510">
+  {{ $style := resources.Get "style.css" | fingerprint "sha256" }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 
   <!-- Scripts -->
   <script src="https://instant.page/5.2.0" type="module"></script>
