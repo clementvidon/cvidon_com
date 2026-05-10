@@ -59,7 +59,7 @@
   <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260506" />
   <link rel="shortcut icon" href="/favicon.ico?v=20260506" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=20260506" />
-  <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+  <meta name="apple-mobile-web-app-title" content="cvidon" />
   <link rel="manifest" href="/site.webmanifest?v=20260506" />
 
   <meta name="application-name" content="cvidon">
@@ -110,48 +110,6 @@
   {{ end }}
 </head>
 
-<script>
-  (() => {
-    const minNavigationFeedback = 100;
-
-    const isModifiedClick = (event) =>
-      event.metaKey ||
-      event.ctrlKey ||
-      event.shiftKey ||
-      event.altKey ||
-      event.button !== 0;
-
-    const isInternalNavigationLink = (link) => {
-      if (!link.href) return false;
-      if (link.hasAttribute("download")) return false;
-      if (link.target && link.target !== "_self") return false;
-
-      const url = new URL(link.href);
-
-      return (
-        url.origin === window.location.origin &&
-        url.pathname !== window.location.pathname
-      );
-    };
-
-    document.addEventListener("click", (event) => {
-      const link = event.target.closest("a");
-
-      if (!link) return;
-      if (isModifiedClick(event)) return;
-      if (!isInternalNavigationLink(link)) return;
-
-      event.preventDefault();
-
-      link.classList.add("is-loading-link");
-
-      window.setTimeout(() => {
-        window.location.href = link.href;
-      }, minNavigationFeedback);
-    });
-  })();
-</script>
-
 <body>
   <div class="site-shell">
     <header class="site-header">
@@ -200,5 +158,47 @@
       </ul>
     </footer>
   </div>
+
+  <script>
+    (() => {
+      const minNavigationFeedback = 75;
+
+      const isModifiedClick = (event) =>
+        event.metaKey ||
+        event.ctrlKey ||
+        event.shiftKey ||
+        event.altKey ||
+        event.button !== 0;
+
+      const isInternalNavigationLink = (link) => {
+        if (!link.href) return false;
+        if (link.hasAttribute("download")) return false;
+        if (link.target && link.target !== "_self") return false;
+
+        const url = new URL(link.href);
+
+        return (
+          url.origin === window.location.origin &&
+          url.pathname !== window.location.pathname
+        );
+      };
+
+      document.addEventListener("click", (event) => {
+        const link = event.target.closest("a");
+
+        if (!link) return;
+        if (isModifiedClick(event)) return;
+        if (!isInternalNavigationLink(link)) return;
+
+        event.preventDefault();
+
+        link.classList.add("is-loading-link");
+
+        window.setTimeout(() => {
+          window.location.href = link.href;
+        }, minNavigationFeedback);
+      });
+    })();
+  </script>
 </body>
 </html>
