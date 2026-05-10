@@ -1,6 +1,9 @@
 {
+  "id": "/",
   "name": "cvidon",
   "short_name": "cvidon",
+  "description": "Personal website of Clément Vidon.",
+  "start_url": "/",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png?v=20260506",
@@ -17,5 +20,5 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "minimal-ui"
 }
