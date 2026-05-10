@@ -31,10 +31,8 @@
   <link rel="canonical" href="{{ .Permalink }}">
 
   <!-- RSS autodiscovery -->
-  {{ with .OutputFormats.Get "rss" }}
-    <link rel="alternate" type="application/rss+xml" title="Clément Vidon — all" href="/index.xml">
-    <link rel="alternate" type="application/rss+xml" title="Clément Vidon — writing" href="/writing/index.xml">
-  {{ end }}
+  <link rel="alternate" type="application/rss+xml" title="Clément Vidon — all" href="{{ "/index.xml" | absURL }}">
+  <link rel="alternate" type="application/rss+xml" title="Clément Vidon — writing" href="{{ "/writing/index.xml" | absURL }}">
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}">
