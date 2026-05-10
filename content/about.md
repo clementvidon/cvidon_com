@@ -3,6 +3,8 @@ title = "About"
 seo_title = "About Clément Vidon"
 description = "About and links for Clément Vidon."
 tags = ["Clément Vidon", "photography", "writing", "experiments", "Paris"]
+
+show_date = false
 +++
 
 Find me elsewhere:

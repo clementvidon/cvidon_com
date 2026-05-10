@@ -4,11 +4,12 @@ seo_title = "Photography Services — Fashion and Event Photographer in Paris"
 date = 2026-05-05T20:00:00+02:00
 category = "Photography"
 tags = ["photography services", "fashion photography", "event photography", "party reportage", "portrait photography", "brand imagery", "Paris"]
-draft = false
 description = "Photography services by Clément Vidon, a fashion and event photographer based in Paris."
 
 weight = 2
 pinned = true
+draft = false
+show_date = true
 +++
 
 Paris-based fashion and event photographer.

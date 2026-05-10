@@ -2,12 +2,49 @@
   <article class="single-page">
     <header class="page-header">
       <h1>{{ .Title }}</h1>
+
+      {{ if not (or (eq .Section "") (in (slice "about" "contact" "license" "rss") .File.ContentBaseName)) }}
+
+        {{ if .Params.show_date }}
+          <div class="page-meta">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          </div>
+        {{ end }}
+
+      {{ end }}
     </header>
 
     {{ if .Content }}
       <div class="prose text-links">
         {{ .Content }}
       </div>
+    {{ end }}
+
+    {{ if .Params.images }}
+      <div class="gallery {{ if not .Content }}no-intro{{ end }}">
+        {{ range .Params.images }}
+          {{ $imagePath := . }}
+          {{ $imageName := replace (path.Base $imagePath) ".jpg" "" }}
+
+          {{ $alt := index hugo.Data.image_alts $imageName }}
+          {{ if not $alt }}
+            {{ errorf "Missing alt for image: %s" $imageName }}
+          {{ end }}
+
+          <picture>
+            <source srcset="{{ $imagePath }}.webp" type="image/webp">
+            <img
+              src="{{ $imagePath }}.jpg"
+              loading="lazy"
+              alt="{{ $alt }}"
+            >
+          </picture>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ if and .Section (not .Params.pinned) }}
+      {{ partial "single-nav.html" . }}
     {{ end }}
   </article>
 {{ end }}
