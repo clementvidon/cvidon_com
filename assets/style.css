@@ -94,12 +94,6 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
-a:hover,
-a:focus,
-a:active {
-  text-decoration: none;
-}
-
 img {
   display: block;
   width: 100%;
@@ -513,13 +507,8 @@ a {
   transition: opacity 80ms ease-out;
 }
 
-a:active,
-a.is-loading-link {
-  opacity: 0.20;
-}
-
-a:focus {
-  outline: none;
+a:active {
+  opacity: 0.2;
 }
 
 a:focus-visible {
