@@ -514,7 +514,7 @@ a {
 
 a:active,
 a.is-loading-link {
-  opacity: 0.80;
+  opacity: 0.20;
 }
 
 a:focus {
