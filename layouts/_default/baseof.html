@@ -161,7 +161,7 @@
 
   <script>
     (() => {
-      const minNavigationFeedback = 80;
+      const minNavigationFeedback = 150;
 
       const clearLoadingLinks = () => {
         document
@@ -176,16 +176,23 @@
         event.altKey ||
         event.button !== 0;
 
-      const isInternalNavigationLink = (link) => {
+      const isInternalLink = (link) => {
         if (!link.href) return false;
         if (link.hasAttribute("download")) return false;
         if (link.target && link.target !== "_self") return false;
 
         const url = new URL(link.href);
 
+        return url.origin === window.location.origin;
+      };
+
+      const isSamePageLink = (link) => {
+        const url = new URL(link.href);
+
         return (
-          url.origin === window.location.origin &&
-          url.pathname !== window.location.pathname
+          url.pathname === window.location.pathname &&
+          url.search === window.location.search &&
+          !url.hash
         );
       };
 
@@ -194,7 +201,20 @@
 
         if (!link) return;
         if (isModifiedClick(event)) return;
-        if (!isInternalNavigationLink(link)) return;
+        if (!isInternalLink(link)) return;
+
+        if (isSamePageLink(link)) {
+          event.preventDefault();
+
+          clearLoadingLinks();
+          link.classList.add("is-loading-link");
+
+          window.setTimeout(() => {
+            clearLoadingLinks();
+          }, minNavigationFeedback);
+
+          return;
+        }
 
         event.preventDefault();
 

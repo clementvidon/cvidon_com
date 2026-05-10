@@ -508,13 +508,13 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   text-decoration-color: currentColor;
 }
 
+a {
+  transition: opacity 80ms ease-out;
+}
+
 a:active,
-a:active *,
-a.is-loading-link,
-a.is-loading-link * {
-  text-shadow:
-    -0.25px 0 0 currentColor,
-     0.25px 0 0 currentColor;
+a.is-loading-link {
+  opacity: 0.80;
 }
 
 a:focus {
