@@ -20,24 +20,36 @@
 
     {{ if .Params.images }}
       <div class="gallery {{ if not .Content }}no-intro{{ end }}">
-        {{ range .Params.images }}
-          {{ $imagePath := . }}
-          {{ $imageName := replace (path.Base $imagePath) ".jpg" "" }}
+      {{ range $index, $imagePath := .Params.images }}
 
-          {{ $alt := index hugo.Data.image_alts $imageName }}
-          {{ if not $alt }}
-            {{ errorf "Missing alt for image: %s" $imageName }}
-          {{ end }}
+        {{ $imageName := replace (path.Base $imagePath) ".jpg" "" }}
 
-          <picture>
-            <source srcset="{{ $imagePath }}.webp" type="image/webp">
-            <img
-              src="{{ $imagePath }}.jpg"
-              loading="lazy"
-              alt="{{ $alt }}"
-            >
-          </picture>
+        {{ $alt := index hugo.Data.image_alts $imageName }}
+        {{ if not $alt }}
+          {{ errorf "Missing alt for image: %s" $imageName }}
         {{ end }}
+
+        {{ $imageFile := printf "static/%s.jpg" (strings.TrimPrefix "/" $imagePath) }}
+        {{ $imageConfig := imageConfig $imageFile }}
+
+        <picture>
+          <source srcset="{{ $imagePath }}.webp" type="image/webp">
+          <img
+            src="{{ $imagePath }}.jpg"
+            width="{{ $imageConfig.Width }}"
+            height="{{ $imageConfig.Height }}"
+            {{ if eq $index 0 }}
+              loading="eager"
+              fetchpriority="high"
+            {{ else }}
+              loading="lazy"
+            {{ end }}
+            decoding="async"
+            alt="{{ $alt }}"
+          >
+        </picture>
+
+      {{ end }}
       </div>
     {{ end }}
 
