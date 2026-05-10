@@ -156,5 +156,27 @@
     </footer>
   </div>
 
+  <script>
+    (() => {
+      const clickedColors = [
+        "#d14f3f",
+        "#3f6fd1",
+        "#4f9f68",
+        "#c28a2e",
+        "#8a5ccf",
+      ];
+
+      document.addEventListener("pointerdown", (event) => {
+        const link = event.target.closest("a");
+        if (!link) return;
+
+        const color =
+          clickedColors[Math.floor(Math.random() * clickedColors.length)];
+
+        link.style.setProperty("--clicked-link-color", color);
+      });
+    })();
+  </script>
+
 </body>
 </html>

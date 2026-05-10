@@ -10,6 +10,7 @@
   --text-link-decoration-offset: 2px;
   --text-link-decoration-opacity: 40%;
   --text-link-decoration-transition: text-decoration-color 160ms ease;
+  --clicked-link-color: currentColor;
 
   /* Layout width */
   --page-max-width: 40rem;
@@ -508,6 +509,7 @@ a {
 }
 
 a:active {
+  color: var(--clicked-link-color);
   opacity: 0.2;
 }
 
@@ -515,3 +517,6 @@ a:focus-visible {
   outline: 1px solid var(--color-text-primary);
   outline-offset: 3px;
 }
+
+
+
