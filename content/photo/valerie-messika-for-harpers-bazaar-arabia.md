@@ -20,7 +20,6 @@ images = [
 ]
 
 draft = false
-show_date = true
 +++
 
 Valérie Messika at her country house in France for Harper’s Bazaar Arabia.
