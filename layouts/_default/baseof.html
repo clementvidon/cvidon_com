@@ -24,7 +24,7 @@
   <!-- sync with CSS var(--color-page-background) -->
   <meta name="theme-color" content="#fafafa">
 
-  <!-- sync with static/site.webmanifest description -->
+  <!-- SEO description -->
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <meta name="format-detection" content="telephone=no">
 
@@ -32,12 +32,8 @@
 
   <!-- RSS autodiscovery -->
   {{ with .OutputFormats.Get "rss" }}
-  <link
-    rel="alternate"
-    type="application/rss+xml"
-    title="{{ $.Site.Title }}"
-    href="{{ .RelPermalink }}"
-  >
+    <link rel="alternate" type="application/rss+xml" title="Clément Vidon — all" href="/index.xml">
+    <link rel="alternate" type="application/rss+xml" title="Clément Vidon — writing" href="/writing/index.xml">
   {{ end }}
 
   <!-- Open Graph -->
