@@ -161,7 +161,13 @@
 
   <script>
     (() => {
-      const minNavigationFeedback = 75;
+      const minNavigationFeedback = 80;
+
+      const clearLoadingLinks = () => {
+        document
+          .querySelectorAll(".is-loading-link")
+          .forEach((link) => link.classList.remove("is-loading-link"));
+      };
 
       const isModifiedClick = (event) =>
         event.metaKey ||
@@ -192,13 +198,18 @@
 
         event.preventDefault();
 
+        clearLoadingLinks();
         link.classList.add("is-loading-link");
 
         window.setTimeout(() => {
           window.location.href = link.href;
         }, minNavigationFeedback);
       });
+
+      window.addEventListener("pagehide", clearLoadingLinks);
+      window.addEventListener("pageshow", clearLoadingLinks);
     })();
   </script>
+
 </body>
 </html>
