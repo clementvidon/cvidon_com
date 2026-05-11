@@ -52,7 +52,7 @@
       </div>
     {{ end }}
 
-    {{ if and .Section (not .Params.pinned) }}
+    {{ if .Section }}
       {{ partial "single-nav.html" . }}
     {{ end }}
   </article>
