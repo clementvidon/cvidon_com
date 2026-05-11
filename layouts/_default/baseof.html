@@ -178,8 +178,8 @@
         "#8a5ccf",
       ];
 
-      const clickDelay = 110;
-      const touchStartDelay = 40;
+      const clickDelay = 100;
+      const touchIntentDelay = 50;
       const moveTolerance = 10;
 
       let activeLink = null;
@@ -232,7 +232,7 @@
         }, clickDelay);
       };
 
-      const finishAnimation = (link) => {
+      const finishAnimation = (link, delay = clickDelay) => {
         window.clearTimeout(activeTimeout);
 
         activeTimeout = window.setTimeout(() => {
@@ -241,7 +241,7 @@
           if (link.href !== window.location.href) {
             window.location.assign(link.href);
           }
-        }, clickDelay);
+        }, delay);
       };
 
       document.addEventListener("pointerdown", (event) => {
@@ -260,7 +260,7 @@
               activeLink = link;
               pendingTouch = null;
               startAnimation(link);
-            }, touchStartDelay),
+            }, touchIntentDelay),
           };
 
           return;
@@ -283,14 +283,24 @@
       });
 
       document.addEventListener("pointerup", () => {
-        clearPendingTouch();
+        if (pendingTouch) {
+          const link = pendingTouch.link;
+
+          clearPendingTouch();
+          activeLink = null;
+
+          startAnimation(link);
+          finishAnimation(link, clickDelay);
+
+          return;
+        }
 
         if (!activeLink) return;
 
         const link = activeLink;
         activeLink = null;
 
-        finishAnimation(link);
+        finishAnimation(link, clickDelay);
       });
 
       document.addEventListener("click", (event) => {
