@@ -177,15 +177,13 @@
         "#8a5ccf",
       ];
 
-      const clickDelay = 100;
-      const touchStartDelay = 80;
-      const moveTolerance = 8;
-      const recentPressWindow = 500;
+      const clickDelay = 110;
+      const touchStartDelay = 40;
+      const moveTolerance = 10;
 
-      const pressStarts = new WeakMap();
-      const recentPresses = new WeakMap();
-      const touchStarts = new WeakMap();
-      const canceledTouches = new WeakMap();
+      let activeLink = null;
+      let activeTimeout = null;
+      let pendingTouch = null;
 
       const hasModifierKey = (event) => {
         return event.metaKey || event.ctrlKey || event.shiftKey || event.altKey;
@@ -203,66 +201,46 @@
         return event.defaultPrevented || hasModifierKey(event) || shouldIgnoreLink(link);
       };
 
-      const clearTouch = (link) => {
-        const touch = touchStarts.get(link);
-        if (!touch) return;
-
-        window.clearTimeout(touch.timeout);
-        touchStarts.delete(link);
-      };
-
       const resetLink = (link) => {
         link.classList.remove("is-click-flashing", "is-click-held");
         link.style.removeProperty("--clicked-link-color");
-        pressStarts.delete(link);
       };
 
-      const cancelTouch = (link) => {
-        clearTouch(link);
-        canceledTouches.set(link, performance.now());
-        resetLink(link);
+      const clearPendingTouch = () => {
+        if (!pendingTouch) return;
+
+        window.clearTimeout(pendingTouch.timeout);
+        pendingTouch = null;
       };
 
-      const startPress = (link) => {
-        const now = performance.now();
+      const startAnimation = (link) => {
         const color =
           clickedColors[Math.floor(Math.random() * clickedColors.length)];
 
+        resetLink(link);
         link.style.setProperty("--clicked-link-color", color);
-        link.classList.remove("is-click-flashing", "is-click-held");
 
-        // Force animation restart if the same link is pressed twice quickly.
+        // Force animation restart.
         void link.offsetWidth;
 
         link.classList.add("is-click-flashing");
-        pressStarts.set(link, now);
-        recentPresses.set(link, now);
 
-        window.setTimeout(() => {
-          if (!pressStarts.has(link)) return;
-
+        activeTimeout = window.setTimeout(() => {
           link.classList.remove("is-click-flashing");
           link.classList.add("is-click-held");
         }, clickDelay);
       };
 
-      const finishPress = (link) => {
-        const startedAt =
-          pressStarts.get(link) ||
-          recentPresses.get(link) ||
-          performance.now();
+      const finishAnimation = (link) => {
+        window.clearTimeout(activeTimeout);
 
-        const elapsed = performance.now() - startedAt;
-        const remaining = Math.max(0, clickDelay - elapsed);
-
-        window.setTimeout(() => {
+        activeTimeout = window.setTimeout(() => {
           resetLink(link);
-          recentPresses.delete(link);
 
           if (link.href !== window.location.href) {
             window.location.assign(link.href);
           }
-        }, remaining);
+        }, clickDelay);
       };
 
       document.addEventListener("pointerdown", (event) => {
@@ -271,37 +249,47 @@
         if (shouldIgnorePointer(event, link)) return;
 
         if (event.pointerType === "touch") {
-          const touch = {
+          clearPendingTouch();
+
+          pendingTouch = {
+            link,
             x: event.clientX,
             y: event.clientY,
             timeout: window.setTimeout(() => {
-              if (!touchStarts.has(link)) return;
-              startPress(link);
+              activeLink = link;
+              pendingTouch = null;
+              startAnimation(link);
             }, touchStartDelay),
           };
 
-          touchStarts.set(link, touch);
           return;
         }
 
-        startPress(link);
+        activeLink = link;
+        startAnimation(link);
       });
 
       document.addEventListener("pointermove", (event) => {
         if (event.pointerType !== "touch") return;
+        if (!pendingTouch) return;
 
-        const link = event.target.closest("a");
-        if (!link) return;
-
-        const touch = touchStarts.get(link);
-        if (!touch) return;
-
-        const dx = Math.abs(event.clientX - touch.x);
-        const dy = Math.abs(event.clientY - touch.y);
+        const dx = Math.abs(event.clientX - pendingTouch.x);
+        const dy = Math.abs(event.clientY - pendingTouch.y);
 
         if (dx > moveTolerance || dy > moveTolerance) {
-          cancelTouch(link);
+          clearPendingTouch();
         }
+      });
+
+      document.addEventListener("pointerup", () => {
+        clearPendingTouch();
+
+        if (!activeLink) return;
+
+        const link = activeLink;
+        activeLink = null;
+
+        finishAnimation(link);
       });
 
       document.addEventListener("click", (event) => {
@@ -310,53 +298,16 @@
         if (shouldIgnoreClick(event, link)) return;
 
         event.preventDefault();
-
-        const canceledAt = canceledTouches.get(link) || 0;
-        const wasCanceledTouch =
-          performance.now() - canceledAt < recentPressWindow;
-
-        if (wasCanceledTouch) {
-          canceledTouches.delete(link);
-          return;
-        }
-
-        clearTouch(link);
-
-        const lastPress = recentPresses.get(link) || 0;
-        const wasRecentlyPressed =
-          performance.now() - lastPress < recentPressWindow;
-
-        if (!pressStarts.has(link) && !wasRecentlyPressed) {
-          startPress(link);
-        }
-
-        finishPress(link);
       });
 
-      document.addEventListener("pointercancel", (event) => {
-        const link = event.target.closest("a");
-        if (!link) return;
+      document.addEventListener("pointercancel", () => {
+        clearPendingTouch();
 
-        cancelTouch(link);
-        resetLink(link);
-      });
+        if (!activeLink) return;
 
-      document.addEventListener("pointerout", (event) => {
-        if (event.pointerType !== "mouse") return;
-
-        const link = event.target.closest("a");
-        if (!link) return;
-        if (link.contains(event.relatedTarget)) return;
-
-        resetLink(link);
-      });
-
-      document.addEventListener("contextmenu", (event) => {
-        const link = event.target.closest("a");
-        if (!link) return;
-
-        cancelTouch(link);
-        resetLink(link);
+        resetLink(activeLink);
+        activeLink = null;
+        window.clearTimeout(activeTimeout);
       });
     })();
   </script>
