@@ -29,6 +29,14 @@ My work spans portraits, lookbooks, reportage, and editorial series.
 
 Publications include *Harper’s Bazaar Arabia*, *Gala*, and *Monsieur*.
 
+**Selected work**
+
+- [Vertige Party](/photo/vertige-party/) - *reportage*
+- [BlancBloom AW25](/photo/blancbloom-aw25/) - *lookbook*
+- [Ariadna I](/photo/ariadna-i/) - *portrait*
+- [Fabrizio Viti](/photo/fabrizio-viti-for-harpers-bazaar-arabia/) - *editorial*
+- [Valérie Messika](/photo/valerie-messika-for-harpers-bazaar-arabia/) - *editorial*
+
 **Open to commissions and collaborations**
 
 - fashion editorial and lookbook
@@ -38,11 +46,3 @@ Publications include *Harper’s Bazaar Arabia*, *Gala*, and *Monsieur*.
 - lifestyle and documentary stories
 
 From preparation and shooting to editing, curation, and visual storytelling.
-
-**Selected work**
-
-- [Vertige Party](/photo/vertige-party/) - *reportage*
-- [BlancBloom AW25](/photo/blancbloom-aw25/) - *lookbook*
-- [Ariadna I](/photo/ariadna-i/) - *portrait*
-- [Fabrizio Viti](/photo/fabrizio-viti-for-harpers-bazaar-arabia/) - *editorial*
-- [Valérie Messika](/photo/valerie-messika-for-harpers-bazaar-arabia/) - *editorial*
