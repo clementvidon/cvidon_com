@@ -287,6 +287,12 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   margin-bottom: var(--single-title-to-meta-gap);
 }
 
+/* Prose */
+
+.prose strong {
+  font-weight: 600;
+}
+
 /* Prose headings */
 
 .prose h2 {
