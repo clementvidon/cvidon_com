@@ -1,5 +1,5 @@
 baseURL = "https://cvidon.com/"
-languageCode = "en"
+locale = "en"
 defaultContentLanguage = "en"
 title = "Clément Vidon"
 enableRobotsTXT = true
