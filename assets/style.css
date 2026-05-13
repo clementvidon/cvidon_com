@@ -531,12 +531,13 @@ a.is-click-held {
 }
 
 @keyframes link-click-flash {
-  from {
+  0%,
+  40% {
     color: var(--clicked-link-color);
-    opacity: 1;
+    opacity: 0.8;
   }
 
-  to {
+  100% {
     color: var(--clicked-link-color);
     opacity: 0.2;
   }
