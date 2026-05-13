@@ -25,9 +25,7 @@ draft = false
 
 Paris-based fashion and event photographer.
 
-My work spans portraits, lookbooks, reportage, and editorial series.
-
-Publications include *Harper’s Bazaar Arabia*, *Gala*, and *Monsieur*.
+I work across portraits, lookbooks, reportage, and editorial series, with publications including *Harper’s Bazaar Arabia*, *Gala*, and *Monsieur*.
 
 **Selected work**
 
@@ -45,4 +43,4 @@ Publications include *Harper’s Bazaar Arabia*, *Gala*, and *Monsieur*.
 - brand and social content
 - lifestyle and documentary stories
 
-From preparation and shooting to editing, curation, and visual storytelling.
+From preparation and shooting to editing, sequencing, and visual storytelling.
