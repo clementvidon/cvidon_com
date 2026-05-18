@@ -1,6 +1,6 @@
 +++
 title = "Experiments"
-seo_title = "Experimental work by Clément Vidon, Paris"
+seo_title = "Experimental work by Clément Vidon"
 description = "Experimental work by Clément Vidon, including creative coding and generative art."
 +++
 

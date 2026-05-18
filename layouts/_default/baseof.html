@@ -10,13 +10,13 @@
   {{ end }}
 
   <title>
-  {{ if .Params.seo_title }}
-    {{ .Params.seo_title }} · {{ site.Title }}
-  {{ else if .IsHome }}
+  {{- if .Params.seo_title -}}
+    {{ .Params.seo_title }}
+  {{- else if .IsHome -}}
     {{ site.Title }}
-  {{ else }}
+  {{- else -}}
     {{ .Title }} · {{ site.Title }}
-  {{ end }}
+  {{- end -}}
   </title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +37,6 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}">
-  <meta property="og:description" content="{{ site.Params.description }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
 
@@ -49,11 +48,10 @@
     <meta property="og:image:height" content="630">
   {{ end }}
 
-  <meta property="og:image:alt" content="{{ site.Params.description }}">
+  <meta property="og:image:alt" content="{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}">
-  <meta name="twitter:description" content="{{ site.Params.description }}">
   {{ if .Params.images }}
     <meta name="twitter:image" content="{{ (index .Params.images 0) | absURL }}.jpg">
   {{ else }}

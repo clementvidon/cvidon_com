@@ -1,6 +1,6 @@
 +++
 title = "Portfolio"
-seo_title = "Photography Portfolio and Services — Fashion and Event Photographer in Paris"
+seo_title = "Artist-photographer based in Paris"
 description = "Photography portfolio and services by Clément Vidon, a fashion and event photographer based in Paris."
 
 date = 2026-05-05T20:00:00+02:00

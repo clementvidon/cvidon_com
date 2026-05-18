@@ -1,6 +1,6 @@
 +++
 title = "BlancBloom AW25"
-seo_title = "BlancBloom AW25 — Lookbook by Clément Vidon, Paris"
+seo_title = "BlancBloom AW25 — Lookbook by Clément Vidon"
 description = "BlancBloom AW25 lookbook photographed in Paris with model Polly Levin, styled by Masha Mustaeva."
 
 date = 2025-11-27T20:00:00+01:00

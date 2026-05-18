@@ -1,6 +1,6 @@
 +++
 title = "Noise Bloom"
-seo_title = "Noise Bloom — Indexical Sound Images"
+seo_title = "Noise Bloom — Indexical sound images by Clément Vidon"
 description = "A series of images generated from sound, where audio input and noise functions produce indexical visual traces of sonic events."
 
 date = 2026-04-24T15:00:00+02:00

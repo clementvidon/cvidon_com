@@ -1,6 +1,6 @@
 +++
 title = "Ariadna I"
-seo_title = "Ariadna I — Analog Portrait Series by Clément Vidon, Paris"
+seo_title = "Ariadna I — Portrait series by Clément Vidon"
 description = "Portrait series of Ariadna at home and nearby in Paris."
 
 date = 2021-03-11T12:00:00+02:00
