@@ -30,6 +30,7 @@ I work across portraits, lookbooks, reportage, and editorial series, with public
 **Selected work**
 
 - [Vertige Party](/photo/vertige-party/) - *reportage*
+- [Palermo Weekend](/photo/palermo-weekend/) - *reportage*
 - [BlancBloom AW25](/photo/blancbloom-aw25/) - *lookbook*
 - [Ariadna I](/photo/ariadna-i/) - *portrait*
 - [Fabrizio Viti](/photo/fabrizio-viti-for-harpers-bazaar-arabia/) - *editorial*
