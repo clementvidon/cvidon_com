@@ -1,7 +1,7 @@
 +++
 title = "Palermo Weekend"
 seo_title = "Palermo Weekend — Reportage by Clément Vidon in Sicily"
-description = "Photo reportage from a weekend in Palermo, Sicily, between markets, streets, coast, interiors, and fragments of daily life."
+description = "Photo reportage from a weekend in Palermo, Sicily, between markets, streets, coastline, interiors, and fragments of daily life."
 
 date = 2026-05-17T17:00:00+02:00
 category = "Reportage"
@@ -27,6 +27,7 @@ images = [
   "/images/palermo-weekend-17",
   "/images/palermo-weekend-18",
   "/images/palermo-weekend-19",
+  "/images/palermo-weekend-20",
 ]
 
 draft = false
