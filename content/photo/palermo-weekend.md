@@ -13,7 +13,6 @@ images = [
   "/images/palermo-weekend-3",
   "/images/palermo-weekend-4",
   "/images/palermo-weekend-5",
-  "/images/palermo-weekend-6",
   "/images/palermo-weekend-7",
   "/images/palermo-weekend-8",
   "/images/palermo-weekend-9",
@@ -27,7 +26,6 @@ images = [
   "/images/palermo-weekend-17",
   "/images/palermo-weekend-18",
   "/images/palermo-weekend-19",
-  "/images/palermo-weekend-20",
 ]
 
 draft = false
