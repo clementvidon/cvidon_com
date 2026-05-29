@@ -130,19 +130,19 @@ Une fois cette date trouvée, elle peut devenir le point d’ancrage du nom de f
 
 J’utilise un format de nommage simple :
 
-```text
+```
 PREFIXYY_MMDD_HHMMSS_FILESIZE.EXT
 ```
 
 Par exemple :
 
-```text
+```
 CAMERA_CV26_0320_025038_31188070.DNG
 ```
 
 Le préfixe suit une convention simple :
 
-```text
+```
 SOURCE_OWNER
 ```
 
@@ -176,7 +176,7 @@ Le préfixe décrit donc la provenance ou le canal d’entrée. L’organisation
 
 Par exemple, une organisation simple peut rester très large :
 
-```text
+```
 Camera/2026/
 Phone/2026/
 ```
@@ -185,7 +185,7 @@ Dans ce cas, `Phone/2026/` contient le flux visuel du téléphone pour l’anné
 
 Si l’archive devient trop dense, la même logique peut être affinée sans changer le principe :
 
-```text
+```
 Camera/2026/0412-elvis-party/
 Camera/2026/0526-palermo-weekend/
 Phone/2026/photos/

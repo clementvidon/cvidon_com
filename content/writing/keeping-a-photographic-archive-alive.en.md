@@ -130,19 +130,19 @@ Once this date is found, it can become the anchor for the filename.
 
 I use a simple naming format:
 
-```text
+```
 PREFIXYY_MMDD_HHMMSS_FILESIZE.EXT
 ```
 
 For example:
 
-```text
+```
 CAMERA_CV26_0320_025038_31188070.DNG
 ```
 
 The prefix follows a simple convention:
 
-```text
+```
 SOURCE_OWNER
 ```
 
@@ -176,7 +176,7 @@ The prefix therefore describes the origin or entry channel. The folder structure
 
 For example, a simple organization can remain very broad:
 
-```text
+```
 Camera/2026/
 Phone/2026/
 ```
@@ -185,7 +185,7 @@ In this case, `Phone/2026/` contains the phone’s visual stream for the year: p
 
 If the archive becomes too dense, the same logic can be refined without changing the principle:
 
-```text
+```
 Camera/2026/0412-elvis-party/
 Camera/2026/0526-palermo-weekend/
 Phone/2026/photos/
