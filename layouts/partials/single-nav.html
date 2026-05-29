@@ -1,4 +1,25 @@
 {{- $current := . -}}
+{{- $navLang := "en" -}}
+{{- $navSite := false -}}
+
+{{- range .Sites -}}
+  {{- if eq .Language.Name $navLang -}}
+    {{- $navSite = . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $navSite -}}
+  {{- $navSite = site -}}
+{{- end -}}
+
+{{- $currentInNavLang := $current -}}
+{{- if ne $current.Language.Name $navLang -}}
+  {{- range $current.Translations -}}
+    {{- if eq .Language.Name $navLang -}}
+      {{- $currentInNavLang = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 
 {{- if .Params.pinned -}}
 
@@ -10,17 +31,20 @@
 
 {{- else -}}
 
+  {{- $sourceSection := $navSite.GetPage (printf "/%s" $current.Section) -}}
   {{- $pages := slice -}}
-  {{- $others := where .CurrentSection.RegularPages "Params.pinned" "!=" true -}}
 
-  {{- range $others.ByDate.Reverse -}}
-    {{- $pages = $pages | append . -}}
+  {{- if $sourceSection -}}
+    {{- $others := where $sourceSection.RegularPages "Params.pinned" "!=" true -}}
+    {{- range $others.ByDate.Reverse -}}
+      {{- $pages = $pages | append . -}}
+    {{- end -}}
   {{- end -}}
 
   {{- $currentIndex := -1 -}}
 
   {{- range $index, $page := $pages -}}
-    {{- if eq $page.RelPermalink $current.RelPermalink -}}
+    {{- if eq $page.RelPermalink $currentInNavLang.RelPermalink -}}
       {{- $currentIndex = $index -}}
     {{- end -}}
   {{- end -}}
@@ -47,10 +71,19 @@
     " aria-label="Adjacent pages">
 
       {{- if $newer -}}
+        {{- $newerTarget := $newer -}}
+        {{- if ne $current.Language.Name $navLang -}}
+          {{- range $newer.Translations -}}
+            {{- if eq .Language.Name $current.Language.Name -}}
+              {{- $newerTarget = . -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+
         <div class="single-nav-newer">
-          <a href="{{ $newer.RelPermalink }}" aria-label="Newer page: {{ $newer.Title }}">
+          <a href="{{ $newerTarget.RelPermalink }}" aria-label="Newer page: {{ $newerTarget.Title }}">
             <span aria-hidden="true">←</span>
-            <span class="single-nav-title">{{ $newer.Title }}</span>
+            <span class="single-nav-title">{{ $newerTarget.Title }}</span>
           </a>
         </div>
       {{- end -}}
@@ -60,9 +93,18 @@
       </div>
 
       {{- if $older -}}
+        {{- $olderTarget := $older -}}
+        {{- if ne $current.Language.Name $navLang -}}
+          {{- range $older.Translations -}}
+            {{- if eq .Language.Name $current.Language.Name -}}
+              {{- $olderTarget = . -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+
         <div class="single-nav-older">
-          <a href="{{ $older.RelPermalink }}" aria-label="Older page: {{ $older.Title }}">
-            <span class="single-nav-title">{{ $older.Title }}</span>
+          <a href="{{ $olderTarget.RelPermalink }}" aria-label="Older page: {{ $olderTarget.Title }}">
+            <span class="single-nav-title">{{ $olderTarget.Title }}</span>
             <span aria-hidden="true">→</span>
           </a>
         </div>
