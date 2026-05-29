@@ -1,6 +1,6 @@
 +++
-title = "Garder une archive photographique vivante"
-seo_title = "Garder une archive photographique vivante — Archive photo, outils et workflow"
+title = "Une archive photographique vivante"
+seo_title = "Une archive photographique vivante — Archive photo, outils et workflow"
 description = "Une méthode simple pour organiser une archive photographique vivante et durable."
 
 date = 2026-05-29T12:00:00+02:00
@@ -27,7 +27,7 @@ Avec le temps, retrouver une image ne dépend plus seulement de l’image elle-m
 
 Une archive n’est donc pas seulement un endroit où les fichiers dorment. C’est un système qui permet de les retrouver, de les comprendre, de les exploiter et de les transmettre.
 
-Ce problème ne concerne pas seulement les photographes professionnels. Il concerne toute personne qui accumule des images au fil du temps : photographes, artistes, designers, créateurs, ou simplement des personnes dont le téléphone et les comptes cloud sont devenus, peu à peu, de grandes masses visuelles difficiles à exploiter.
+Ce problème ne concerne pas uniquement les photographes professionnels. Il concerne toute personne qui accumule des images au fil du temps : photographes, artistes, designers, créateurs, ou simplement des personnes dont le téléphone et les comptes cloud sont devenus, peu à peu, de grandes masses visuelles difficiles à exploiter.
 
 Aujourd’hui, presque tout le monde devient une sorte de collecteur d’images. On photographie avec son téléphone, on reçoit des images, on en envoie, on garde des screenshots, on édite et on exporte depuis des applications, on synchronise tout dans le cloud, puis on oublie progressivement ce que cette masse contient réellement.
 
@@ -35,7 +35,7 @@ La synchronisation cloud donne une impression de sécurité. Elle protège parfo
 
 Ce n’est pas parce qu’une image est sauvegardée dans le cloud qu’on en garde réellement le contrôle.
 
-La méthode repose sur une idée simple : avant de décider où chaque fichier doit vivre, il faut d’abord le rendre fiable, lisible et triable. Cela passe par une date de création aussi cohérente que possible, une vérification de sa validité, et un nom suffisamment stable pour rester utile même en dehors d’une application photo.
+La méthode repose sur une idée simple : avant de décider où chaque fichier doit vivre, il faut d’abord le rendre fiable, lisible et triable. Cela passe par une date de création aussi cohérente que possible, une vérification de sa lisibilité, et un nom suffisamment stable pour rester utile même en dehors d’une application photo.
 
 ```
 Avant

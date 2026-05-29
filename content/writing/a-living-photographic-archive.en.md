@@ -1,6 +1,6 @@
 +++
-title = "Keeping a Photographic Archive Alive"
-seo_title = "Keeping a Photographic Archive Alive — Photo archive, tools, and workflow"
+title = "A Living Photographic Archive"
+seo_title = "A Living Photographic Archive — Photo archive, tools, and workflow"
 description = "A simple method for organizing a living and durable photographic archive."
 
 date = 2026-05-29T12:00:00+02:00
