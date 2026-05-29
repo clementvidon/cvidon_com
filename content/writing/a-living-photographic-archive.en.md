@@ -23,7 +23,7 @@ Photography does not only produce images. It also produces a fragile mass of fil
 
 RAW files, JPGs, exports, videos, screenshots, files received or sent, compressed images, alternate versions, edited files, duplicated files, files whose names no longer mean anything, files with incomplete or inconsistent metadata.
 
-Over time, finding an image no longer depends only on the image itself, but also on its name, date, format, metadata, folder, and the history of its copies, exports, compressions, and modifications.
+Over time, finding an image no longer depends only on the image itself. It also depends on its name, date, format, metadata, folder, and the history of its copies, exports, compressions, and modifications.
 
 An archive is therefore not only a place where files sleep. It is a system that makes it possible to find them, understand them, use them, and pass them on.
 

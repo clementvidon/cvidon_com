@@ -23,7 +23,7 @@ Photographier ne produit pas seulement des images, ça produit aussi une masse f
 
 Des RAW, des JPG, des exports, des vidéos, des screenshots, des fichiers reçus ou envoyés, des images compressées, des versions alternatives, des fichiers édités, des fichiers dupliqués, des fichiers dont le nom ne veut plus rien dire, des fichiers dont les métadonnées sont incomplètes ou incohérentes.
 
-Avec le temps, retrouver une image ne dépend plus seulement de l’image elle-même, mais de son nom, de sa date, de son format, de ses métadonnées, de son dossier, et de l’historique de ses copies, exports, compressions et modifications.
+Avec le temps, retrouver une image ne dépend plus seulement de l’image elle-même. Cela dépend aussi de son nom, de sa date, de son format, de ses métadonnées, de son dossier, et de son historique : copies, exports, compressions, modifications.
 
 Une archive n’est donc pas seulement un endroit où les fichiers dorment. C’est un système qui permet de les retrouver, de les comprendre, de les exploiter et de les transmettre.
 
