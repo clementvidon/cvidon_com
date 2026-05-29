@@ -330,7 +330,7 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 
 .prose :not(pre) > code {
   font-family: ui-monospace, monospace;
-  font-size: 1em;
+  font-size: inherit;
   line-height: inherit;
   color: inherit;
   background: transparent;
@@ -340,12 +340,12 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 /* Prose code blocks */
 
 .prose pre {
-  margin: 0.4rem 0 0.75rem;
+  margin: 0;
   overflow-x: auto;
   white-space: pre;
   font-family: ui-monospace, monospace;
-  font-size: 1rem;
-  line-height: 1.35;
+  font-size: inherit;
+  line-height: inherit;
   color: inherit;
   background: transparent;
 }
@@ -356,6 +356,19 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   color: inherit;
   background: transparent;
   padding: 0;
+}
+
+/* Prose vertical rhythm */
+
+.prose p + ul,
+.prose ul + p,
+.prose p + p,
+.prose p + pre,
+.prose pre + p,
+.prose pre + pre,
+.prose ul + pre,
+.prose pre + ul {
+  margin-top: var(--body-paragraph-gap);
 }
 
 /* Text links */
@@ -393,12 +406,6 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   content: "-";
   position: absolute;
   left: 0;
-}
-
-.prose p + ul,
-.prose ul + p,
-.prose p + p {
-  margin-top: var(--body-paragraph-gap);
 }
 
 /* Adjacent navigation */
