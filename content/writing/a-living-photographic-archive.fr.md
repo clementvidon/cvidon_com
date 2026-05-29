@@ -37,10 +37,9 @@ Ce n’est pas parce qu’une image est sauvegardée dans le cloud qu’on en ga
 
 La méthode repose sur une idée simple : avant de décider où chaque fichier doit vivre, il faut d’abord le rendre fiable, lisible et triable. Cela passe par une date de création aussi cohérente que possible, une vérification de sa lisibilité, et un nom suffisamment stable pour rester utile même en dehors d’une application photo.
 
-```
-Avant
------
+Avant:
 
+```
 Nikon Zf/DCIM/100ND750/DSC_8421.NEF
 Ricoh GR III/DCIM/100RICOH/R0004387.DNG
 iPhone 15/
@@ -54,10 +53,11 @@ Samsung Galaxy S23/
 └── Download/
     ├── sticker_20260517_083102.webp
     └── 7f6c91e2a4f4d1d9.gif
+```
 
-Base normalisée
----------------
+Base normalisée:
 
+```
 Archive/
 ├── Camera/
 │   ├── CAMERA_CV26_0412_212430_30071244.DNG
@@ -70,10 +70,11 @@ Archive/
     ├── PHONE_CV26_0520_163201_00482731.JPG
     ├── PHONE_CV26_0521_114207_00118291.PNG
     └── PHONE_CV26_0526_194220_00112763.GIF
+```
 
-Organisation possible
----------------------
+Organisation possible:
 
+```
 Archive/
 ├── Camera/
 │   └── 2026/

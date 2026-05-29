@@ -4,6 +4,7 @@
   --color-text-primary: #212121;
   --color-selection-background: var(--color-text-primary);
   --color-selection-text: var(--color-page-background);
+  --color-code-text: #000000;
 
   /* Links */
   --text-link-decoration-thickness: 1px;
@@ -332,7 +333,7 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   font-family: ui-monospace, monospace;
   font-size: inherit;
   line-height: inherit;
-  color: inherit;
+  color: var(--color-code-text);
   background: transparent;
   padding: 0;
 }
@@ -346,7 +347,7 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   font-family: ui-monospace, monospace;
   font-size: inherit;
   line-height: inherit;
-  color: inherit;
+  color: var(--color-code-text);
   background: transparent;
 }
 
@@ -356,6 +357,16 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   color: inherit;
   background: transparent;
   padding: 0;
+}
+
+@media (max-width: 41.5rem) {
+  .prose pre {
+    font-size: 0.8rem;
+  }
+
+  .prose :not(pre) > code {
+    font-size: 0.9em;
+  }
 }
 
 /* Prose vertical rhythm */

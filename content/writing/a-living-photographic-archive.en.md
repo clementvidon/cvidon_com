@@ -37,10 +37,9 @@ Just because an image is saved in the cloud does not mean we still truly control
 
 The method is based on a simple idea: before deciding where every file should live, each file first needs to become reliable, readable, and sortable. That means establishing the most coherent creation date possible, checking that each file remains readable, and giving it a stable name that stays useful even outside a photo application.
 
-```
-Before
-------
+Before:
 
+```
 Nikon Zf/DCIM/100ND750/DSC_8421.NEF
 Ricoh GR III/DCIM/100RICOH/R0004387.DNG
 iPhone 15/
@@ -54,10 +53,11 @@ Samsung Galaxy S23/
 └── Download/
     ├── sticker_20260517_083102.webp
     └── 7f6c91e2a4f4d1d9.gif
+```
 
-Normalized baseline
--------------------
+Normalized baseline:
 
+```
 Archive/
 ├── Camera/
 │   ├── CAMERA_CV26_0412_212430_30071244.DNG
@@ -70,10 +70,11 @@ Archive/
     ├── PHONE_CV26_0520_163201_00482731.JPG
     ├── PHONE_CV26_0521_114207_00118291.PNG
     └── PHONE_CV26_0526_194220_00112763.GIF
+```
 
-Possible organization
----------------------
+Possible organization:
 
+```
 Archive/
 ├── Camera/
 │   └── 2026/
