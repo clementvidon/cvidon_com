@@ -46,7 +46,7 @@
   <link rel="alternate" type="application/rss+xml" title="Clément Vidon — writing" href="{{ "/writing/index.xml" | absURL }}">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:title" content="{{ .Title }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
 
@@ -58,10 +58,10 @@
     <meta property="og:image:height" content="630">
   {{ end }}
 
-  <meta property="og:image:alt" content="{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:image:alt" content="{{ .Title }}">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ if .Params.seo_title }}{{ .Params.seo_title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta name="twitter:title" content="{{ .Title }}">
   {{ if .Params.images }}
     <meta name="twitter:image" content="{{ (index .Params.images 0) | absURL }}.jpg">
   {{ else }}
