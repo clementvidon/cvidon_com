@@ -236,3 +236,8 @@ J’ai transformé cette méthode en guide pratique, accompagné de quelques scr
 [photography-archiving-workflow](https://github.com/clementvidon/photography-archiving-workflow)
 
 Le guide explique le workflow étape par étape. Les scripts prennent en charge les parties qui ne sont pas réalistes à faire manuellement à grande échelle : nettoyer et normaliser les métadonnées, renommer les fichiers, et vérifier que les fichiers médias restent lisibles.
+
+## Discussion
+
+- [Substack](https://cl3don.substack.com/p/a-living-photographic-archive)
+- [GitHub](https://github.com/clementvidon/photography-archiving-workflow/discussions)

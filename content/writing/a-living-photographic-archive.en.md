@@ -235,3 +235,8 @@ I turned this method into a practical guide and a few Bash scripts:
 [photography-archiving-workflow](https://github.com/clementvidon/photography-archiving-workflow)
 
 The guide explains the workflow step by step. The scripts handle the parts that are not realistic to do manually at scale: cleaning and normalizing metadata, renaming files, and checking that media files remain readable.
+
+## Discussion
+
+- [Substack](https://cl3don.substack.com/p/a-living-photographic-archive)
+- [GitHub](https://github.com/clementvidon/photography-archiving-workflow/discussions)
