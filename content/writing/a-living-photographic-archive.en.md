@@ -1,7 +1,7 @@
 +++
 title = "A Living Photographic Archive"
 seo_title = "A Living Photographic Archive — Photo archive, tools, and workflow"
-description = "A simple method for organizing a living and durable photographic archive."
+description = "A catalog is not an archive. A simple method for keeping photo files readable, portable, and usable over time."
 
 date = 2026-05-29T12:00:00+02:00
 category = "Guide"

@@ -1,7 +1,7 @@
 +++
 title = "Une archive photographique vivante"
 seo_title = "Une archive photographique vivante — Archive photo, outils et workflow"
-description = "Une méthode simple pour organiser une archive photographique vivante et durable."
+description = "Un catalogue n’est pas une archive. Une méthode simple pour garder ses fichiers photo lisibles, portables et utilisables dans le temps."
 
 date = 2026-05-29T12:00:00+02:00
 category = "Guide"
