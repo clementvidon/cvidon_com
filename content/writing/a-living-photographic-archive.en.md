@@ -90,7 +90,7 @@ Archive/
     └── 2026/
 ```
 
-## The Catalog Is Not the Archive
+## A Catalog Is Not an Archive
 
 Photo apps and DAMs are very useful for viewing, organizing, selecting, searching, and editing images. They can recognize faces, group places, compile memories, filter series, or roughly find certain images. For many everyday uses, they are enough.
 

@@ -90,7 +90,7 @@ Archive/
     └── 2026/
 ```
 
-## Le catalogue n’est pas l’archive
+## Un catalogue n’est pas une archive
 
 Les applications photo et les DAM sont très utiles pour consulter, organiser, sélectionner, rechercher et éditer ses images. Ces outils permettent de reconnaître des visages, de regrouper des lieux, de compiler des souvenirs, de filtrer des séries ou de retrouver approximativement certaines images. Pour beaucoup d’usages quotidiens, ils sont suffisants.
 
