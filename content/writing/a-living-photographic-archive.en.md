@@ -37,7 +37,7 @@ Just because an image is saved in the cloud does not mean we still truly control
 
 The method is based on a simple idea: before deciding where every file should live, each file first needs to become reliable, readable, and sortable. That means establishing the most coherent creation date possible, checking that each file remains readable, and giving it a stable name that stays useful even outside a photo application.
 
-Before:
+Heterogeneous sources:
 
 ```
 Nikon Zf/DCIM/100ND750/DSC_8421.NEF
@@ -55,7 +55,7 @@ Samsung Galaxy S23/
     └── 7f6c91e2a4f4d1d9.gif
 ```
 
-Normalized baseline:
+Stable base:
 
 ```
 Archive/
@@ -72,7 +72,7 @@ Archive/
     └── PHONE_CV26_0526_194220_00112763.GIF
 ```
 
-Possible organization:
+Flexible organization:
 
 ```
 Archive/
@@ -98,6 +98,8 @@ Each tool organizes images according to its own logic. As long as everything sta
 As soon as we want to migrate, archive, compare, extract, back up ourselves, or work across several storage media, the real system reappears: poorly named files, ambiguous dates, multiple exports, compressed versions, missing, modified, or contradictory metadata.
 
 At that point, organization can no longer depend only on what an application believes it knows.
+
+The goal is to keep the archive readable so the catalog remains a tool, not a dependency. Search, ratings, tags, and collections can live in a catalog. The files, folders, dates, metadata, formats, and structure must remain understandable outside it.
 
 ## What I Mean by a Photographic Archive
 

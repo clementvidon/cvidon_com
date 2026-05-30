@@ -37,7 +37,7 @@ Ce n’est pas parce qu’une image est sauvegardée dans le cloud qu’on en ga
 
 La méthode repose sur une idée simple : avant de décider où chaque fichier doit vivre, il faut d’abord le rendre fiable, lisible et triable. Cela passe par une date de création aussi cohérente que possible, une vérification de sa lisibilité, et un nom suffisamment stable pour rester utile même en dehors d’une application photo.
 
-Avant:
+Sources hétérogènes :
 
 ```
 Nikon Zf/DCIM/100ND750/DSC_8421.NEF
@@ -55,7 +55,8 @@ Samsung Galaxy S23/
     └── 7f6c91e2a4f4d1d9.gif
 ```
 
-Base normalisée:
+
+Base stable :
 
 ```
 Archive/
@@ -72,7 +73,7 @@ Archive/
     └── PHONE_CV26_0526_194220_00112763.GIF
 ```
 
-Organisation possible:
+Organisation flexible :
 
 ```
 Archive/
@@ -97,7 +98,9 @@ Chaque outil organise les images selon sa propre logique. Tant que tout reste da
 
 Dès que l’on veut migrer, archiver, comparer, extraire, sauvegarder soi-même ou travailler sur plusieurs supports, le système réel réapparaît : fichiers mal nommés, dates ambiguës, exports multiples, versions compressées, métadonnées absentes, modifiées ou contradictoires.
 
-À ce moment-là, l’organisation ne peut pas dépendre uniquement de ce qu'une application croit savoir.
+À ce moment-là, l’organisation ne peut pas dépendre uniquement de ce qu’une application croit savoir.
+
+Le but est de garder l’archive lisible pour que le catalogue reste un outil, pas une dépendance. La recherche, les notes, les mots-clés et les collections peuvent vivre dans un catalogue. Les fichiers, les dossiers, les dates, les métadonnées, les formats et la structure doivent rester compréhensibles en dehors de lui.
 
 ## Ce que j’entends par archive photographique
 
