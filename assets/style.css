@@ -4,7 +4,6 @@
   --color-text-primary: #212121;
   --color-selection-background: var(--color-text-primary);
   --color-selection-text: var(--color-page-background);
-  --color-code-text: #000000;
 
   /* Links */
   --text-link-decoration-thickness: 1px;
@@ -327,45 +326,39 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   margin-top: 0;
 }
 
-/* Prose inline code */
+/* Prose code */
 
-.prose :not(pre) > code {
+.prose code,
+.prose pre {
   font-family: ui-monospace, monospace;
-  font-size: inherit;
+  font-size: 1rem;
   line-height: inherit;
-  color: var(--color-code-text);
+  color: inherit;
   background: transparent;
-  padding: 0;
 }
 
-/* Prose code blocks */
+.prose :not(pre) > code {
+  padding: 0;
+}
 
 .prose pre {
   margin: 0;
   overflow-x: auto;
   white-space: pre;
-  font-family: ui-monospace, monospace;
-  font-size: inherit;
-  line-height: inherit;
-  color: var(--color-code-text);
-  background: transparent;
+  border: 1px solid var(--color-text-primary);
+  padding: 0.6rem;
 }
 
 .prose pre code {
   display: block;
   font: inherit;
-  color: inherit;
-  background: transparent;
   padding: 0;
 }
 
 @media (max-width: 41.5rem) {
+  .prose code,
   .prose pre {
-    font-size: 0.8rem;
-  }
-
-  .prose :not(pre) > code {
-    font-size: 0.9em;
+    font-size: 0.85rem;
   }
 }
 
