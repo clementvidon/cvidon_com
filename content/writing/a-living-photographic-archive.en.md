@@ -55,7 +55,7 @@ Samsung Galaxy S23/
     └── 7f6c91e2a4f4d1d9.gif
 ```
 
-Stable base:
+Stable foundation:
 
 ```
 Archive/
@@ -238,5 +238,5 @@ The guide explains the workflow step by step. The scripts handle the parts that 
 
 ## Discussion
 
-- [Substack](https://cl3don.substack.com/p/a-living-photographic-archive)
-- [GitHub](https://github.com/clementvidon/photography-archiving-workflow/discussions)
+- Article: [Substack](https://cl3don.substack.com/p/a-living-photographic-archive)
+- Workflow: [GitHub Discussions](https://github.com/clementvidon/photography-archiving-workflow/discussions)

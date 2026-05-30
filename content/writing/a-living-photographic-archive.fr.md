@@ -239,5 +239,5 @@ Le guide explique le workflow étape par étape. Les scripts prennent en charge 
 
 ## Discussion
 
-- [Substack](https://cl3don.substack.com/p/a-living-photographic-archive)
-- [GitHub](https://github.com/clementvidon/photography-archiving-workflow/discussions)
+- Article: [Substack](https://cl3don.substack.com/p/a-living-photographic-archive)
+- Workflow: [GitHub Discussions](https://github.com/clementvidon/photography-archiving-workflow/discussions)
