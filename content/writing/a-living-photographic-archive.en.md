@@ -41,13 +41,10 @@ Before:
 
 ```
 Nikon Zf/DCIM/100ND750/DSC_8421.NEF
-
 Ricoh GR III/DCIM/100RICOH/R0004387.DNG
-
 iPhone 15/
 ├── DCIM/104APPLE/IMG_4821.HEIC
 └── Downloads/export_001.jpg
-
 Samsung Galaxy S23/
 ├── DCIM/Camera/20260526_194218.jpg
 ├── WhatsApp/Media/WhatsApp Images/IMG-20050518-WA0004.jpg
@@ -182,7 +179,6 @@ For example, a simple organization can remain very broad:
 
 ```
 Camera/2026/
-
 Phone/2026/
 ```
 
@@ -193,7 +189,6 @@ If the archive becomes too dense, the same logic can be refined without changing
 ```
 Camera/2026/0412-elvis-party/
 Camera/2026/0526-palermo-weekend/
-
 Phone/2026/photos/
 Phone/2026/videos/
 Phone/2026/memories/
