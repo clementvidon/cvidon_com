@@ -30,25 +30,26 @@ Avec le temps, nos images s’accumulent sans véritable système.
 
 On photographie avec un téléphone ou un appareil photo. On reçoit des images par message. On
 conserve des captures d’écran. On télécharge, on exporte, on synchronise, on récupère d’anciens
-dossiers depuis un ordinateur ou un disque externe. L’ensemble grandit continuellement, se disperse,
-et l’on en perd peu à peu le contrôle.
+dossiers depuis un ordinateur ou un disque externe. Un ensemble qui grandit continuellement, se
+disperse, et dont on perd peu à peu le contrôle.
 
 Le problème n’est pas seulement la quantité. C’est l’hétérogénéité. Ce que nous appelons nos images
-est en réalité une masse fragile de fichiers. Des photos, des vidéos, des RAW, des exports, des
-captures d’écran, des fichiers reçus par messagerie, des versions éditées ou dupliquées. Des noms
-incompréhensibles, des métadonnées incomplètes, et des fichiers partiellement illisibles, voire
+est en réalité une masse fragile de fichiers : des photos, des vidéos, des RAW, des exports, des
+captures d’écran, des fichiers reçus par messagerie, des versions éditées ou dupliquées.
+
+À cela s’ajoutent parfois des noms incompréhensibles, des métadonnées incomplètes, ou des fichiers
 corrompus.
 
-Les photothèques donnent une impression d’ordre. La synchronisation cloud donne une impression de
-maîtrise. Mais une masse synchronisée n’est pas forcément une archive maîtrisée.
+Les photothèques donnent une impression d’ordre, et la synchronisation cloud apporte une forme de
+sécurité. Mais une masse synchronisée n’est pas forcément une archive maîtrisée.
 
 Le problème de fond est simple : savoir ce que l’on possède et pouvoir le retrouver, le trier, le
 déplacer ou le réutiliser aussi facilement aujourd’hui que dans cinq, dix ou vingt ans.
 
 La méthode que je propose ici repose sur une idée simple : avant de décider où ranger ses fichiers,
-il faut d’abord leur redonner une base cohérente. Cela commence par des métadonnées aussi fiables
-que possible, en particulier la date de création, par un nommage stable, et par la vérification que
-les fichiers ne sont pas abîmés.
+il faut d’abord leur redonner une base cohérente. Cela passe par des métadonnées aussi fiables que
+possible, en particulier la date de création, par un nommage stable, et par la vérification que les
+fichiers ne sont pas abîmés.
 
 Le but est de produire une base saine qui reste utile dans le temps, indépendamment de la machine ou
 de l’application utilisée.
@@ -58,15 +59,16 @@ de l’application utilisée.
 Les photothèques sont très utiles pour consulter, rechercher, sélectionner, éditer ou partager ses
 images. Je les utilise aussi.
 
-Mais elles ne répondent pas toujours au même problème. Dans la pratique, on utilise souvent
-plusieurs systèmes à la fois : la galerie du téléphone, un cloud, un catalogue sur ordinateur,
-parfois des dossiers locaux ou des disques externes. Cela ne pose pas forcément problème tant que
-chaque outil reste dans son périmètre.
+Mais elles ne répondent pas au même problème. Dans la pratique, les images se retrouvent souvent
+réparties entre plusieurs outils et espaces de stockage : la galerie du téléphone, un cloud, un
+catalogue sur ordinateur, des dossiers locaux ou des disques externes. Cela ne pose pas forcément
+problème tant que chaque outil reste dans son périmètre.
 
 Le problème apparaît le jour où l’on veut réunir tous ces fichiers pour les trier, les sauvegarder
-ou les archiver proprement. Chaque application a sa logique, ses exports, ses noms, ses dates et ses
-métadonnées. Les fichiers réapparaissent alors comme une collection hétérogène qu’il faut reprendre
-à la base.
+ou les archiver proprement. Chaque application organise, exporte et décrit les fichiers à sa
+manière. Une fois sortis de ces interfaces, les fichiers redeviennent visibles pour ce qu’ils sont :
+des objets hétérogènes, nommés et décrits selon des conventions qui perdent souvent leur sens en
+dehors de l’application qui les organise.
 
 Il y a aussi une question de dépendance et d’interopérabilité. Une base de fichiers claire permet de
 travailler avec différentes applications sans dépendre entièrement de la logique d’un seul outil.
