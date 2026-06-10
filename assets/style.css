@@ -41,6 +41,12 @@
   --single-title-to-meta-gap: 0.5rem;
   --body-paragraph-gap: 0.8rem;
 
+    /* Code */
+  --code-font-size: 1rem;
+  --code-font-size-compact: 0.85rem;
+  --code-block-padding-block: var(--body-paragraph-gap);
+  --code-block-padding-inline: var(--body-paragraph-gap);
+
   /* Footer */
   --footer-links-row-gap: 1rem;
   --footer-links-column-gap: 1.25rem;
@@ -328,25 +334,27 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 
 /* Prose code */
 
-.prose code,
-.prose pre {
+.prose :not(pre) > code {
   font-family: ui-monospace, monospace;
-  font-size: 1rem;
+  font-size: var(--code-font-size);
   line-height: inherit;
   color: inherit;
   background: transparent;
+  padding: 0;
 }
 
-.prose :not(pre) > code {
-  padding: 0;
+.prose .highlight {
+  margin: 0;
 }
 
 .prose pre {
   margin: 0;
   overflow-x: auto;
   white-space: pre;
-  border: 1px solid var(--color-text-primary);
-  padding: 0.6rem;
+  font-family: ui-monospace, monospace;
+  font-size: var(--code-font-size);
+  line-height: inherit;
+  padding: var(--code-block-padding-block) var(--code-block-padding-inline);
 }
 
 .prose pre code {
@@ -356,22 +364,15 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 }
 
 @media (max-width: 41.5rem) {
-  .prose code,
+  .prose :not(pre) > code,
   .prose pre {
-    font-size: 0.85rem;
+    font-size: var(--code-font-size-compact);
   }
 }
 
 /* Prose vertical rhythm */
 
-.prose p + ul,
-.prose ul + p,
-.prose p + p,
-.prose p + pre,
-.prose pre + p,
-.prose pre + pre,
-.prose ul + pre,
-.prose pre + ul {
+.prose :where(p, ul, pre, .highlight) + :where(p, ul, pre, .highlight) {
   margin-top: var(--body-paragraph-gap);
 }
 
