@@ -1,7 +1,7 @@
 +++
 title = "Une archive visuelle vivante"
 seo_title = "Une archive visuelle vivante — Méthode et outils"
-description = "Une méthode simple pour réunir, organiser et maintenir une archive visuelle personnelle sans dépendre entièrement d’un cloud ou d’une application."
+description = "Une méthode simple pour reprendre le contrôle de vos images et les garder lisibles, portables et utilisables dans le temps."
 
 date = 2026-06-10T12:00:00+02:00
 category = "Guide"
