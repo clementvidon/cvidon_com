@@ -27,4 +27,4 @@ images = [
 draft = false
 +++
 
-Thursday night at Lowkey, Paris.
+Thursday night at Lowkey.
