@@ -27,4 +27,4 @@ images = [
 draft = false
 +++
 
-Thursday night at Lowkey.
+A casual Thursday night with Randy.
