@@ -11,3 +11,5 @@ All content on this site is licensed under [CC BY-NC 4.0](https://creativecommon
 Non-commercial reuse is allowed, with credit:
 
 **Clément Vidon — cvidon.com**
+
+On Instagram, “**Photo by @cl3don**” is sufficient.
