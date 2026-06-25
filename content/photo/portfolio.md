@@ -29,12 +29,13 @@ I work across portraits, lookbooks, reportage, and editorial series, with public
 
 **Selected work**
 
-- [Vertige Party](/photo/vertige-party/) - *reportage*
-- [Palermo Weekend](/photo/palermo-weekend/) - *reportage*
-- [BlancBloom AW25](/photo/blancbloom-aw25/) - *lookbook*
-- [Ariadna I](/photo/ariadna-i/) - *portrait*
-- [Fabrizio Viti](/photo/fabrizio-viti-for-harpers-bazaar-arabia/) - *editorial*
-- [Valérie Messika](/photo/valerie-messika-for-harpers-bazaar-arabia/) - *editorial*
+- [Eléa and Gabriel](/photo/elea-and-gabriel/) — *wedding*
+- [Arty House](/photo/arty-house/) — *gallery event*
+- [Lowkey Party](/photo/lowkey-party/) — *nightlife*
+- [Ariadna I](/photo/ariadna-i/) — *analog portraits*
+- [Palermo Weekend](/photo/palermo-weekend/) — *travel*
+- [BlancBloom AW25](/photo/blancbloom-aw25/) — *lookbook*
+- [Valérie Messika](/photo/valerie-messika-for-harpers-bazaar-arabia/) — *interior editorial*
 
 **Open to commissions and collaborations**
 

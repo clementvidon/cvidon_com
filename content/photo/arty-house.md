@@ -35,7 +35,7 @@ images = [
 draft = false
 +++
 
-An intimate gathering around contemporary art in Paris, followed by the [Lowkey Party](/photo/lowkey-party/).
+Intimate gathering around contemporary art, followed by a [party at Lowkey](/photo/lowkey-party/).
 
 ## Credits
 
