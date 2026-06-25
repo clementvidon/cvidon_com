@@ -1,7 +1,7 @@
 +++
-title = "Brother's Wedding"
-seo_title = "Brother's Wedding — Wedding reportage by Clément Vidon"
-description = "Wedding reportage of Gabriel and Elea in Serriera, Corsica."
+title = "Brother’s Wedding"
+seo_title = "Brother’s Wedding — Wedding reportage by Clément Vidon"
+description = "Photo report from Gabriel and Eléa’s wedding in Serriera, Corsica."
 
 date = 2026-06-13T16:00:00+02:00
 category = "Reportage"
@@ -54,4 +54,4 @@ images = [
 draft = false
 +++
 
-Elea and Gabriel's wedding in Serriera, Corsica.
+Eléa and Gabriel in Serriera, Corsica.
