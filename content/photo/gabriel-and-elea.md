@@ -1,14 +1,14 @@
 +++
-title = "Gabriel and Eléa"
-seo_title = "Gabriel and Eléa — Wedding reportage by Clément Vidon"
-description = "Wedding reportage of Gabriel and Eléa in Serriera, Corsica."
+title = "Brother's Wedding"
+seo_title = "Gabriel and Elea — Wedding reportage by Clément Vidon"
+description = "Wedding reportage of Gabriel and Elea in Serriera, Corsica."
 
 date = 2026-06-13T16:00:00+02:00
 category = "Reportage"
 tags = [
   "wedding photography",
   "wedding reportage",
-  "Gabriel and Eléa",
+  "Gabriel and Elea",
   "Serriera",
   "Corsica",
   "France"
@@ -51,4 +51,4 @@ images = [
 draft = false
 +++
 
-Gabriel and Eléa’s wedding in Serriera, Corsica.
+Gabriel and Elea’s wedding in Serriera, Corsica.
