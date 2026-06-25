@@ -32,7 +32,7 @@ I work across portraits, lookbooks, reportage, and editorial series, with public
 - [Eléa and Gabriel](/photo/elea-and-gabriel/) — *wedding*
 - [Arty House](/photo/arty-house/) — *gallery event*
 - [Lowkey Party](/photo/lowkey-party/) — *nightlife*
-- [Ariadna I](/photo/ariadna-i/) — *analog portraits*
+- [Ariadna at Home](/photo/ariadna-at-home/) — *portraits*
 - [Palermo Weekend](/photo/palermo-weekend/) — *travel*
 - [BlancBloom AW25](/photo/blancbloom-aw25/) — *lookbook*
 - [Valérie Messika](/photo/valerie-messika-for-harpers-bazaar-arabia/) — *interior editorial*
