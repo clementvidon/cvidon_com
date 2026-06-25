@@ -16,20 +16,20 @@ tags = [
 ]
 
 images = [
-  "/images/arty-house-gathering-1",
-  "/images/arty-house-gathering-2",
-  "/images/arty-house-gathering-3",
-  "/images/arty-house-gathering-4",
-  "/images/arty-house-gathering-5",
-  "/images/arty-house-gathering-6",
-  "/images/arty-house-gathering-7",
-  "/images/arty-house-gathering-8",
-  "/images/arty-house-gathering-9",
-  "/images/arty-house-gathering-10",
-  "/images/arty-house-gathering-11",
-  "/images/arty-house-gathering-12",
-  "/images/arty-house-gathering-13",
-  "/images/arty-house-gathering-14",
+  "/images/arty-house-1",
+  "/images/arty-house-2",
+  "/images/arty-house-3",
+  "/images/arty-house-4",
+  "/images/arty-house-5",
+  "/images/arty-house-6",
+  "/images/arty-house-7",
+  "/images/arty-house-8",
+  "/images/arty-house-9",
+  "/images/arty-house-10",
+  "/images/arty-house-11",
+  "/images/arty-house-12",
+  "/images/arty-house-13",
+  "/images/arty-house-14",
 ]
 
 draft = false
