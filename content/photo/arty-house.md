@@ -39,6 +39,6 @@ Intimate gathering around contemporary art, followed by a [party at Lowkey](/pho
 
 ## Credits
 
-- Hosted by [Samia Bahemmouche](https://www.instagram.com/samiafineart/) and [Saad Ahellal](https://www.instagram.com/ssadahe/)
+- Hosted by [Samia](https://www.instagram.com/samiafineart/) and [Saad](https://www.instagram.com/ssadahe/)
 - With Bridgeman Images, Art Quire, and Anthony White Paris
 - Photography: Clément Vidon
