@@ -39,6 +39,6 @@ An intimate gathering around contemporary art in Paris, followed by a [party at 
 
 ## Credits
 
-- Hosted by [Samia Bahemmouche](https://www.instagram.com/samiafineart/) and [Saad Ahellal](https://www.instagram.com/ssadahe/)
+- Hosted by [Samia](https://www.instagram.com/samiafineart/) and [Saad](https://www.instagram.com/ssadahe/)
 - With Bridgeman Images, Art Quire, and Anthony White.
 - Photography: Clément Vidon
