@@ -26,4 +26,4 @@ images = [
 draft = false
 +++
 
-Private Pride gathering at Randy's
+Pride gathering at Randy's.
