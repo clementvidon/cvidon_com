@@ -1,6 +1,6 @@
 +++
 title = "Fabrizio Viti"
-seo_title = "Fabrizio Viti for Harper’s Bazaar Arabia — Editorial by Clément Vidon"
+seo_title = "Fabrizio Viti — Editorial Photography for Harper’s Bazaar Arabia"
 description = "Editorial photographed for Harper’s Bazaar Arabia at Fabrizio Viti’s Paris home on Rue de Babylone."
 
 date = 2019-06-19T12:00:00+02:00

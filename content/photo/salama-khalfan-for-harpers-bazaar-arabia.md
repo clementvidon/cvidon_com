@@ -1,6 +1,6 @@
 +++
 title = "Salama Khalfan"
-seo_title = "Salama Khalfan for Harper’s Bazaar Arabia — Editorial by Clément Vidon"
+seo_title = "Salama Khalfan — Editorial Photography for Harper's Bazaar Arabia"
 description = "Editorial photographed for Harper’s Bazaar Arabia at Salama Khalfan’s country house in France."
 
 date = 2017-12-03T12:00:00+01:00

@@ -1,6 +1,6 @@
 +++
 title = "Eléa and Gabriel"
-seo_title = "Eléa and Gabriel — Wedding reportage by Clément Vidon"
+seo_title = "Eléa and Gabriel — Wedding Reportage in Corsica"
 description = "Photo report from Eléa and Gabriel’s wedding in Serriera, Corsica."
 
 date = 2026-06-13T16:00:00+02:00

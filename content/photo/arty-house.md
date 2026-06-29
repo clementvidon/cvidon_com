@@ -1,6 +1,6 @@
 +++
 title = "Arty House"
-seo_title = "Arty House — Art event reportage by Clément Vidon"
+seo_title = "Arty House — Art Event Photography in Paris"
 description = "Photo report from Arty House, an intimate gathering of collectors, art advisors, creatives, and cultural tastemakers in Paris."
 
 date = 2026-06-18T19:00:00+02:00
@@ -35,7 +35,7 @@ images = [
 draft = false
 +++
 
-An intimate gathering around contemporary art in Paris, followed by a [party at Lowkey](/photo/lowkey-party/).
+Intimate gathering around contemporary art in Paris, followed by a [party at Lowkey](/photo/lowkey-party/).
 
 ## Credits
 

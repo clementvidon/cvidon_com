@@ -1,6 +1,6 @@
 +++
 title = "Vertige Party"
-seo_title = "Vertige Party — Party reportage by Clément Vidon"
+seo_title = "Vertige Party — Party Photography in Paris"
 description = "Photo report from Vertige masquerade party at Maxim's, Paris."
 
 date = 2026-04-24T22:00:00+02:00

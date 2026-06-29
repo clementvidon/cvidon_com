@@ -1,6 +1,6 @@
 +++
 title = "Lowkey Party"
-seo_title = "Lowkey Party — Party reportage by Clément Vidon"
+seo_title = "Lowkey Party — Party Photography in Paris"
 description = "Photo report from a party at Lowkey in Paris."
 
 date = 2026-06-18T22:00:00+02:00

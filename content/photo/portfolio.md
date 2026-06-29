@@ -1,11 +1,13 @@
 +++
 title = "Portfolio"
-seo_title = "Artist-photographer based in Paris"
+seo_title = "Documentary Photographer Based in Paris"
 description = "Photography portfolio and services by Clément Vidon, a fashion and event photographer based in Paris."
 
 date = 2026-05-05T20:00:00+02:00
 category = "Photography"
 tags = [
+  "documentary photographer",
+  "documentary photography",
   "photography portfolio",
   "photography services",
   "fashion photography",

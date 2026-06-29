@@ -1,6 +1,6 @@
 +++
 title = "Ariadna at Invalides I"
-seo_title = "Ariadna at Invalides I — Portrait series by Clément Vidon"
+seo_title = "Ariadna at Invalides I — Portrait Photography in Paris"
 description = "Portrait of Ariadna at C.R.’s apartment in Invalides, Paris."
 
 date = 2021-04-12T12:00:00+02:00
