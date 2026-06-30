@@ -27,4 +27,4 @@ images = [
 draft = false
 +++
 
-A casual Thursday night with Randy.
+Thursday night with Randy.
