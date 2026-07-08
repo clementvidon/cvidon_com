@@ -39,7 +39,7 @@ I work across portraits, lookbooks, reportage, and editorial series, with public
 
 **Selected work**
 
-- [AMU Interiors](/photo/amu-interiors/) — *interiors*
+- [AMU Home](/photo/amu-home/) — *interiors*
 - [Juliette](/photo/juliette/) — *portrait*
 - [Lowkey Party](/photo/lowkey-party/) — *nightlife*
 - [Arty House](/photo/arty-house/) — *gallery event*
