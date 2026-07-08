@@ -20,7 +20,6 @@ images = [
   "/images/amu-interiors-10",
   "/images/amu-interiors-11",
   "/images/amu-interiors-12",
-  "/images/landscape-blank",
   "/images/amu-interiors-13",
   "/images/amu-interiors-14",
 ]
