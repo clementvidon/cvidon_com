@@ -474,10 +474,6 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   text-decoration: none;
 }
 
-.single-nav-mobile-label {
-  display: none;
-}
-
 /* Compact threshold */
 @media (max-width: 41.5rem) {
   .single-nav {
@@ -486,10 +482,6 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 
   .single-nav-title {
     display: none;
-  }
-
-  .single-nav-mobile-label {
-    display: inline;
   }
 
   .single-nav-newer {
