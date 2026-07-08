@@ -39,6 +39,7 @@ I work across portraits, lookbooks, reportage, and editorial series, with public
 
 **Selected work**
 
+- [AMU Interiors](/photo/amu-interiors/) — *interiors*
 - [Juliette](/photo/juliette/) — *portrait*
 - [Lowkey Party](/photo/lowkey-party/) — *nightlife*
 - [Arty House](/photo/arty-house/) — *gallery event*
@@ -53,5 +54,6 @@ I work across portraits, lookbooks, reportage, and editorial series, with public
 - portrait and press images
 - brand and social content
 - lifestyle and documentary stories
+- architecture and interiors
 
 From preparation and shooting to editing, sequencing, and visual storytelling.
