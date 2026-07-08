@@ -4,7 +4,7 @@ seo_title = "Valérie Messika — Editorial Photography for Harper's Bazaar Arab
 description = "Editorial photographed for Harper’s Bazaar Arabia at Valérie Messika’s country house in France."
 
 date = 2018-04-10T12:00:00+02:00
-category = "Editorial"
+category = "Interiors"
 tags = ["Harper’s Bazaar Arabia", "Valérie Messika", "Messika", "interiors", "editorial photography", "France"]
 
 images = [
