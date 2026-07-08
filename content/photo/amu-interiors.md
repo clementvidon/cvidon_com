@@ -21,7 +21,6 @@ images = [
   "/images/amu-interiors-11",
   "/images/amu-interiors-12",
   "/images/amu-interiors-13",
-  "/images/amu-interiors-14",
 ]
 
 draft = false
