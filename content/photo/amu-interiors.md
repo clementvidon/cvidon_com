@@ -1,7 +1,7 @@
 +++
-title = "AMU Interiors"
-seo_title = "AMU Interiors — Interior photography in Paris"
-description = "Interior photography featuring African art from AMU Gallery in a Paris apartment."
+title = "AMU Home"
+seo_title = "AMU Home — Interior Photography in Paris"
+description = "Interior photography featuring African art from AMU Gallery in a Parisian apartment."
 
 date = 2026-07-06T12:00:00+02:00
 category = "Interiors"
