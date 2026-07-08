@@ -26,4 +26,4 @@ images = [
 draft = false
 +++
 
-Interior photography featuring African art from [AMU Gallery](https://amugallery.fr/).
+Interior photography featuring African art from [AMU Gallery](https://amugallery.fr/) and its founder, Randy Gowon.
