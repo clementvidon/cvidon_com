@@ -2,7 +2,7 @@
 {{- $navLang := "en" -}}
 {{- $navSite := false -}}
 
-{{- range .Sites -}}
+{{- range hugo.Sites -}}
   {{- if eq .Language.Name $navLang -}}
     {{- $navSite = . -}}
   {{- end -}}
