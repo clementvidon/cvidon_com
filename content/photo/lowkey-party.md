@@ -20,8 +20,6 @@ images = [
   "/images/lowkey-party-10",
   "/images/lowkey-party-11",
   "/images/lowkey-party-12",
-  "/images/lowkey-party-13",
-  "/images/lowkey-party-14",
 ]
 
 draft = false
