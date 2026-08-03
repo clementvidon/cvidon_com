@@ -24,6 +24,7 @@
   --page-top-padding: 2.5rem;
   --header-to-content-gap: 4.5rem;
   --title-to-content-gap: 2rem;
+  --content-to-code-gap: 1rem;
   --content-to-nav-gap: 2rem;
   --content-to-footer-gap: 3rem;
 
@@ -369,6 +370,11 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   .prose pre {
     font-size: var(--code-font-size-compact);
   }
+}
+
+.prose p + .highlight,
+.prose p + pre {
+  margin-top: var(--content-to-code-gap);
 }
 
 /* Prose quote */
