@@ -2,6 +2,7 @@
 title = "Eléa and Gabriel"
 seo_title = "Eléa and Gabriel — Wedding Reportage in Corsica"
 description = "Photo report from Eléa and Gabriel’s wedding in Serriera, Corsica."
+social_description = "Wedding reportage."
 
 date = 2026-06-13T16:00:00+02:00
 category = "Reportage"

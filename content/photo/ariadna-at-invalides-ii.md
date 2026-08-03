@@ -2,6 +2,7 @@
 title = "Ariadna at Invalides II"
 seo_title = "Ariadna at Invalides II — Portrait Photography in Paris"
 description = "Portrait of Ariadna at C.R.’s apartment in Invalides, Paris."
+social_description = "Portrait series."
 
 date = 2021-09-13T12:00:00+02:00
 category = "Portrait"

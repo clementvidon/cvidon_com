@@ -2,6 +2,7 @@
 title = "At Randy's"
 seo_title = "At Randy's — Friends gathering at Randy's"
 description = "Party with friends in a Paris apartment."
+social_description = "Party reportage."
 
 date = 2026-06-27T22:00:00+02:00
 category = "Reportage"

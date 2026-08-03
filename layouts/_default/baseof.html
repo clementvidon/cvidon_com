@@ -29,12 +29,27 @@
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ site.Params.description }}{{ end }}">
   <meta name="format-detection" content="telephone=no">
 
+  <!-- SEO lang -->
   {{ range .AllTranslations }}
-    <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  <link
+    rel="alternate"
+    hreflang="{{ .Language.Lang }}"
+    href="{{ .Permalink }}"
+  >
   {{ end }}
-  {{ with .Site.GetPage "/" }}
-    <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+
+  {{ $defaultTranslation := . }}
+  {{ range .AllTranslations }}
+    {{ if eq .Language.Lang "en" }}
+        {{ $defaultTranslation = . }}
+    {{ end }}
   {{ end }}
+
+  <link
+    rel="alternate"
+    hreflang="x-default"
+    href="{{ $defaultTranslation.Permalink }}"
+  >
 
   <!-- Canonical -->
   <link rel="canonical" href="{{ .Permalink }}">
@@ -44,8 +59,10 @@
   <link rel="alternate" type="application/rss+xml" title="Clément Vidon — writing" href="{{ "/writing/index.xml" | absURL }}">
 
   <!-- Open Graph -->
+  {{ $socialDescription := .Params.social_description | default site.Params.description }}
+
   <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:description" content="{{ site.Params.description }}">
+  <meta property="og:description" content="{{ $socialDescription }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
 
@@ -61,7 +78,7 @@
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ .Title }}">
-  <meta name="twitter:description" content="{{ site.Params.description }}">
+  <meta name="twitter:description" content="{{ $socialDescription }}">
   {{ if .Params.images }}
     <meta name="twitter:image" content="{{ (index .Params.images 0) | absURL }}.jpg">
   {{ else }}
@@ -100,9 +117,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Person",
+    "@id": "https://cvidon.com/#person",
     "name": "Clément Vidon",
-    "url": "https://cvidon.com",
-    "jobTitle": "Portrait and documentary photographer",
+    "url": "https://cvidon.com/",
+    "jobTitle": "Documentary photographer",
     "knowsAbout": [
       "Fashion photography",
       "Portrait photography",
@@ -129,6 +147,29 @@
     ]
   }
   </script>
+
+  {{ if and .IsPage (eq .Section "writing") }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": {{ printf "%s#article" .Permalink | jsonify }},
+    "headline": {{ .Title | jsonify }},
+    "description": {{ (.Description | default site.Params.description) | jsonify }},
+    "url": {{ .Permalink | jsonify }},
+    "datePublished": {{ .Date.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+    "dateModified": {{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+    "inLanguage": {{ .Language.Lang | jsonify }},
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ .Permalink | jsonify }}
+    },
+    "author": {
+      "@id": "https://cvidon.com/#person"
+    }
+  }
+  </script>
+  {{ end }}
 
   <!-- Umami analytics -->
   {{ if not hugo.IsServer }}

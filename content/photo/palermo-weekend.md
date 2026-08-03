@@ -2,6 +2,7 @@
 title = "Palermo Weekend"
 seo_title = "Palermo Weekend — Travel Photography in Sicily"
 description = "Photo reportage from a weekend in Palermo, Sicily, between markets, streets, coastline, interiors, and fragments of daily life."
+social_description = "Travel reportage."
 
 date = 2026-05-17T17:00:00+02:00
 category = "Reportage"

@@ -25,7 +25,7 @@
 
   <nav class="single-nav single-nav-only-back" aria-label="Back to section">
     <div class="single-nav-back">
-      <a href="{{ $current.CurrentSection.RelPermalink }}" aria-label="Back to {{ $current.CurrentSection.Title }}">back</a>
+      <a href="/{{ $current.Section }}/" aria-label="Back to {{ $current.CurrentSection.Title }}">back</a>
     </div>
   </nav>
 
@@ -89,7 +89,7 @@
       {{- end -}}
 
       <div class="single-nav-back">
-        <a href="{{ $current.CurrentSection.RelPermalink }}" aria-label="Back to {{ $current.CurrentSection.Title }}">back</a>
+        <a href="/{{ $current.Section }}/" aria-label="Back to {{ $current.CurrentSection.Title }}">back</a>
       </div>
 
       {{- if $older -}}

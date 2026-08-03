@@ -2,6 +2,7 @@
 title = "Arty House"
 seo_title = "Arty House — Art Event Photography in Paris"
 description = "Photo report from Arty House, an intimate gathering of collectors, art advisors, creatives, and cultural tastemakers in Paris."
+social_description = "Art gallery event coverage."
 
 date = 2026-06-18T19:00:00+02:00
 category = "Reportage"

@@ -2,6 +2,7 @@
 title = "Ariadna at Home"
 seo_title = "Ariadna at Home — Portrait Photography in Paris"
 description = "Portrait series of Ariadna at home and nearby in Paris."
+social_description = "Portrait series."
 
 date = 2021-03-11T12:00:00+02:00
 category = "Portrait"

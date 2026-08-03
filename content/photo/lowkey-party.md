@@ -2,6 +2,7 @@
 title = "Lowkey Party"
 seo_title = "Lowkey Party — Party Photography in Paris"
 description = "Photo report from a party at Lowkey in Paris."
+social_description = "Party reportage."
 
 date = 2026-06-18T22:00:00+02:00
 category = "Reportage"

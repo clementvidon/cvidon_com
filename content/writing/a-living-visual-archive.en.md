@@ -2,6 +2,7 @@
 title = "A Living Visual Archive"
 seo_title = "A Living Visual Archive — Workflow and tools"
 description = "A simple method to regain control of your images and keep them readable, portable, and usable over time."
+social_description = "A practical approach to building a personal visual archive."
 
 date = 2026-06-10T12:00:00+02:00
 category = "Guide"

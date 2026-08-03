@@ -2,6 +2,7 @@
 title = "Portfolio"
 seo_title = "Documentary Photographer Based in Paris"
 description = "Photography portfolio and services by Clément Vidon, a fashion and event photographer based in Paris."
+social_description = "Clément Vidon - Photography Portfolio"
 
 date = 2026-05-05T20:00:00+02:00
 category = "Photography"

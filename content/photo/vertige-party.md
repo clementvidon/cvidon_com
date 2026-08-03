@@ -2,6 +2,7 @@
 title = "Vertige Party"
 seo_title = "Vertige Party — Party Photography in Paris"
 description = "Photo report from Vertige masquerade party at Maxim's, Paris."
+social_description = "Party reportage."
 
 date = 2026-04-24T22:00:00+02:00
 category = "Reportage"

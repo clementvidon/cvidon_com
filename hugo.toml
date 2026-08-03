@@ -17,6 +17,15 @@ defaultContentLanguageInSubdir = false
     locale = "fr"
     label = "Français"
     weight = 2
+    disableKinds = [
+      "home",
+      "section",
+      "taxonomy",
+      "term",
+      "rss",
+      "sitemap",
+      "404",
+    ]
 
 [params]
 description = "Personal website of Clément Vidon."

@@ -2,6 +2,7 @@
 title = "BlancBloom AW25"
 seo_title = "BlancBloom AW25 — Fashion Lookbook in Paris"
 description = "BlancBloom AW25 lookbook photographed in Paris with model Polly Levin, styled by Masha Mustaeva."
+social_description = "Fashion lookbook."
 
 date = 2025-11-27T20:00:00+01:00
 category = "Lookbook"

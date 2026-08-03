@@ -2,6 +2,7 @@
 title = "Valérie Messika"
 seo_title = "Valérie Messika — Editorial Photography for Harper's Bazaar Arabia"
 description = "Editorial photographed for Harper’s Bazaar Arabia at Valérie Messika’s country house in France."
+social_description = "Interior photography editorial."
 
 date = 2018-04-10T12:00:00+02:00
 category = "Interiors"
