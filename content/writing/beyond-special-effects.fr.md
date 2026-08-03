@@ -39,8 +39,6 @@ D’autres disciplines associent créativité et technologie, mais les effets sp
 >
 > — Vivake Gupta
 
----
-
 ## Pourquoi le numérique a tout changé
 
 Les effets spéciaux traditionnels étaient étroitement liés aux dispositifs qui les produisaient : mécanismes, machineries, procédés optiques, réactions chimiques ou artifices pyrotechniques. Chaque illusion exigeait généralement une solution technique particulière.
@@ -67,8 +65,6 @@ Cette séparation rend le processus réutilisable : une même représentation pe
 
 Le numérique a ainsi remplacé les solutions conçues au cas par cas par une chaîne de construction transférable d’un phénomène à l’autre.
 
----
-
 ## Pourquoi l’écran est devenu dominant
 
 L’écran s’est imposé comme le médium privilégié des effets spéciaux numériques parce qu’il est programmable, reproductible et relativement simple à contrôler.
@@ -78,8 +74,6 @@ Une même infrastructure de calcul, de représentation et de rendu peut ainsi se
 Cette polyvalence a fait de l’écran le principal débouché des effets spéciaux numériques. Elle ne signifie pourtant pas qu’il en soit l’aboutissement définitif.
 
 En industrialisant la construction numérique de phénomènes perceptibles, les effets spéciaux ont développé une logique qui ne se limite pas à l’écran.
-
----
 
 ## Et si l’écran n’était qu’une étape ?
 
@@ -101,8 +95,6 @@ Les effets spéciaux disposent déjà d’une partie des outils et des savoir-fa
 
 [^peripheral]: La série *Périphériques, les mondes de Flynne*, adaptée du roman *Périphériques* de William Gibson, imagine notamment des formes de matière reconfigurable capables de se transformer à partir d’instructions numériques.
 
----
-
 ## Une discipline qui n’a peut-être pas encore de nom
 
 Et si les effets spéciaux avaient servi de laboratoire à une discipline plus vaste ?
@@ -116,8 +108,6 @@ Les effets spéciaux ne sont pas les seuls à produire des expériences. Leur pa
 Peut-être parlerons-nous un jour d’**ingénierie de la perception** pour désigner la production technique de phénomènes sensibles. L’**ingénierie de l’expérience** désignerait alors leur organisation dans un contexte humain, spatial et temporel.
 
 Cette discipline prolongerait au-delà de l’illusion une ambition longtemps portée par les effets spéciaux : transformer une vision créative en expérience perceptible.
-
----
 
 ## Épilogue — Une hypothèse industrielle
 
