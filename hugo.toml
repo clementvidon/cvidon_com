@@ -23,7 +23,6 @@ defaultContentLanguageInSubdir = false
       "taxonomy",
       "term",
       "rss",
-      "sitemap",
       "404",
     ]
 
