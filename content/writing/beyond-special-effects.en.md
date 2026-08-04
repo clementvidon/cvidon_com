@@ -113,7 +113,7 @@ Beyond illusion, this discipline would extend an ambition long pursued by specia
 
 Three levels emerge. First, an already observable movement: tools originating in audiovisual production are migrating toward simulation and industrial applications. Second, a still partial integration: their incorporation into a more general pipeline for the production of the perceptible. Finally, a speculative projection: the emergence of an autonomous discipline and the place VFX companies might occupy within it.
 
-VFX companies are already involved in the early stages of architectural and industrial projects. The evolution envisioned here would involve moving beyond merely modeling or simulating objects and spaces to designing a complete perceptual outcome and coordinating its physical realization.
+Visual effects (VFX) companies are already involved in the early stages of architectural and industrial projects. The evolution envisioned here would involve moving beyond merely modeling or simulating objects and spaces to designing a complete perceptual outcome and coordinating its physical realization.
 
 ```text
 Creative intention

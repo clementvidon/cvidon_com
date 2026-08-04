@@ -111,7 +111,7 @@ Cette discipline prolongerait au-delà de l’illusion une ambition longtemps po
 
 ## Épilogue — Une hypothèse industrielle
 
-Trois niveaux se dessinent. D’abord, un mouvement déjà observable : les outils issus de l’audiovisuel migrent vers la simulation et l’industrie. Ensuite, une intégration encore partielle : leur inscription dans une chaîne plus générale de production du perceptible. Enfin, une projection spéculative : l’émergence d’une discipline autonome et la place que pourraient y occuper les entreprises de VFX.
+Trois niveaux se dessinent. D’abord, un mouvement déjà observable : les outils issus de l’audiovisuel migrent vers la simulation et l’industrie. Ensuite, une intégration encore partielle : leur inscription dans une chaîne plus générale de production du perceptible. Enfin, une projection spéculative : l’émergence d’une discipline autonome et la place que pourraient y occuper les entreprises d’effets visuels (VFX).
 
 Les entreprises de VFX interviennent déjà en amont dans l’architecture et l’industrie. L’évolution envisagée serait de ne plus seulement modéliser ou simuler des objets et des espaces, mais de concevoir un résultat perceptif complet et d’en coordonner la réalisation physique.
 
