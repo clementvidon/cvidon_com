@@ -81,7 +81,7 @@ Une représentation numérique n’est pas intrinsèquement liée à l’écran 
 
 L’écran serait alors moins l’aboutissement des effets spéciaux numériques que le premier médium dans lequel leur logique a pu être industrialisée.
 
-Une représentation numérique peut déjà être traduite en lumière, en son ou en mouvement. Elle peut commander des objets robotisés, modifier des espaces réactifs ou coordonner des phénomènes physiques. L’écran n’est donc pas la seule destination possible du calcul.
+Une représentation numérique peut déjà être traduite en lumière, en son ou en mouvement. Elle peut commander des objets robotisés, modifier des espaces réactifs ou coordonner des phénomènes physiques. L’écran n’est donc pas la seule destination possible du calcul. À terme, certaines interfaces, notamment neuronales, pourraient agir plus directement sur la perception elle-même.
 
 Si des formes de matière programmable devenaient progressivement disponibles, le même pipeline pourrait s’étendre davantage au monde physique.[^peripheral]
 

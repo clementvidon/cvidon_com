@@ -81,7 +81,7 @@ A digital representation is not intrinsically tied to the screen: it can be tran
 
 The screen would then be less the endpoint of digital special effects than the first medium in which their logic could be industrialized.
 
-A digital representation can already be translated into light, sound, or movement. It can control robotic objects, modify responsive spaces, or coordinate physical phenomena. The screen is therefore not the only possible destination of computation.
+A digital representation can already be translated into light, sound, or movement. It can control robotic objects, modify responsive spaces, or coordinate physical phenomena. The screen is therefore not the only possible destination of computation. In the longer term, some interfaces, including neural interfaces, could act more directly on perception itself.
 
 If forms of programmable matter were to become progressively available, the same pipeline could extend further into the physical world.[^peripheral]
 
