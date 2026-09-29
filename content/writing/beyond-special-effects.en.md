@@ -152,3 +152,7 @@ Those that succeed in combining this capability with physical systems engineerin
 [^unreal]: [Unreal Engine — Digital Twins](https://www.unrealengine.com/digital-twins)
 
 [^unity]: [Unity — Industry Solutions](https://unity.com/industry)
+
+## Discussion
+
+Comments are open on [Substack](https://cl3don.substack.com/p/beyond-special-effects)

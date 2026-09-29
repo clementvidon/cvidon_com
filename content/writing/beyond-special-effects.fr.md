@@ -153,3 +153,6 @@ Celles qui parviendraient à associer cette compétence à l’ingénierie physi
 
 [^unity]: [Unity — Industry Solutions](https://unity.com/industry)
 
+## Discussion
+
+Les commentaires sont ouverts sur [Substack](https://cl3don.substack.com/p/beyond-special-effects).
