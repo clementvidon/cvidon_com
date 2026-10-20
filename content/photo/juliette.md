@@ -2,7 +2,7 @@
 title = "Juliette"
 seo_title = "Juliette — Portrait Photography in Paris"
 description = "Portrait series of Juliette between Palais-Royal and the Tuileries Garden in Paris."
-social_description = "Test shoot."
+social_description = "Portrait series."
 
 date = 2026-06-29T21:00:00+02:00
 category = "Portrait"
@@ -12,7 +12,8 @@ tags = [
   "Palais-Royal",
   "Tuileries",
   "test shoot",
-  "go and see"
+  "new face",
+  "pola"
 ]
 
 images = [
