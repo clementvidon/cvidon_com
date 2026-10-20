@@ -35,4 +35,4 @@ images = [
 draft = false
 +++
 
-Test shoot with Juliette.
+Juliette in Palais-Royal.
