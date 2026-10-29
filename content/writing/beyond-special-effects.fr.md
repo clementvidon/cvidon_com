@@ -39,7 +39,9 @@ D’autres disciplines associent créativité et technologie, mais les effets sp
 >
 > — Vivake Gupta
 
-## Pourquoi le numérique a tout changé
+
+Pourquoi le numérique a tout changé
+--------------------------------------------------------------------------------
 
 Les effets spéciaux traditionnels étaient étroitement liés aux dispositifs qui les produisaient : mécanismes, machineries, procédés optiques, réactions chimiques ou artifices pyrotechniques. Chaque illusion exigeait généralement une solution technique particulière.
 
@@ -63,9 +65,11 @@ Expérience perceptive
 
 Cette séparation rend le processus réutilisable : une même représentation peut être traduite dans différents médiums à partir d’infrastructures communes de calcul et de traitement.
 
-Le numérique a ainsi remplacé les solutions conçues au cas par cas par une chaîne de construction transférable d’un phénomène à l’autre.
+Le numérique a ainsi rendu possible une chaîne de construction transférable d’un phénomène à l’autre.
 
-## Pourquoi l’écran est devenu dominant
+
+Pourquoi l’écran est devenu dominant
+--------------------------------------------------------------------------------
 
 L’écran s’est imposé comme le médium privilégié des effets spéciaux numériques parce qu’il est programmable, reproductible et relativement simple à contrôler.
 
@@ -75,13 +79,13 @@ Cette polyvalence a fait de l’écran le principal débouché des effets spéci
 
 En industrialisant la construction numérique de phénomènes perceptibles, les effets spéciaux ont développé une logique qui ne se limite pas à l’écran.
 
-## Et si l’écran n’était qu’une étape ?
 
-Une représentation numérique n’est pas intrinsèquement liée à l’écran : elle peut être traduite dans d’autres médiums.
+Et si l’écran n’était qu’une étape ?
+--------------------------------------------------------------------------------
 
-L’écran serait alors moins l’aboutissement des effets spéciaux numériques que le premier médium dans lequel leur logique a pu être industrialisée.
+Une représentation numérique n’est pas intrinsèquement liée à l’écran.
 
-Une représentation numérique peut déjà être traduite en lumière, en son ou en mouvement. Elle peut commander des objets robotisés, modifier des espaces réactifs ou coordonner des phénomènes physiques. L’écran n’est donc pas la seule destination possible du calcul. À terme, certaines interfaces, notamment neuronales, pourraient agir plus directement sur la perception elle-même.
+Elle peut déjà être traduite en lumière, en son ou en mouvement. Elle peut commander des objets robotisés, modifier des espaces réactifs ou coordonner des phénomènes physiques. L’écran n’est donc pas la seule destination possible du calcul. À terme, certaines interfaces, notamment neuronales, pourraient agir plus directement sur la perception elle-même.
 
 Si des formes de matière programmable devenaient progressivement disponibles, le même pipeline pourrait s’étendre davantage au monde physique.[^peripheral]
 
@@ -95,7 +99,9 @@ Les effets spéciaux disposent déjà d’une partie des outils et des savoir-fa
 
 [^peripheral]: La série *Périphériques, les mondes de Flynne*, adaptée du roman *Périphériques* de William Gibson, imagine notamment des formes de matière reconfigurable capables de se transformer à partir d’instructions numériques.
 
-## Une discipline qui n’a peut-être pas encore de nom
+
+Une discipline qui n’a peut-être pas encore de nom
+--------------------------------------------------------------------------------
 
 Et si les effets spéciaux avaient servi de laboratoire à une discipline plus vaste ?
 
@@ -109,11 +115,13 @@ Peut-être parlerons-nous un jour d’**ingénierie de la perception** pour dés
 
 Cette discipline prolongerait au-delà de l’illusion une ambition longtemps portée par les effets spéciaux : transformer une vision créative en expérience perceptible.
 
-## Épilogue — Une hypothèse industrielle
+
+Épilogue — Une hypothèse industrielle
+--------------------------------------------------------------------------------
 
 Trois niveaux se dessinent. D’abord, un mouvement déjà observable : les outils issus de l’audiovisuel migrent vers la simulation et l’industrie. Ensuite, une intégration encore partielle : leur inscription dans une chaîne plus générale de production du perceptible. Enfin, une projection spéculative : l’émergence d’une discipline autonome et la place que pourraient y occuper les entreprises d’effets visuels (VFX).
 
-Les entreprises de VFX interviennent déjà en amont dans l’architecture et l’industrie. L’évolution envisagée serait de ne plus seulement modéliser ou simuler des objets et des espaces, mais de concevoir un résultat perceptif complet et d’en coordonner la réalisation physique.
+Pour les entreprises de VFX, l’évolution envisagée serait de ne plus seulement modéliser ou simuler des objets et des espaces, mais de concevoir un résultat perceptif complet et d’en coordonner la réalisation physique.
 
 ```text
 Intention créative
@@ -141,16 +149,13 @@ Les entreprises de VFX disposent néanmoins d’un avantage potentiel. Leur mét
 
 Celles qui parviendraient à associer cette compétence à l’ingénierie physique, au design d’interaction et aux contraintes industrielles pourraient contribuer directement à une future ingénierie de l’expérience.
 
+---
+
 [^openusd]: [OpenUSD — Universal Scene Description](https://openusd.org/)
-
 [^nvidia-openusd]: [NVIDIA — Understanding OpenUSD Basics](https://docs.nvidia.com/learning/physical-ai/assembling-digital-twins/latest/getting-started/openusd-basics.html)
-
 [^omniverse]: [NVIDIA Omniverse](https://www.nvidia.com/en-us/omniverse/)
-
 [^isaac]: [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim)
-
 [^unreal]: [Unreal Engine — Digital Twins](https://www.unrealengine.com/digital-twins)
-
 [^unity]: [Unity — Industry Solutions](https://unity.com/industry)
 
 ## Discussion

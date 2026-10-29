@@ -39,7 +39,9 @@ Other disciplines also combine creativity and technology, but special effects ar
 >
 > — Vivake Gupta
 
-## Why Digital Technology Changed Everything
+
+Why Digital Technology Changed Everything
+--------------------------------------------------------------------------------
 
 Traditional special effects were closely tied to the systems that produced them: mechanisms, machinery, optical processes, chemical reactions, or pyrotechnic devices. Each illusion generally required a specific technical solution.
 
@@ -63,9 +65,11 @@ Perceptual experience
 
 This separation makes the process reusable: the same representation can be translated into different media using shared computing and processing infrastructures.
 
-Digital technology has thus replaced solutions designed on a case-by-case basis with a construction pipeline that can be transferred from one phenomenon to another.
+Digital technology has thus made it possible to reuse a construction pipeline across different phenomena.
 
-## Why the Screen Became Dominant
+
+Why the Screen Became Dominant
+--------------------------------------------------------------------------------
 
 The screen established itself as the preferred medium for digital special effects because it is programmable, reproducible, and relatively easy to control.
 
@@ -75,13 +79,13 @@ This versatility made the screen the primary medium for digital special effects.
 
 By industrializing the digital construction of perceptible phenomena, special effects developed a logic that extends beyond the screen.
 
-## What If the Screen Were Only a Phase?
 
-A digital representation is not intrinsically tied to the screen: it can be translated into other media.
+What If the Screen Were Only a Phase?
+--------------------------------------------------------------------------------
 
-The screen would then be less the endpoint of digital special effects than the first medium in which their logic could be industrialized.
+A digital representation is not intrinsically tied to the screen.
 
-A digital representation can already be translated into light, sound, or movement. It can control robotic objects, modify responsive spaces, or coordinate physical phenomena. The screen is therefore not the only possible destination of computation. In the longer term, some interfaces, including neural interfaces, could act more directly on perception itself.
+It can already be translated into light, sound, or movement. It can control robotic objects, modify responsive spaces, or coordinate physical phenomena. The screen is therefore not the only possible destination of computation. In the longer term, some interfaces, including neural interfaces, could act more directly on perception itself.
 
 If forms of programmable matter were to become progressively available, the same pipeline could extend further into the physical world.[^peripheral]
 
@@ -95,7 +99,9 @@ Special effects already have some of the tools and expertise required to transfo
 
 [^peripheral]: The series *The Peripheral*, adapted from William Gibson’s novel of the same name, notably imagines forms of reconfigurable matter capable of transforming in response to digital instructions.
 
-## A Discipline That May Not Yet Have a Name
+
+A Discipline That May Not Yet Have a Name
+--------------------------------------------------------------------------------
 
 What if special effects have served as a laboratory for a broader discipline?
 
@@ -109,11 +115,13 @@ Perhaps one day we will speak of **perception engineering** to describe the tech
 
 Beyond illusion, this discipline would extend an ambition long pursued by special effects: to transform a creative vision into a perceptible experience.
 
-## Epilogue — An Industrial Hypothesis
+
+Epilogue — An Industrial Hypothesis
+--------------------------------------------------------------------------------
 
 Three levels emerge. First, an already observable movement: tools originating in audiovisual production are migrating toward simulation and industrial applications. Second, a still partial integration: their incorporation into a more general pipeline for the production of the perceptible. Finally, a speculative projection: the emergence of an autonomous discipline and the place VFX companies might occupy within it.
 
-Visual effects (VFX) companies are already involved in the early stages of architectural and industrial projects. The evolution envisioned here would involve moving beyond merely modeling or simulating objects and spaces to designing a complete perceptual outcome and coordinating its physical realization.
+For VFX companies, the evolution envisioned here would involve moving beyond merely modeling or simulating objects and spaces to designing a complete perceptual outcome and coordinating its physical realization.
 
 ```text
 Creative intention
@@ -141,18 +149,15 @@ VFX companies nevertheless have a potential advantage. Their work does not consi
 
 Those that succeed in combining this capability with physical systems engineering, interaction design, and industrial constraints could contribute directly to a future discipline of experience engineering.
 
+---
+
 [^openusd]: [OpenUSD — Universal Scene Description](https://openusd.org/)
-
 [^nvidia-openusd]: [NVIDIA — Understanding OpenUSD Basics](https://docs.nvidia.com/learning/physical-ai/assembling-digital-twins/latest/getting-started/openusd-basics.html)
-
 [^omniverse]: [NVIDIA Omniverse](https://www.nvidia.com/en-us/omniverse/)
-
 [^isaac]: [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim)
-
 [^unreal]: [Unreal Engine — Digital Twins](https://www.unrealengine.com/digital-twins)
-
 [^unity]: [Unity — Industry Solutions](https://unity.com/industry)
 
 ## Discussion
 
-Comments are open on [Substack](https://cl3don.substack.com/p/beyond-special-effects)
+Comments open on [Substack](https://cl3don.substack.com/p/beyond-special-effects)
