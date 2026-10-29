@@ -32,7 +32,7 @@ Côté Dev, elle touche directement une activité centrale : l'écriture du code
 Côté Ops, elle ajoute surtout une nouvelle couche d’abstraction à une logique déjà fondée sur l’automatisation et l’orchestration.
 
 
-1. Le Dev passe de la production à l’orchestration
+1\. Le Dev passe de la production à l’orchestration
 --------------------------------------------------------------------------------
 
 ### Produire le logiciel →
@@ -52,7 +52,7 @@ L’écriture du code peut désormais être partiellement, voire entièrement d�
 Il conserve la responsabilité du logiciel sans nécessairement en écrire lui-même le code : il orchestre de plus en plus le système qui le produit.[^1]
 
 
-2. L’Ops étend sa logique d’orchestration
+2\. L’Ops étend sa logique d’orchestration
 --------------------------------------------------------------------------------
 
 ### Orchestrer via des automatisations →

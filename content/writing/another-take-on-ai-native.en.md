@@ -30,7 +30,7 @@ AI-native could also describe software designed to be adapted by its users to me
 Agents could help realize a long-held ambition in software design: malleability.[^1] If the software’s architecture supports it, each adaptation could become the starting point for the next.
 
 
-1. AI as a feature, a user, or a builder
+1\. AI as a feature, a user, or a builder
 --------------------------------------------------------------------------------
 
 *AI can be part of software, use it, or build it.*
@@ -56,7 +56,7 @@ The goal is no longer just to produce something with the software, but to change
 These three forms can coexist. Here, we focus on the third.
 
 
-2. From one-off gains to compounding gains
+2\. From one-off gains to compounding gains
 --------------------------------------------------------------------------------
 
 *An output is consumed. A tool can improve.*
@@ -86,7 +86,7 @@ The context shared with the agent gradually takes shape in the tool itself.
 The environment progressively adapts to its user, while also becoming more effective for the agents working within it.
 
 
-3. This loop depends on architecture
+3\. This loop depends on architecture
 --------------------------------------------------------------------------------
 
 *An interface is not enough.*
@@ -153,7 +153,7 @@ Agent
 MCP operates at the interface layer. Its power therefore depends less on the protocol itself than on what the software’s architecture makes available through it.
 
 
-4. Shaping our environments together
+4\. Shaping our environments together
 --------------------------------------------------------------------------------
 
 *From intent to change.*
