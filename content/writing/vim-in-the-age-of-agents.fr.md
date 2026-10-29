@@ -30,7 +30,7 @@ Cette expérience m’a fait reconsidérer un vieux compromis de Vim : sa libert
 Vim sert ici d’exemple, mais j’applique cette même approche à l’ensemble de mes outils configurables, dont je réunis les configurations dans un même dépôt pour les faire évoluer tout en conservant une ergonomie cohérente d’un outil à l’autre.
 
 
-1\. Les agents changent les critères de compétition
+Les agents changent les critères de compétition
 --------------------------------------------------------------------------------
 
 *Vim n’a pas changé. Son environnement, si.*
@@ -51,7 +51,7 @@ Avec les agents, l’humain n’est plus seul face au logiciel. Une partie de sa
 La compatibilité avec les agents devient alors un nouveau critère d’évaluation du logiciel : non seulement ce qu’il offre directement à l’humain, mais les primitives qu’il met à disposition d’un agent pour le configurer et l’utiliser.
 
 
-2\. La principale contrainte devient la principale force
+La principale contrainte devient la principale force
 --------------------------------------------------------------------------------
 
 *Ce qui nous coûtait du temps devient un levier.*
@@ -77,7 +77,7 @@ La configurabilité cesse alors d’être une simple possibilité théorique. De
 L’effort d’implémentation est fortement réduit : l’essentiel de ce travail peut être délégué, tandis que l’utilisateur conserve l’évaluation du résultat.
 
 
-3\. La composabilité devient un avantage décisif
+La composabilité devient un avantage décisif
 --------------------------------------------------------------------------------
 
 *Quelques briques, une infinité de combinaisons.*
@@ -101,7 +101,7 @@ J’ai donc progressivement fait évoluer les instructions et la documentation q
 Ce travail se poursuit au fil de l’usage : chaque amélioration de mes outils peut aussi être l’occasion d’affiner la manière dont l’agent intervient sur eux.
 
 
-4\. Vim n’est peut-être que le symptôme
+Vim n’est peut-être que le symptôme
 --------------------------------------------------------------------------------
 
 *Vim serait l’exemple d’un phénomène plus général.*
@@ -120,7 +120,5 @@ Construire pour l’ère des agents pourrait ainsi consister moins à intégrer 
 
 *Cette idée est prolongée dans [Un autre regard sur l’AI-native](https://cvidon.com/fr/writing/another-take-on-ai-native/), consacré aux architectures logicielles conçues pour cette forme d’adaptation.*
 
----
-
-[^1]: Wendy E. Mackay, *Triggers and Barriers to Customizing Software*, CHI, 1991. [Lire l’article](https://doi.org/10.1145/108844.108867)
-[^2]: Rob Pike et Brian W. Kernighan, *Program Design in the UNIX Environment*, AT&T Bell Laboratories Technical Journal, 1984. [Lire l’article](https://lists.gnu.org/archive/html/nmh-workers/2012-11/pdfGsAjwogf3t.pdf)
+[^1]: Wendy E. Mackay, [*Triggers and Barriers to Customizing Software*](https://doi.org/10.1145/108844.108867), CHI, 1991.
+[^2]: Rob Pike et Brian W. Kernighan, [*Program Design in the UNIX Environment*](https://lists.gnu.org/archive/html/nmh-workers/2012-11/pdfGsAjwogf3t.pdf), AT&T Bell Laboratories Technical Journal, 1984.

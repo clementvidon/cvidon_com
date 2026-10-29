@@ -32,7 +32,7 @@ Côté Dev, elle touche directement une activité centrale : l'écriture du code
 Côté Ops, elle ajoute surtout une nouvelle couche d’abstraction à une logique déjà fondée sur l’automatisation et l’orchestration.
 
 
-1\. Le Dev passe de la production à l’orchestration
+Le Dev passe de la production à l’orchestration
 --------------------------------------------------------------------------------
 
 ### Produire le logiciel →
@@ -52,7 +52,7 @@ L’écriture du code peut désormais être partiellement, voire entièrement d�
 Il conserve la responsabilité du logiciel sans nécessairement en écrire lui-même le code : il orchestre de plus en plus le système qui le produit.[^1]
 
 
-2\. L’Ops étend sa logique d’orchestration
+L’Ops étend sa logique d’orchestration
 --------------------------------------------------------------------------------
 
 ### Orchestrer via des automatisations →
@@ -87,7 +87,5 @@ L’expérience de l’Ops suggère qu’un métier peut déléguer une grande p
 
 À mesure que les agents prennent en charge l’exécution, le développement se rapproche ainsi d’une logique depuis longtemps familière à l’Ops : **ne plus seulement produire, mais orchestrer ce qui produit.**
 
----
-
-[^1]: Birgitta Böckeler, *Harness engineering for coding agent users*, Martin Fowler, 2026. [Lire l’article](https://martinfowler.com/articles/harness-engineering.html)
-[^2]: Ioannis Papapanagiotou, Stevan Malesevic, Chris Heiser et Ruslan Meshenberg, *AI in SRE: How Google is Engineering the Future of Reliable Operations*, Google SRE. [Lire l’article](https://sre.google/resources/practices-and-processes/ai-engineering-reliable-operations/)
+[^1]: Birgitta Böckeler, [*Harness engineering for coding agent users*](https://martinfowler.com/articles/harness-engineering.html), Martin Fowler, 2026.
+[^2]: Ioannis Papapanagiotou et al., [*AI in SRE: How Google is Engineering the Future of Reliable Operations*](https://sre.google/resources/practices-and-processes/ai-engineering-reliable-operations/), Google SRE.

@@ -32,7 +32,7 @@ For developers, it directly affects a core activity: writing code.
 For Ops, it mainly adds another layer of abstraction to a discipline already built around automation and orchestration.
 
 
-1\. Dev Shifts from Production to Orchestration
+Dev Shifts from Production to Orchestration
 --------------------------------------------------------------------------------
 
 ### Producing Software →
@@ -52,7 +52,7 @@ Writing code can now be partially or even entirely delegated. Developers can the
 They remain responsible for the software without necessarily writing the code themselves. Increasingly, they orchestrate the systems that produce it.[^1]
 
 
-2\. Ops Extends Its Approach to Orchestration
+Ops Extends Its Approach to Orchestration
 --------------------------------------------------------------------------------
 
 ### Orchestrating Through Automation →
@@ -87,7 +87,5 @@ The experience of Ops suggests that a profession can delegate much of its execut
 
 As agents take over more execution, software development moves toward an approach that has long been familiar to Ops: **not just producing, but orchestrating what produces.**
 
----
-
-[^1]: Birgitta Böckeler, *Harness engineering for coding agent users*, Martin Fowler, 2026. [Read the article](https://martinfowler.com/articles/harness-engineering.html)
-[^2]: Ioannis Papapanagiotou, Stevan Malesevic, Chris Heiser, and Ruslan Meshenberg, *AI in SRE: How Google is Engineering the Future of Reliable Operations*, Google SRE. [Read the article](https://sre.google/resources/practices-and-processes/ai-engineering-reliable-operations/)
+[^1]: Birgitta Böckeler, [*Harness engineering for coding agent users*](https://martinfowler.com/articles/harness-engineering.html), Martin Fowler, 2026.
+[^2]: Ioannis Papapanagiotou et al., [*AI in SRE: How Google is Engineering the Future of Reliable Operations*](https://sre.google/resources/practices-and-processes/ai-engineering-reliable-operations/), Google SRE.

@@ -87,7 +87,7 @@ A digital representation is not intrinsically tied to the screen.
 
 It can already be translated into light, sound, or movement. It can control robotic objects, modify responsive spaces, or coordinate physical phenomena. The screen is therefore not the only possible destination of computation. In the longer term, some interfaces, including neural interfaces, could act more directly on perception itself.
 
-If forms of programmable matter were to become progressively available, the same pipeline could extend further into the physical world.[^peripheral]
+If forms of programmable matter were to become progressively available, the same pipeline could extend further into the physical world.[^1]
 
 *Here, programmable matter can be understood as physical elements capable of changing their position, shape, texture, or behavior under the control of a digital system.*
 
@@ -96,9 +96,6 @@ Swarms of light-emitting drones already provide an elementary version of this. E
 A robotic stage set provides a more advanced example. The movements of structures, lighting, projections, sound, and atmospheric effects can be designed and previsualized in a digital environment, then executed in a physical space by coordinated systems. The digital representation no longer produces only an image: it directly organizes an event in space.
 
 Special effects already have some of the tools and expertise required to transform a creative intention into a digital representation and then coordinate its realization. The next step would be to extend this logic to programmable physical systems.
-
-[^peripheral]: The series *The Peripheral*, adapted from William Gibson’s novel of the same name, notably imagines forms of reconfigurable matter capable of transforming in response to digital instructions.
-
 
 A Discipline That May Not Yet Have a Name
 --------------------------------------------------------------------------------
@@ -137,9 +134,9 @@ Perceptible manifestation
 Lived experience
 ```
 
-This migration has already begun. OpenUSD, originally developed by Pixar to assemble the complex scenes of film productions, is now used in platforms for digital twins, industrial simulation, and robotics. NVIDIA Omniverse extends this logic by combining scene representation, physical simulation, rendering, and sensor simulation.[^openusd][^nvidia-openusd][^omniverse][^isaac]
+This migration has already begun. OpenUSD, originally developed by Pixar to assemble the complex scenes of film productions, is now used in platforms for digital twins, industrial simulation, and robotics. NVIDIA Omniverse extends this logic by combining scene representation, physical simulation, rendering, and sensor simulation.[^2]
 
-Real-time 3D engines are following a comparable trajectory. Unreal Engine and Unity, originally developed to create interactive worlds, are now used in architecture, automotive, manufacturing, infrastructure, training, and digital twins.[^unreal][^unity]
+Real-time 3D engines are following a comparable trajectory. Unreal Engine and Unity, originally developed to create interactive worlds, are now used in architecture, automotive, manufacturing, infrastructure, training, and digital twins.[^3]
 
 These examples do not yet demonstrate the emergence of a general form of experience engineering. More modestly, they show that some of the infrastructure developed for audiovisual worlds is already migrating toward simulation and the design of the physical world.
 
@@ -151,13 +148,10 @@ Those that succeed in combining this capability with physical systems engineerin
 
 ---
 
-[^openusd]: [OpenUSD — Universal Scene Description](https://openusd.org/)
-[^nvidia-openusd]: [NVIDIA — Understanding OpenUSD Basics](https://docs.nvidia.com/learning/physical-ai/assembling-digital-twins/latest/getting-started/openusd-basics.html)
-[^omniverse]: [NVIDIA Omniverse](https://www.nvidia.com/en-us/omniverse/)
-[^isaac]: [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim)
-[^unreal]: [Unreal Engine — Digital Twins](https://www.unrealengine.com/digital-twins)
-[^unity]: [Unity — Industry Solutions](https://unity.com/industry)
-
 ## Discussion
 
 Comments open on [Substack](https://cl3don.substack.com/p/beyond-special-effects)
+
+[^1]: The series *The Peripheral*, adapted from William Gibson’s novel of the same name, imagines forms of reconfigurable matter capable of transforming in response to digital instructions.
+[^2]: OpenUSD, [*Universal Scene Description*](https://openusd.org/); NVIDIA, [*Understanding OpenUSD Basics*](https://docs.nvidia.com/learning/physical-ai/assembling-digital-twins/latest/getting-started/openusd-basics.html), [*Omniverse*](https://www.nvidia.com/en-us/omniverse/), and [*Isaac Sim*](https://developer.nvidia.com/isaac/sim).
+[^3]: Epic Games, [*Unreal Engine — Digital Twins*](https://www.unrealengine.com/digital-twins); Unity, [*Industry Solutions*](https://unity.com/industry).

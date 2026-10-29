@@ -30,7 +30,7 @@ That experience made me reconsider a longstanding Vim trade-off: its freedom of 
 Vim serves as an example here, but I apply the same approach to all my configurable tools, keeping their configurations in a single repository so I can evolve them while maintaining a consistent experience across tools.
 
 
-1\. Agents Are Changing What Makes Software Competitive
+Agents Are Changing What Makes Software Competitive
 --------------------------------------------------------------------------------
 
 *Vim hasn't changed. Its environment has.*
@@ -51,7 +51,7 @@ With agents, users no longer have to deal with software on their own. Part of it
 Agent compatibility therefore becomes a new criterion for evaluating software: not only what it offers directly to users, but also the primitives it makes available to agents for configuring and using it.
 
 
-2\. The Main Constraint Becomes the Main Strength
+The Main Constraint Becomes the Main Strength
 --------------------------------------------------------------------------------
 
 *What used to cost us time now gives us leverage.*
@@ -77,7 +77,7 @@ Configurability is no longer just a theoretical capability. Explicit, stable, an
 The implementation effort is significantly reduced: most of the implementation can be delegated, while the user remains responsible for evaluating the result.
 
 
-3\. Composability Becomes a Decisive Advantage
+Composability Becomes a Decisive Advantage
 --------------------------------------------------------------------------------
 
 *A few building blocks, endless combinations.*
@@ -101,7 +101,7 @@ I therefore gradually refined the instructions and documentation guiding the age
 This work continues as I use my tools: each improvement can also help refine how the agent adapts them.
 
 
-4\. Vim May Only Be a Symptom
+Vim May Only Be a Symptom
 --------------------------------------------------------------------------------
 
 *Vim may be one example of a broader phenomenon.*
@@ -120,7 +120,5 @@ Building for the age of agents might then be less about integrating AI into ever
 
 *This idea is explored further in [Another Take on AI-Native](https://cvidon.com/writing/another-take-on-ai-native/), which examines software architectures designed for this kind of adaptation.*
 
----
-
-[^1]: Wendy E. Mackay, *Triggers and Barriers to Customizing Software*, CHI, 1991. [Read the paper](https://doi.org/10.1145/108844.108867)
-[^2]: Rob Pike and Brian W. Kernighan, *Program Design in the UNIX Environment*, AT&T Bell Laboratories Technical Journal, 1984. [Read the paper](https://lists.gnu.org/archive/html/nmh-workers/2012-11/pdfGsAjwogf3t.pdf)
+[^1]: Wendy E. Mackay, [*Triggers and Barriers to Customizing Software*](https://doi.org/10.1145/108844.108867), CHI, 1991.
+[^2]: Rob Pike and Brian W. Kernighan, [*Program Design in the UNIX Environment*](https://lists.gnu.org/archive/html/nmh-workers/2012-11/pdfGsAjwogf3t.pdf), AT&T Bell Laboratories Technical Journal, 1984.

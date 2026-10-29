@@ -87,7 +87,7 @@ Une représentation numérique n’est pas intrinsèquement liée à l’écran.
 
 Elle peut déjà être traduite en lumière, en son ou en mouvement. Elle peut commander des objets robotisés, modifier des espaces réactifs ou coordonner des phénomènes physiques. L’écran n’est donc pas la seule destination possible du calcul. À terme, certaines interfaces, notamment neuronales, pourraient agir plus directement sur la perception elle-même.
 
-Si des formes de matière programmable devenaient progressivement disponibles, le même pipeline pourrait s’étendre davantage au monde physique.[^peripheral]
+Si des formes de matière programmable devenaient progressivement disponibles, le même pipeline pourrait s’étendre davantage au monde physique.[^1]
 
 *Par matière programmable, on peut entendre ici des éléments physiques capables de changer de position, de forme, de texture ou de comportement sous le contrôle d’un système numérique.*
 
@@ -96,9 +96,6 @@ Des nuées de drones lumineux en donnent déjà une version élémentaire. Chaqu
 Un décor scénique robotisé en offre un exemple plus abouti. Les mouvements des structures, la lumière, les projections, le son et les effets atmosphériques peuvent être conçus et prévisualisés dans un environnement numérique, puis exécutés dans un espace physique par des dispositifs coordonnés. La représentation numérique ne produit alors plus seulement une image : elle organise directement un événement dans l’espace.
 
 Les effets spéciaux disposent déjà d’une partie des outils et des savoir-faire nécessaires pour transformer une intention créative en représentation numérique, puis en coordonner la réalisation. La prochaine étape consisterait à étendre cette logique à des dispositifs physiques programmables.
-
-[^peripheral]: La série *Périphériques, les mondes de Flynne*, adaptée du roman *Périphériques* de William Gibson, imagine notamment des formes de matière reconfigurable capables de se transformer à partir d’instructions numériques.
-
 
 Une discipline qui n’a peut-être pas encore de nom
 --------------------------------------------------------------------------------
@@ -137,9 +134,9 @@ Manifestation sensible
 Expérience vécue
 ```
 
-Cette migration a déjà commencé. OpenUSD, initialement conçu par Pixar pour assembler les scènes complexes de productions cinématographiques, est désormais employé dans des plateformes de jumeaux numériques, de simulation industrielle et de robotique. NVIDIA Omniverse prolonge cette logique en associant représentation de scènes, simulation physique, rendu et simulation de capteurs.[^openusd][^nvidia-openusd][^omniverse][^isaac]
+Cette migration a déjà commencé. OpenUSD, initialement conçu par Pixar pour assembler les scènes complexes de productions cinématographiques, est désormais employé dans des plateformes de jumeaux numériques, de simulation industrielle et de robotique. NVIDIA Omniverse prolonge cette logique en associant représentation de scènes, simulation physique, rendu et simulation de capteurs.[^2]
 
-Les moteurs de 3D temps réel suivent une trajectoire comparable. Unreal Engine et Unity, développés à l’origine pour créer des mondes interactifs, sont aujourd’hui employés dans l’architecture, l’automobile, la fabrication, les infrastructures, la formation et les jumeaux numériques.[^unreal][^unity]
+Les moteurs de 3D temps réel suivent une trajectoire comparable. Unreal Engine et Unity, développés à l’origine pour créer des mondes interactifs, sont aujourd’hui employés dans l’architecture, l’automobile, la fabrication, les infrastructures, la formation et les jumeaux numériques.[^3]
 
 Ces exemples ne prouvent pas encore l’émergence d’une ingénierie générale de l’expérience. Ils montrent plus modestement qu’une partie des infrastructures développées pour les mondes audiovisuels migre déjà vers la simulation et la conception du monde physique.
 
@@ -151,13 +148,10 @@ Celles qui parviendraient à associer cette compétence à l’ingénierie physi
 
 ---
 
-[^openusd]: [OpenUSD — Universal Scene Description](https://openusd.org/)
-[^nvidia-openusd]: [NVIDIA — Understanding OpenUSD Basics](https://docs.nvidia.com/learning/physical-ai/assembling-digital-twins/latest/getting-started/openusd-basics.html)
-[^omniverse]: [NVIDIA Omniverse](https://www.nvidia.com/en-us/omniverse/)
-[^isaac]: [NVIDIA Isaac Sim](https://developer.nvidia.com/isaac/sim)
-[^unreal]: [Unreal Engine — Digital Twins](https://www.unrealengine.com/digital-twins)
-[^unity]: [Unity — Industry Solutions](https://unity.com/industry)
-
 ## Discussion
 
 Les commentaires sont ouverts sur [Substack](https://cl3don.substack.com/p/beyond-special-effects).
+
+[^1]: La série *Périphériques, les mondes de Flynne*, adaptée du roman *Périphériques* de William Gibson, imagine des formes de matière reconfigurable capables de se transformer à partir d’instructions numériques.
+[^2]: OpenUSD, [*Universal Scene Description*](https://openusd.org/) ; NVIDIA, [*Understanding OpenUSD Basics*](https://docs.nvidia.com/learning/physical-ai/assembling-digital-twins/latest/getting-started/openusd-basics.html), [*Omniverse*](https://www.nvidia.com/en-us/omniverse/) et [*Isaac Sim*](https://developer.nvidia.com/isaac/sim).
+[^3]: Epic Games, [*Unreal Engine — Digital Twins*](https://www.unrealengine.com/digital-twins) ; Unity, [*Industry Solutions*](https://unity.com/industry).
