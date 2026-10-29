@@ -1,6 +1,6 @@
 +++
 title = "Vim in the Age of Agents"
-seo_title = "Vim in the Age of Agents — The New Value of Customization"
+seo_title = "Vim in the Age of Agents — Customization’s Comeback"
 description = "How AI agents lower the cost of customizing Vim and make programmable, composable software more valuable to its users."
 social_description = "Why Vim’s deep configurability matters more in the age of agents."
 
@@ -21,7 +21,7 @@ tags = [
 draft = false
 +++
 
-*The New Value of Customization*
+*Customization’s Comeback*
 
 When I picked up an old Vim configuration that had been gathering dust, I wanted to adapt its existing behavior to the way I work today. With an agent, I could describe the behavior I wanted, try it out, then ask for adjustments.
 

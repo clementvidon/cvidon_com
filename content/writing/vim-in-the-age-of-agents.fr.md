@@ -1,6 +1,6 @@
 +++
 title = "Vim à l’ère des agents"
-seo_title = "Vim à l’ère des agents — La nouvelle valeur de la personnalisation"
+seo_title = "Vim à l’ère des agents — La personnalisation, enfin à portée de main"
 description = "Comment les agents IA réduisent le coût de personnalisation de Vim et rendent les logiciels programmables et composables plus utiles à leurs utilisateurs."
 social_description = "Pourquoi la configurabilité de Vim compte davantage à l’ère des agents."
 
@@ -21,7 +21,7 @@ tags = [
 draft = false
 +++
 
-*La nouvelle valeur de la personnalisation*
+*La personnalisation, enfin à portée de main*
 
 En reprenant une configuration Vim qui prenait la poussière, j’ai voulu adapter ses anciens comportements à ma nouvelle façon de travailler. Avec un agent, je pouvais décrire le comportement souhaité, l’essayer, puis demander des ajustements.
 
