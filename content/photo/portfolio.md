@@ -38,7 +38,7 @@ Paris-based fashion and event photographer.
 
 I work across portraits, lookbooks, reportage, and editorial series, with publications including *Harper’s Bazaar Arabia*, *Gala*, and *Monsieur*.
 
-**Selected work**
+## Selected work
 
 - [AMU Home](/photo/amu-home/) — *interiors*
 - [Juliette](/photo/juliette/) — *portrait*
@@ -48,7 +48,7 @@ I work across portraits, lookbooks, reportage, and editorial series, with public
 - [Palermo Weekend](/photo/palermo-weekend/) — *travel*
 - [BlancBloom AW25](/photo/blancbloom-aw25/) — *lookbook*
 
-**Open to commissions and collaborations**
+## Open to commissions and collaborations
 
 - fashion editorial and lookbook
 - event and party reportage

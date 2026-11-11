@@ -23,7 +23,8 @@
 
     {{ if .Content }}
       <div class="prose text-links">
-        {{ .Content }}
+        {{/* Keep Markdown list dashes in the HTML so they can be selected with the text. */}}
+        {{ replace (replace .Content "<ul>" "<ul role=\"list\">") "<li>" "<li>- " | safeHTML }}
       </div>
     {{ end }}
 

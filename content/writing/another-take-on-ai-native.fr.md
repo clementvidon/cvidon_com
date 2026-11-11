@@ -61,7 +61,7 @@ De la productivité consommée à la productivité capitalisée
 
 *Un résultat se consomme. Un outil s’améliore.*
 
-**Un gain ponctuel**
+### Un gain ponctuel
 
 Lorsqu’un agent génère une image, écrit un document ou réalise une opération dans une application, le gain est principalement attaché à cette tâche.
 
@@ -69,7 +69,7 @@ Lorsqu’un agent génère une image, écrit un document ou réalise une opérat
 
 L’outil, lui, reste inchangé pour la tâche suivante.
 
-**Un gain persistant**
+### Un gain persistant
 
 Lorsque l’agent adapte l’outil lui-même, une partie de son travail reste disponible pour les usages futurs.
 
@@ -77,7 +77,7 @@ Lorsque l’agent adapte l’outil lui-même, une partie de son travail reste di
 
 Une automatisation, une configuration ou une extension bénéficie alors aux tâches suivantes.
 
-**Du contexte qui s’accumule**
+### Du contexte qui s’accumule
 
 Chaque adaptation intègre une part du contexte propre à l’utilisateur : ses habitudes, ses préférences, ses contraintes ou ses workflows.
 

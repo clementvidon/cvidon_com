@@ -61,7 +61,7 @@ From one-off gains to compounding gains
 
 *An output is consumed. A tool can improve.*
 
-**A one-off gain**
+### A one-off gain
 
 When an agent generates an image, writes a document, or performs an action in an application, the benefit is largely tied to that task.
 
@@ -69,7 +69,7 @@ When an agent generates an image, writes a document, or performs an action in an
 
 The tool itself remains unchanged for the next task.
 
-**A lasting gain**
+### A lasting gain
 
 When the agent adapts the tool itself, some of its work remains available for future use.
 
@@ -77,7 +77,7 @@ When the agent adapts the tool itself, some of its work remains available for fu
 
 An automation, configuration, or extension can then benefit subsequent tasks.
 
-**Accumulating context**
+### Accumulating context
 
 Each adaptation incorporates some of the user’s context: their habits, preferences, constraints, or workflows.
 

@@ -42,9 +42,8 @@
   --single-title-to-meta-gap: 0.5rem;
   --body-paragraph-gap: 0.8rem;
 
-    /* Code */
-  --code-font-size: 1rem;
-  --code-font-size-compact: 0.85rem;
+  /* Code */
+  --code-font-size: 0.85rem;
   --code-block-padding-block: var(--body-paragraph-gap);
   --code-block-padding-inline: var(--body-paragraph-gap);
 
@@ -142,12 +141,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.25;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.25;
 }
 
@@ -314,7 +313,7 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 /* Prose */
 
 .prose strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Prose headings */
@@ -363,13 +362,6 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   display: block;
   font: inherit;
   padding: 0;
-}
-
-@media (max-width: 41.5rem) {
-  .prose :not(pre) > code,
-  .prose pre {
-    font-size: var(--code-font-size-compact);
-  }
 }
 
 .prose p + .highlight,
@@ -422,19 +414,12 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   margin: 0;
 }
 
-.prose ul > li {
-  position: relative;
-  padding-left: 1rem;
+.prose p + ul {
+  margin-top: var(--body-paragraph-gap);
 }
 
 .prose li + li {
   margin-top: 0.1rem;
-}
-
-.prose ul > li::before {
-  content: "-";
-  position: absolute;
-  left: 0;
 }
 
 /* Footnotes */
