@@ -1,0 +1,78 @@
+{{- if not .Params.pinned -}}
+  {{- $englishSite := site -}}
+  {{- range hugo.Sites -}}
+    {{- if eq .Language.Lang "en" -}}
+      {{- $englishSite = . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $pages := slice -}}
+  {{- with $englishSite.GetPage (printf "/%s" .Section) -}}
+    {{- $pages = (where .RegularPages "Params.pinned" "!=" true).ByDate.Reverse -}}
+  {{- end -}}
+
+  {{- $currentEnglish := . -}}
+  {{- if ne .Language.Lang "en" -}}
+    {{- range .Translations -}}
+      {{- if eq .Language.Lang "en" -}}
+        {{- $currentEnglish = . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $currentIndex := -1 -}}
+  {{- range $index, $page := $pages -}}
+    {{- if eq $page.RelPermalink $currentEnglish.RelPermalink -}}
+      {{- $currentIndex = $index -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if and (ge $currentIndex 0) (gt (len $pages) 1) -}}
+    {{- $count := len $pages -}}
+    {{- $previous := false -}}
+    {{- $next := false -}}
+    {{- if gt $currentIndex 0 -}}
+      {{- $previous = index $pages (sub $currentIndex 1) -}}
+    {{- end -}}
+    {{- if lt (add $currentIndex 1) $count -}}
+      {{- $next = index $pages (add $currentIndex 1) -}}
+    {{- end -}}
+    {{- $previousTarget := $previous -}}
+    {{- $nextTarget := $next -}}
+    {{- if ne $.Language.Lang "en" -}}
+      {{- with $previous -}}
+        {{- range .Translations -}}
+          {{- if eq .Language.Lang $.Language.Lang -}}
+            {{- $previousTarget = . -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- with $next -}}
+        {{- range .Translations -}}
+          {{- if eq .Language.Lang $.Language.Lang -}}
+            {{- $nextTarget = . -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $kind := "article" -}}
+    {{- if eq $.Section "photo" -}}
+      {{- $kind = "album" -}}
+    {{- else if eq $.Section "experiments" -}}
+      {{- $kind = "experiment" -}}
+    {{- end -}}
+    <div class="page-pager">
+      {{- with $previousTarget -}}
+        <a href="{{ .RelPermalink }}" aria-label="Previous {{ $kind }}: {{ .Title }}">←</a>
+      {{- else -}}
+        <span class="page-pager-empty" aria-hidden="true">←</span>
+      {{- end -}}
+      <span aria-label="{{ $kind | title }} {{ add $currentIndex 1 }} of {{ $count }}">{{ add $currentIndex 1 }} / {{ $count }}</span>
+      {{- with $nextTarget -}}
+        <a href="{{ .RelPermalink }}" aria-label="Next {{ $kind }}: {{ .Title }}">→</a>
+      {{- else -}}
+        <span class="page-pager-empty" aria-hidden="true">→</span>
+      {{- end -}}
+    </div>
+  {{- end -}}
+{{- end -}}

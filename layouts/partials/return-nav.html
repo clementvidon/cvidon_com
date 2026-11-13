@@ -1,0 +1,15 @@
+{{- $label := "" -}}
+{{- if eq .Section "writing" -}}
+  {{- $label = "Return to writing" -}}
+{{- else if eq .Section "photo" -}}
+  {{- $label = "Return to photo" -}}
+{{- else if eq .Section "experiments" -}}
+  {{- $label = "Return to experiments" -}}
+{{- end -}}
+
+{{- with $label -}}
+  <nav class="return-nav" aria-label="Section navigation">
+    <a href="/{{ $.Section }}/"><span aria-hidden="true">←</span> {{ . }}</a>
+    {{ partial "page-pager.html" $ }}
+  </nav>
+{{- end -}}
