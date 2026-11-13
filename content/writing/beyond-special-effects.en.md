@@ -155,3 +155,7 @@ Comments open on [Substack](https://cl3don.substack.com/p/beyond-special-effects
 [^1]: The series *The Peripheral*, adapted from William Gibson’s novel of the same name, imagines forms of reconfigurable matter capable of transforming in response to digital instructions.
 [^2]: OpenUSD, [*Universal Scene Description*](https://openusd.org/); NVIDIA, [*Understanding OpenUSD Basics*](https://docs.nvidia.com/learning/physical-ai/assembling-digital-twins/latest/getting-started/openusd-basics.html), [*Omniverse*](https://www.nvidia.com/en-us/omniverse/), and [*Isaac Sim*](https://developer.nvidia.com/isaac/sim).
 [^3]: Epic Games, [*Unreal Engine — Digital Twins*](https://www.unrealengine.com/digital-twins); Unity, [*Industry Solutions*](https://unity.com/industry).
+
+{{< editorial-note >}}
+**Editorial note.** The ideas, arguments, and editorial choices in this article are my own. I use AI as a tool to assist with research, drafting, and editing. Each piece is the result of many hours of work and successive refinements. I direct the process from start to finish, review and revise every draft, and take full responsibility for the final result.
+{{< /editorial-note >}}

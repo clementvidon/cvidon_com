@@ -122,3 +122,7 @@ Construire pour l’ère des agents pourrait ainsi consister moins à intégrer 
 
 [^1]: Wendy E. Mackay, [*Triggers and Barriers to Customizing Software*](https://doi.org/10.1145/108844.108867), CHI, 1991.
 [^2]: Rob Pike et Brian W. Kernighan, [*Program Design in the UNIX Environment*](https://lists.gnu.org/archive/html/nmh-workers/2012-11/pdfGsAjwogf3t.pdf), AT&T Bell Laboratories Technical Journal, 1984.
+
+{{< editorial-note >}}
+**Note éditoriale.** Les idées, les arguments et les choix éditoriaux de cet article sont les miens. J’utilise l’IA comme outil d’aide à la recherche, à la rédaction et à la révision. Chaque texte est le fruit de nombreuses heures de travail et d’ajustements successifs. Je dirige le processus du début à la fin, relis et retravaille chaque version, et assume l’entière responsabilité du résultat final.
+{{< /editorial-note >}}

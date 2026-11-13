@@ -155,3 +155,7 @@ Les commentaires sont ouverts sur [Substack](https://cl3don.substack.com/p/beyon
 [^1]: La série *Périphériques, les mondes de Flynne*, adaptée du roman *Périphériques* de William Gibson, imagine des formes de matière reconfigurable capables de se transformer à partir d’instructions numériques.
 [^2]: OpenUSD, [*Universal Scene Description*](https://openusd.org/) ; NVIDIA, [*Understanding OpenUSD Basics*](https://docs.nvidia.com/learning/physical-ai/assembling-digital-twins/latest/getting-started/openusd-basics.html), [*Omniverse*](https://www.nvidia.com/en-us/omniverse/) et [*Isaac Sim*](https://developer.nvidia.com/isaac/sim).
 [^3]: Epic Games, [*Unreal Engine — Digital Twins*](https://www.unrealengine.com/digital-twins) ; Unity, [*Industry Solutions*](https://unity.com/industry).
+
+{{< editorial-note >}}
+**Note éditoriale.** Les idées, les arguments et les choix éditoriaux de cet article sont les miens. J’utilise l’IA comme outil d’aide à la recherche, à la rédaction et à la révision. Chaque texte est le fruit de nombreuses heures de travail et d’ajustements successifs. Je dirige le processus du début à la fin, relis et retravaille chaque version, et assume l’entière responsabilité du résultat final.
+{{< /editorial-note >}}

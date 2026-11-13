@@ -187,3 +187,7 @@ The question would then be as much about AI’s place within the software as abo
 [^1]: Geoffrey Litt et al., [*Malleable Software*](https://www.inkandswitch.com/essay/malleable-software/), Ink & Switch, 2025.
 [^2]: Andy Matuschak, [*A startling glimpse of malleable software: LLM-generated Obsidian plugins*](https://andymatuschak.org/files/2025-03-31.html), 2025.
 [^3]: Model Context Protocol, [*Understanding MCP servers*](https://modelcontextprotocol.io/docs/learn/server-concepts).
+
+{{< editorial-note >}}
+**Editorial note.** The ideas, arguments, and editorial choices in this article are my own. I use AI as a tool to assist with research, drafting, and editing. Each piece is the result of many hours of work and successive refinements. I direct the process from start to finish, review and revise every draft, and take full responsibility for the final result.
+{{< /editorial-note >}}

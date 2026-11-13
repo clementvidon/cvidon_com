@@ -122,3 +122,7 @@ Building for the age of agents might then be less about integrating AI into ever
 
 [^1]: Wendy E. Mackay, [*Triggers and Barriers to Customizing Software*](https://doi.org/10.1145/108844.108867), CHI, 1991.
 [^2]: Rob Pike and Brian W. Kernighan, [*Program Design in the UNIX Environment*](https://lists.gnu.org/archive/html/nmh-workers/2012-11/pdfGsAjwogf3t.pdf), AT&T Bell Laboratories Technical Journal, 1984.
+
+{{< editorial-note >}}
+**Editorial note.** The ideas, arguments, and editorial choices in this article are my own. I use AI as a tool to assist with research, drafting, and editing. Each piece is the result of many hours of work and successive refinements. I direct the process from start to finish, review and revise every draft, and take full responsibility for the final result.
+{{< /editorial-note >}}

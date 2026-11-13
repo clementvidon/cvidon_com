@@ -89,3 +89,7 @@ As agents take over more execution, software development moves toward an approac
 
 [^1]: Birgitta Böckeler, [*Harness engineering for coding agent users*](https://martinfowler.com/articles/harness-engineering.html), Martin Fowler, 2026.
 [^2]: Ioannis Papapanagiotou et al., [*AI in SRE: How Google is Engineering the Future of Reliable Operations*](https://sre.google/resources/practices-and-processes/ai-engineering-reliable-operations/), Google SRE.
+
+{{< editorial-note >}}
+**Editorial note.** The ideas, arguments, and editorial choices in this article are my own. I use AI as a tool to assist with research, drafting, and editing. Each piece is the result of many hours of work and successive refinements. I direct the process from start to finish, review and revise every draft, and take full responsibility for the final result.
+{{< /editorial-note >}}

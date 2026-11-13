@@ -89,3 +89,7 @@ L’expérience de l’Ops suggère qu’un métier peut déléguer une grande p
 
 [^1]: Birgitta Böckeler, [*Harness engineering for coding agent users*](https://martinfowler.com/articles/harness-engineering.html), Martin Fowler, 2026.
 [^2]: Ioannis Papapanagiotou et al., [*AI in SRE: How Google is Engineering the Future of Reliable Operations*](https://sre.google/resources/practices-and-processes/ai-engineering-reliable-operations/), Google SRE.
+
+{{< editorial-note >}}
+**Note éditoriale.** Les idées, les arguments et les choix éditoriaux de cet article sont les miens. J’utilise l’IA comme outil d’aide à la recherche, à la rédaction et à la révision. Chaque texte est le fruit de nombreuses heures de travail et d’ajustements successifs. Je dirige le processus du début à la fin, relis et retravaille chaque version, et assume l’entière responsabilité du résultat final.
+{{< /editorial-note >}}
