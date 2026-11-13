@@ -201,4 +201,6 @@ If you have questions, comments, or improvements, feel free to join the discussi
 - Article: [Substack](https://cl3don.substack.com/p/a-living-visual-archive)
 - Workflow: [GitHub Discussions](https://github.com/clementvidon/photography-archiving-workflow/discussions)
 
+{{< editorial-note >}}
 **Editorial note.** The ideas, arguments, and editorial choices in this article are my own. I use AI as a tool to assist with research, drafting, and editing. Each piece is the result of many hours of work and successive refinements. I direct the process from start to finish, review and revise every draft, and take full responsibility for the final result.
+{{< /editorial-note >}}

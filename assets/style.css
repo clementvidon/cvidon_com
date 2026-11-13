@@ -40,10 +40,10 @@
 
   /* Single pages */
   --single-title-to-meta-gap: 0.5rem;
-  --body-paragraph-gap: 0.8rem;
+  --body-paragraph-gap: 0.75rem;
 
   /* Code */
-  --code-font-size: 0.85rem;
+  --code-font-size: 0.9rem;
   --code-block-padding-block: var(--body-paragraph-gap);
   --code-block-padding-inline: var(--body-paragraph-gap);
 
@@ -60,15 +60,16 @@
   --lede-line-height: 1.5;
   --heading-font-size: 1.5rem;
 
-  --heading-2-top-gap: 2rem;
-  --heading-2-bottom-gap: 0.8rem;
-  --heading-3-top-gap: 1.5rem;
-  --heading-3-bottom-gap: 0.65rem;
+  --heading-2-top-gap: 1.75rem;
+  --heading-2-bottom-gap: 0.75rem;
+  --heading-3-top-gap: 1.25rem;
+  --heading-3-bottom-gap: 0.75rem;
 
   --list-title-font-size: 1rem;
   --list-date-font-size: 1rem;
-  --list-category-font-size: 0.88rem;
+  --list-category-font-size: 0.85rem;
   --single-date-font-size: var(--list-category-font-size);
+  --footnote-font-size: var(--list-category-font-size);
 }
 
 /* Compact threshold: --page-max-width 40rem + normal --site-edge-gap 1.5rem = 41.5rem */
@@ -354,7 +355,7 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   white-space: pre;
   font-family: ui-monospace, monospace;
   font-size: var(--code-font-size);
-  line-height: inherit;
+  line-height: 1.45;
   padding: var(--code-block-padding-block) var(--code-block-padding-inline);
 }
 
@@ -426,11 +427,24 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 
 .footnotes {
   margin-top: var(--heading-2-top-gap);
-  font-size: var(--list-category-font-size);
+  font-size: var(--footnote-font-size);
+}
+
+.editorial-note {
+  margin-top: 2.75rem;
+  font-size: var(--footnote-font-size);
+}
+
+.editorial-note strong {
+  font-weight: 600;
+}
+
+.editorial-note + .footnotes {
+  margin-top: 2.25rem;
 }
 
 .footnotes hr {
-  margin: 0 0 var(--body-paragraph-gap);
+  margin: 0 0 1.25rem;
   border: 0;
   border-top: 1px solid currentColor;
   opacity: 0.5;
