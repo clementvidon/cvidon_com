@@ -7,17 +7,6 @@ social_description = "Why Vim’s deep configurability matters more in the age o
 date = 2026-09-19T13:00:00+02:00
 datePublished = 2026-10-29
 category = "Essay"
-tags = [
-  "Vim",
-  "AI agents",
-  "text editors",
-  "software customization",
-  "developer tools",
-  "composability",
-  "Unix philosophy",
-  "agent-compatible software",
-  "MCP"
-]
 
 draft = false
 +++

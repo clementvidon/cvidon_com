@@ -7,23 +7,6 @@ social_description = "A practical approach to building a personal visual archive
 date = 2026-05-29T12:00:00+02:00
 datePublished = 2026-06-10
 category = "Guide"
-tags = [
-  "photography",
-  "photo archive",
-  "photo and video archive",
-  "photographic archive",
-  "visual archive",
-  "personal visual archive",
-  "personal media archive",
-  "media archive",
-  "photo workflow",
-  "metadata",
-  "digital files",
-  "media management",
-  "DAM",
-  "cloud",
-  "Bash"
-]
 
 draft = false
 +++

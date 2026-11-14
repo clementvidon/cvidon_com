@@ -7,7 +7,6 @@ social_description = "Party reportage."
 date = 2026-04-24T22:00:00+02:00
 datePublished = 2026-04-26
 category = "Reportage"
-tags = ["party photography", "masquerade", "party reportage", "Maxim's", "Paris"]
 
 images = [
   "/images/vertige-party-1",

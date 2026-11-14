@@ -7,17 +7,6 @@ social_description = "Des logiciels qui permettraient à leurs utilisateurs de l
 date = 2026-09-19T14:00:00+02:00
 datePublished = 2026-10-29
 category = "Essai"
-tags = [
-  "AI-native",
-  "agents IA",
-  "logiciel malléable",
-  "architecture logicielle",
-  "personnalisation logicielle",
-  "composabilité",
-  "automatisation",
-  "MCP",
-  "autonomie des utilisateurs"
-]
 
 draft = false
 +++

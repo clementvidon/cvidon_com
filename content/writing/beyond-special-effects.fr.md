@@ -7,19 +7,6 @@ social_description = "De l’illusion numérique à l’ingénierie de l’expé
 date = 2026-08-03T12:00:00+02:00
 datePublished = 2026-08-03
 category = "Essai"
-tags = [
-  "effets spéciaux",
-  "VFX",
-  "calcul informatique",
-  "technologie",
-  "médias numériques",
-  "design d’expérience",
-  "ingénierie de la perception",
-  "matière programmable",
-  "spatial computing",
-  "simulation",
-  "robotique"
-]
 
 draft = false
 +++

@@ -7,7 +7,6 @@ social_description = "Interior photography editorial."
 date = 2017-12-03T12:00:00+01:00
 datePublished = 2026-05-03
 category = "Interiors"
-tags = ["Harper’s Bazaar Arabia", "Salama Khalfan", "interiors", "editorial photography", "France"]
 
 images = [
   "/images/salama-khalfan-harpers-bazaar-arabia-1",

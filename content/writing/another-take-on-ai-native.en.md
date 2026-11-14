@@ -7,17 +7,6 @@ social_description = "AI-native software could let users reshape their tools wit
 date = 2026-09-19T14:00:00+02:00
 datePublished = 2026-10-29
 category = "Essay"
-tags = [
-  "AI-native",
-  "AI agents",
-  "malleable software",
-  "software architecture",
-  "software customization",
-  "composability",
-  "automation",
-  "MCP",
-  "user agency"
-]
 
 draft = false
 +++

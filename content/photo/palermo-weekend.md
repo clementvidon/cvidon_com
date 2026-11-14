@@ -7,7 +7,6 @@ social_description = "Travel reportage."
 date = 2026-05-17T17:00:00+02:00
 datePublished = 2026-05-17
 category = "Reportage"
-tags = ["Palermo", "Sicily", "Italy", "travel photography", "street photography", "reportage", "documentary photography"]
 
 images = [
   "/images/palermo-weekend-1",

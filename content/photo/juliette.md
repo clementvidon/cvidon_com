@@ -7,15 +7,6 @@ social_description = "Portrait series."
 date = 2026-06-29T21:00:00+02:00
 datePublished = 2026-07-02
 category = "Portrait"
-tags = [
-  "portrait",
-  "Paris",
-  "Palais-Royal",
-  "Tuileries",
-  "test shoot",
-  "new face",
-  "pola"
-]
 
 images = [
   "/images/juliette-1",

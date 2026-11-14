@@ -7,7 +7,6 @@ social_description = "Portrait series."
 date = 2021-04-12T12:00:00+02:00
 datePublished = 2026-06-25
 category = "Portrait"
-tags = ["portrait", "Paris", "Invalides", "analog photography", "Minox 35 GT", "Kodak Portra"]
 
 images = [
   "/images/ariadna-at-invalides-i-1",

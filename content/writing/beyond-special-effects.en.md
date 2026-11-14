@@ -7,19 +7,6 @@ social_description = "From digital illusion to experience engineering."
 date = 2026-08-03T12:00:00+02:00
 datePublished = 2026-08-03
 category = "Essay"
-tags = [
-  "special effects",
-  "VFX",
-  "compute",
-  "technology",
-  "digital media",
-  "experience design",
-  "perception engineering",
-  "programmable matter",
-  "spatial computing",
-  "simulation",
-  "robotics"
-]
 
 draft = false
 +++

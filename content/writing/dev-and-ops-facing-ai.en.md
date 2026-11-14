@@ -7,17 +7,6 @@ social_description = "Agents shift Dev toward orchestration and add a new layer 
 date = 2026-09-12T12:00:00+02:00
 datePublished = 2026-10-29
 category = "Essay"
-tags = [
-  "AI agents",
-  "software development",
-  "developers",
-  "Ops",
-  "DevOps",
-  "automation",
-  "orchestration",
-  "infrastructure",
-  "SRE"
-]
 
 draft = false
 +++

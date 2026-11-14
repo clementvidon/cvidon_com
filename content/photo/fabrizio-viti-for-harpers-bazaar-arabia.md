@@ -7,7 +7,6 @@ social_description = "Interior photography editorial."
 date = 2019-06-19T12:00:00+02:00
 datePublished = 2026-05-03
 category = "Interiors"
-tags = ["Harper’s Bazaar Arabia", "Fabrizio Viti", "interiors", "editorial photography", "Paris", "Rue de Babylone"]
 
 images = [
   "/images/fabrizio-viti-harpers-bazaar-arabia-1",

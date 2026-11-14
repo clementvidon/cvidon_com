@@ -7,17 +7,6 @@ social_description = "Avec les agents, le Dev évolue vers l’orchestration ; l
 date = 2026-09-12T12:00:00+02:00
 datePublished = 2026-10-29
 category = "Essai"
-tags = [
-  "agents IA",
-  "développement logiciel",
-  "développeurs",
-  "Ops",
-  "DevOps",
-  "automatisation",
-  "orchestration",
-  "infrastructure",
-  "SRE"
-]
 
 draft = false
 +++

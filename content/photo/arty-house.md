@@ -7,15 +7,6 @@ social_description = "Art gallery event coverage."
 date = 2026-06-18T19:00:00+02:00
 datePublished = 2026-06-25
 category = "Reportage"
-tags = [
-  "Arty House",
-  "art event",
-  "event photography",
-  "art exhibition",
-  "gallery",
-  "contemporary art",
-  "Paris"
-]
 
 images = [
   "/images/arty-house-1",

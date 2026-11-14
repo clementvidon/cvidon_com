@@ -7,17 +7,6 @@ social_description = "Pourquoi la configurabilité de Vim compte davantage à l�
 date = 2026-09-19T13:00:00+02:00
 datePublished = 2026-10-29
 category = "Essai"
-tags = [
-  "Vim",
-  "agents IA",
-  "éditeurs de texte",
-  "personnalisation logicielle",
-  "outils de développement",
-  "composabilité",
-  "philosophie Unix",
-  "logiciel compatible avec les agents",
-  "MCP"
-]
 
 draft = false
 +++

@@ -7,17 +7,6 @@ social_description = "Wedding reportage."
 date = 2026-06-13T16:00:00+02:00
 datePublished = 2026-06-25
 category = "Reportage"
-tags = [
-  "Elea and Gabriel",
-  "wedding photography",
-  "wedding reportage",
-  "wedding Serriera",
-  "wedding Corsica",
-  "wedding France",
-  "Serriera",
-  "Corsica",
-  "France"
-]
 
 images = [
   "/images/elea-and-gabriel-1",

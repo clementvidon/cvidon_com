@@ -7,28 +7,6 @@ social_description = "Clément Vidon - Photography Portfolio"
 date = 2026-05-05T20:00:00+02:00
 datePublished = 2026-05-05
 category = "Photography"
-tags = [
-  "documentary photographer",
-  "documentary photography",
-  "reportage photographer",
-  "reportage photography",
-  "photography portfolio",
-  "photography services",
-  "fashion photography",
-  "event photographer",
-  "event photography",
-  "party reportage",
-  "party photographer",
-  "party photography",
-  "portrait photographer",
-  "portrait photography",
-  "editorial photographer",
-  "editorial photography",
-  "lookbook photographer",
-  "lookbook photography",
-  "brand imagery",
-  "Paris"
-]
 
 weight = 1
 pinned = true

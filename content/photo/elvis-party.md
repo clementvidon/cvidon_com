@@ -7,7 +7,6 @@ social_description = "Party reportage."
 date = 2026-04-12T20:00:00+02:00
 datePublished = 2026-04-26
 category = "Reportage"
-tags = ["party photography", "birthday", "party reportage", "Paris", "raclette"]
 
 images = [
   "/images/elvis-party-1",

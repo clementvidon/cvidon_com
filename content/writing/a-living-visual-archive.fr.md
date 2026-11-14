@@ -7,23 +7,6 @@ social_description = "Approche pratique pour construire une archive visuelle per
 date = 2026-05-29T12:00:00+02:00
 datePublished = 2026-05-29
 category = "Guide"
-tags = [
-  "photographie",
-  "archive photo",
-  "archive photo et vidéo",
-  "archive photographique",
-  "archive visuelle",
-  "archive visuelle personnelle",
-  "archive média personnelle",
-  "archive média",
-  "workflow photo",
-  "métadonnées",
-  "fichiers numériques",
-  "gestion des médias",
-  "DAM",
-  "cloud",
-  "Bash"
-]
 
 draft = false
 +++
