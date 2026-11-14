@@ -29,9 +29,7 @@ D’autres disciplines associent créativité et technologie, mais les effets sp
 >
 > — Vivake Gupta
 
-
-Pourquoi le numérique a tout changé
---------------------------------------------------------------------------------
+## Pourquoi le numérique a tout changé
 
 Les effets spéciaux traditionnels étaient étroitement liés aux dispositifs qui les produisaient : mécanismes, machineries, procédés optiques, réactions chimiques ou artifices pyrotechniques. Chaque illusion exigeait généralement une solution technique particulière.
 
@@ -57,9 +55,7 @@ Cette séparation rend le processus réutilisable : une même représentation pe
 
 Le numérique a ainsi rendu possible une chaîne de construction transférable d’un phénomène à l’autre.
 
-
-Pourquoi l’écran est devenu dominant
---------------------------------------------------------------------------------
+## Pourquoi l’écran est devenu dominant
 
 L’écran s’est imposé comme le médium privilégié des effets spéciaux numériques parce qu’il est programmable, reproductible et relativement simple à contrôler.
 
@@ -69,9 +65,7 @@ Cette polyvalence a fait de l’écran le principal débouché des effets spéci
 
 En industrialisant la construction numérique de phénomènes perceptibles, les effets spéciaux ont développé une logique qui ne se limite pas à l’écran.
 
-
-Et si l’écran n’était qu’une étape ?
---------------------------------------------------------------------------------
+## Et si l’écran n’était qu’une étape ?
 
 Une représentation numérique n’est pas intrinsèquement liée à l’écran.
 
@@ -87,8 +81,7 @@ Un décor scénique robotisé en offre un exemple plus abouti. Les mouvements de
 
 Les effets spéciaux disposent déjà d’une partie des outils et des savoir-faire nécessaires pour transformer une intention créative en représentation numérique, puis en coordonner la réalisation. La prochaine étape consisterait à étendre cette logique à des dispositifs physiques programmables.
 
-Une discipline qui n’a peut-être pas encore de nom
---------------------------------------------------------------------------------
+## Une discipline qui n’a peut-être pas encore de nom
 
 Et si les effets spéciaux avaient servi de laboratoire à une discipline plus vaste ?
 
@@ -102,9 +95,7 @@ Peut-être parlerons-nous un jour d’**ingénierie de la perception** pour dés
 
 Cette discipline prolongerait au-delà de l’illusion une ambition longtemps portée par les effets spéciaux : transformer une vision créative en expérience perceptible.
 
-
-Épilogue — Une hypothèse industrielle
---------------------------------------------------------------------------------
+## Épilogue — Une hypothèse industrielle
 
 Trois niveaux se dessinent. D’abord, un mouvement déjà observable : les outils issus de l’audiovisuel migrent vers la simulation et l’industrie. Ensuite, une intégration encore partielle : leur inscription dans une chaîne plus générale de production du perceptible. Enfin, une projection spéculative : l’émergence d’une discipline autonome et la place que pourraient y occuper les entreprises d’effets visuels (VFX).
 

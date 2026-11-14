@@ -19,9 +19,7 @@ Le terme « AI-native » désigne généralement des produits conçus autour de 
 
 Les agents pourraient ainsi rendre la malléabilité, vieille ambition du logiciel, plus facile à mettre en pratique.[^1] Chaque adaptation pourrait servir de point de départ à la suivante, à condition que l’architecture du logiciel le permette.
 
-
-L’IA dans, devant ou sur le logiciel
---------------------------------------------------------------------------------
+## L’IA dans, devant ou sur le logiciel
 
 *L’IA peut faire partie du logiciel, l’utiliser, ou le transformer.*
 
@@ -45,9 +43,7 @@ L’objectif n’est alors plus seulement de produire avec le logiciel, mais de 
 
 Ces trois formes peuvent coexister. C’est la troisième qui nous intéresse ici.
 
-
-De la productivité consommée à la productivité capitalisée
---------------------------------------------------------------------------------
+## De la productivité consommée à la productivité capitalisée
 
 *Un résultat se consomme. Un outil s’améliore.*
 
@@ -75,9 +71,7 @@ Le contexte partagé avec l’agent se matérialise progressivement dans l’out
 
 L’environnement s’adapte ainsi progressivement à son utilisateur, tout en devenant plus efficace pour les agents qui y interviennent.
 
-
-Cette boucle repose sur l'architecture
---------------------------------------------------------------------------------
+## Cette boucle repose sur l'architecture
 
 *L’interface ne suffit pas.*
 
@@ -142,9 +136,7 @@ Agent
 
 MCP intervient au niveau de l’interface. La puissance de MCP dépend donc moins du protocole lui-même que de ce que l’architecture du logiciel permet d’exposer.
 
-
-Co-construire son environnement
---------------------------------------------------------------------------------
+## Co-construire son environnement
 
 *De l’intention à la transformation.*
 

@@ -27,9 +27,7 @@ Other disciplines also combine creativity and technology, but special effects ar
 >
 > — Vivake Gupta
 
-
-Why Digital Technology Changed Everything
---------------------------------------------------------------------------------
+## Why Digital Technology Changed Everything
 
 Traditional special effects were closely tied to the systems that produced them: mechanisms, machinery, optical processes, chemical reactions, or pyrotechnic devices. Each illusion generally required a specific technical solution.
 
@@ -55,9 +53,7 @@ This separation makes the process reusable: the same representation can be trans
 
 Digital technology has thus made it possible to reuse a construction pipeline across different phenomena.
 
-
-Why the Screen Became Dominant
---------------------------------------------------------------------------------
+## Why the Screen Became Dominant
 
 The screen established itself as the preferred medium for digital special effects because it is programmable, reproducible, and relatively easy to control.
 
@@ -67,9 +63,7 @@ This versatility made the screen the primary medium for digital special effects.
 
 By industrializing the digital construction of perceptible phenomena, special effects developed a logic that extends beyond the screen.
 
-
-What If the Screen Were Only a Phase?
---------------------------------------------------------------------------------
+## What If the Screen Were Only a Phase?
 
 A digital representation is not intrinsically tied to the screen.
 
@@ -85,8 +79,7 @@ A robotic stage set provides a more advanced example. The movements of structure
 
 Special effects already have some of the tools and expertise required to transform a creative intention into a digital representation and then coordinate its realization. The next step would be to extend this logic to programmable physical systems.
 
-A Discipline That May Not Yet Have a Name
---------------------------------------------------------------------------------
+## A Discipline That May Not Yet Have a Name
 
 What if special effects have served as a laboratory for a broader discipline?
 
@@ -100,9 +93,7 @@ Perhaps one day we will speak of **perception engineering** to describe the tech
 
 Beyond illusion, this discipline would extend an ambition long pursued by special effects: to transform a creative vision into a perceptible experience.
 
-
-Epilogue — An Industrial Hypothesis
---------------------------------------------------------------------------------
+## Epilogue — An Industrial Hypothesis
 
 Three levels emerge. First, an already observable movement: tools originating in audiovisual production are migrating toward simulation and industrial applications. Second, a still partial integration: their incorporation into a more general pipeline for the production of the perceptible. Finally, a speculative projection: the emergence of an autonomous discipline and the place VFX companies might occupy within it.
 

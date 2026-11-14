@@ -21,9 +21,7 @@ For developers, it directly affects a core activity: writing code.
 
 For Ops, it mainly adds another layer of abstraction to a discipline already built around automation and orchestration.
 
-
-Dev Shifts from Production to Orchestration
---------------------------------------------------------------------------------
+## Dev Shifts from Production to Orchestration
 
 ### Producing Software →
 
@@ -41,9 +39,7 @@ Writing code can now be partially or even entirely delegated. Developers can the
 
 They remain responsible for the software without necessarily writing the code themselves. Increasingly, they orchestrate the systems that produce it.[^1]
 
-
-Ops Extends Its Approach to Orchestration
---------------------------------------------------------------------------------
+## Ops Extends Its Approach to Orchestration
 
 ### Orchestrating Through Automation →
 
@@ -67,9 +63,7 @@ Their autonomy and less deterministic behavior require appropriate safeguards.[^
 
 This continuity does not rule out major changes in day-to-day work.
 
-
-Conclusion — Two Converging Paths
---------------------------------------------------------------------------------
+## Conclusion — Two Converging Paths
 
 A core activity of software development is changing, while Ops continues an existing shift toward greater abstraction.
 
