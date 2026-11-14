@@ -3,6 +3,8 @@
   --color-page-background: #fafafa;
   --color-text-primary: #212121;
   --color-text-visited: #aaa;
+  --color-code-background: #eee;
+  --color-code-line-number: #9f9f9f;
   --color-selection-background: var(--color-text-primary);
   --color-selection-text: var(--color-page-background);
 
@@ -44,7 +46,7 @@
   --body-paragraph-gap: 0.75rem;
 
   /* Code */
-  --code-font-size: 0.9rem;
+  --code-font-size: 0.85rem;
   --code-block-padding-block: var(--body-paragraph-gap);
   --code-block-padding-inline: var(--body-paragraph-gap);
 
@@ -346,8 +348,9 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   font-size: var(--code-font-size);
   line-height: inherit;
   color: inherit;
-  background: transparent;
-  padding: 0;
+  background: var(--color-code-background);
+  padding: 0.2em 0.4em;
+  border-radius: 0.2em;
 }
 
 .prose .highlight {
@@ -361,6 +364,8 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   font-family: ui-monospace, monospace;
   font-size: var(--code-font-size);
   line-height: 1.45;
+  background-color: var(--color-code-background) !important;
+  border-radius: 0.6em;
   padding: var(--code-block-padding-block) var(--code-block-padding-inline);
 }
 
@@ -368,6 +373,10 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   display: block;
   font: inherit;
   padding: 0;
+}
+
+.prose .highlight code > span > span:first-child {
+  color: var(--color-code-line-number) !important;
 }
 
 .prose p + .highlight,

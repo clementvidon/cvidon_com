@@ -32,3 +32,7 @@ description = "Personal website of Clément Vidon."
 [sitemap]
   changefreq = "weekly"
   priority = 0.5
+
+[markup.highlight]
+  style = "github"
+  lineNos = "inline"
