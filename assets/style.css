@@ -201,7 +201,7 @@ h3 {
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 0.5rem 1.5rem;
   font-size: var(--nav-font-size);
 }
 
@@ -261,7 +261,7 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 
 .entry {
   display: grid;
-  grid-template-columns: var(--list-date-column-width) minmax(0, 1fr);
+  grid-template-columns: minmax(var(--list-date-column-width), max-content) minmax(0, 1fr);
   column-gap: var(--list-layout-gap);
   align-items: start;
 }
@@ -291,9 +291,15 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   font-size: var(--list-category-font-size);
 }
 
-@media (max-width: 400px) {
-  :root {
-    --list-layout-gap: 0.4rem;
+@media (max-width: 35rem) {
+  .entry {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.125rem;
+  }
+
+  .entry-date {
+    font-size: var(--list-category-font-size);
+    white-space: normal;
   }
 }
 
