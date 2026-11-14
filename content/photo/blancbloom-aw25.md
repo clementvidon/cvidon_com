@@ -5,6 +5,7 @@ description = "BlancBloom AW25 lookbook photographed in Paris with model Polly L
 social_description = "Fashion lookbook."
 
 date = 2025-11-27T20:00:00+01:00
+datePublished = 2026-04-30
 category = "Lookbook"
 tags = ["BlancBloom", "AW25", "lookbook", "fashion photography", "Paris"]
 

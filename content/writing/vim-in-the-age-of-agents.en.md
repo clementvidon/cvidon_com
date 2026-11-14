@@ -5,6 +5,7 @@ description = "How AI agents lower the cost of customizing Vim and make programm
 social_description = "Why Vim’s deep configurability matters more in the age of agents."
 
 date = 2026-09-19T13:00:00+02:00
+datePublished = 2026-10-29
 category = "Essay"
 tags = [
   "Vim",

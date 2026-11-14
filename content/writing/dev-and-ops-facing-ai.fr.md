@@ -4,7 +4,8 @@ seo_title = "Dev et Ops face aux agents — une transformation asymétrique"
 description = "Les agents IA transforment différemment le Dev et l’Ops : ils prennent en charge la production de code pour les développeurs tout en étendant des pratiques établies d’automatisation et d’orchestration des Ops."
 social_description = "Avec les agents, le Dev évolue vers l’orchestration ; l’Ops prolonge sa logique d’automatisation."
 
-date = 2026-09-19T12:00:00+02:00
+date = 2026-09-12T12:00:00+02:00
+datePublished = 2026-10-29
 category = "Essai"
 tags = [
   "agents IA",

@@ -5,6 +5,7 @@ description = "Un essai sur la manière dont les effets spéciaux numériques po
 social_description = "De l’illusion numérique à l’ingénierie de l’expérience."
 
 date = 2026-08-03T12:00:00+02:00
+datePublished = 2026-08-03
 category = "Essai"
 tags = [
   "effets spéciaux",
@@ -25,9 +26,11 @@ draft = false
 
 *De l’illusion à l’expérience*
 
-Bien avant le cinéma, les illusionnistes, les artificiers, les metteurs en scène, les maquilleurs, les décorateurs ou les constructeurs d’automates produisaient déjà ce que nous appellerions aujourd’hui des effets spéciaux.
+Bien avant le cinéma, les illusionnistes, les artificiers, les metteurs en
+scène, les maquilleurs, les décorateurs ou les constructeurs d’automates
+produisaient déjà ce que nous appellerions aujourd’hui des effets spéciaux.
 
-Les technologies étaient mécaniques, chimiques, optiques ou pyrotechniques, mais avec un objectif commun : transformer une intention créative en une expérience perceptible, généralement destinée au divertissement.
+Les technologies étaient mécaniques, chimiques, optiques ou pyrotechniques, mais elles partageaient un objectif commun : transformer une intention créative en une expérience perceptible, généralement destinée au divertissement.
 
 Une apparition théâtrale, un dragon en images de synthèse ou un feu d’artifice semblent appartenir à des mondes différents. Pourtant, tous donnent forme à un phénomène qui ne pourrait se manifester ainsi dans des conditions ordinaires.
 
@@ -87,7 +90,7 @@ Une représentation numérique n’est pas intrinsèquement liée à l’écran.
 
 Elle peut déjà être traduite en lumière, en son ou en mouvement. Elle peut commander des objets robotisés, modifier des espaces réactifs ou coordonner des phénomènes physiques. L’écran n’est donc pas la seule destination possible du calcul. À terme, certaines interfaces, notamment neuronales, pourraient agir plus directement sur la perception elle-même.
 
-Si des formes de matière programmable devenaient progressivement disponibles, le même pipeline pourrait s’étendre davantage au monde physique.[^1]
+Si des formes de matière programmable devenaient progressivement disponibles, la même chaîne pourrait s’étendre davantage au monde physique.[^1]
 
 *Par matière programmable, on peut entendre ici des éléments physiques capables de changer de position, de forme, de texture ou de comportement sous le contrôle d’un système numérique.*
 

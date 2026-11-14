@@ -5,6 +5,7 @@ description = "Comment les agents IA réduisent le coût de personnalisation de 
 social_description = "Pourquoi la configurabilité de Vim compte davantage à l’ère des agents."
 
 date = 2026-09-19T13:00:00+02:00
+datePublished = 2026-10-29
 category = "Essai"
 tags = [
   "Vim",

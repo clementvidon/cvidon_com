@@ -5,6 +5,7 @@ description = "Portrait series of Maria in a classroom, Paris."
 social_description = "Portrait series."
 
 date = 2026-10-08T21:00:00+02:00
+datePublished = 2026-10-20
 category = "Portrait"
 tags = [
   "portrait",

@@ -5,6 +5,7 @@ description = "A series of images generated from sound, where audio input and no
 social_description = "Sound-generated images."
 
 date = 2026-04-24T15:00:00+02:00
+datePublished = 2026-04-24
 category = "Generative"
 tags = ["generative art", "sound", "audio visualization", "creative coding"]
 

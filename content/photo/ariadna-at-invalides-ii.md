@@ -5,6 +5,7 @@ description = "Portrait of Ariadna at C.R.’s apartment in Invalides, Paris."
 social_description = "Portrait series."
 
 date = 2021-09-13T12:00:00+02:00
+datePublished = 2026-06-25
 category = "Portrait"
 tags = ["portrait", "Paris", "Invalides", "analog photography", "Minox 35 GT", "Kodak Portra"]
 

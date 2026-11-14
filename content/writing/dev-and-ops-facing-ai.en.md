@@ -4,7 +4,8 @@ seo_title = "Dev and Ops Facing AI — An Asymmetric Transformation"
 description = "AI agents change Dev and Ops differently: they take on code production for developers while extending established automation and orchestration practices in Ops."
 social_description = "Agents shift Dev toward orchestration and add a new layer to Ops automation."
 
-date = 2026-09-19T12:00:00+02:00
+date = 2026-09-12T12:00:00+02:00
+datePublished = 2026-10-29
 category = "Essay"
 tags = [
   "AI agents",

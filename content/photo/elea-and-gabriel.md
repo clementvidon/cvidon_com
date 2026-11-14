@@ -5,6 +5,7 @@ description = "Photo report from Eléa and Gabriel’s wedding in Serriera, Cors
 social_description = "Wedding reportage."
 
 date = 2026-06-13T16:00:00+02:00
+datePublished = 2026-06-25
 category = "Reportage"
 tags = [
   "Elea and Gabriel",

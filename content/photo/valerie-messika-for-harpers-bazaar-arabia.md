@@ -5,6 +5,7 @@ description = "Editorial photographed for Harper’s Bazaar Arabia at Valérie M
 social_description = "Interior photography editorial."
 
 date = 2018-04-10T12:00:00+02:00
+datePublished = 2026-05-03
 category = "Interiors"
 tags = ["Harper’s Bazaar Arabia", "Valérie Messika", "Messika", "interiors", "editorial photography", "France"]
 

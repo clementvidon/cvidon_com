@@ -5,6 +5,7 @@ description = "Interior photography featuring African art from AMU Gallery in a 
 social_description = "Interior photography editorial."
 
 date = 2026-07-06T12:00:00+02:00
+datePublished = 2026-07-08
 category = "Interiors"
 tags = ["interior photography", "Paris", "African art", "design", "AMU Gallery"]
 

@@ -4,7 +4,8 @@ seo_title = "Une archive visuelle vivante — Méthode et outils"
 description = "Une méthode simple pour reprendre le contrôle de vos images et les garder lisibles, portables et utilisables dans le temps."
 social_description = "Approche pratique pour construire une archive visuelle personnelle."
 
-date = 2026-06-10T12:00:00+02:00
+date = 2026-05-29T12:00:00+02:00
+datePublished = 2026-05-29
 category = "Guide"
 tags = [
   "photographie",

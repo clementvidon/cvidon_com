@@ -5,6 +5,7 @@ description = "An essay on how digital special effects may evolve beyond the scr
 social_description = "From digital illusion to experience engineering."
 
 date = 2026-08-03T12:00:00+02:00
+datePublished = 2026-08-03
 category = "Essay"
 tags = [
   "special effects",

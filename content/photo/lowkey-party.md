@@ -5,6 +5,7 @@ description = "Photo report from a party at Lowkey in Paris."
 social_description = "Party reportage."
 
 date = 2026-06-18T22:00:00+02:00
+datePublished = 2026-06-20
 category = "Reportage"
 tags = ["party photography", "nightlife", "party reportage", "Lowkey", "Paris"]
 

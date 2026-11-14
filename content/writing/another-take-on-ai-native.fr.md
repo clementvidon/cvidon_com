@@ -5,6 +5,7 @@ description = "Et si l’AI-native désignait aussi des logiciels que leurs util
 social_description = "Des logiciels qui permettraient à leurs utilisateurs de les reconfigurer avec des agents."
 
 date = 2026-09-19T14:00:00+02:00
+datePublished = 2026-10-29
 category = "Essai"
 tags = [
   "AI-native",

@@ -4,8 +4,8 @@ seo_title = "Fabrizio Viti — Editorial Photography for Harper’s Bazaar Arabi
 description = "Editorial photographed for Harper’s Bazaar Arabia at Fabrizio Viti’s Paris home on Rue de Babylone."
 social_description = "Interior photography editorial."
 
-
 date = 2019-06-19T12:00:00+02:00
+datePublished = 2026-05-03
 category = "Interiors"
 tags = ["Harper’s Bazaar Arabia", "Fabrizio Viti", "interiors", "editorial photography", "Paris", "Rue de Babylone"]
 
