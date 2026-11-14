@@ -483,6 +483,14 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   gap: 0.75rem;
 }
 
+.page-pager > a,
+.page-pager-empty {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem;
+  padding-inline: 0.25rem;
+}
+
 .page-pager-empty {
   visibility: hidden;
 }

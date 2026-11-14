@@ -61,17 +61,17 @@
     {{- else if eq $.Section "experiments" -}}
       {{- $kind = "experiment" -}}
     {{- end -}}
-    <div class="page-pager">
+    <div class="page-pager" role="group" aria-label="{{ $kind | title }} {{ add $currentIndex 1 }} of {{ $count }}">
       {{- with $previousTarget -}}
-        <a href="{{ .RelPermalink }}" aria-label="Previous {{ $kind }}: {{ .Title }}">←</a>
+        <a href="{{ .RelPermalink }}" aria-label="Previous {{ $kind }}: {{ .Title }}">← {{ add $currentIndex 1 }}</a>
       {{- else -}}
-        <span class="page-pager-empty" aria-hidden="true">←</span>
+        <span class="page-pager-empty" aria-hidden="true">← {{ add $currentIndex 1 }}</span>
       {{- end -}}
-      <span aria-label="{{ $kind | title }} {{ add $currentIndex 1 }} of {{ $count }}">{{ add $currentIndex 1 }} / {{ $count }}</span>
+      <span aria-hidden="true">/</span>
       {{- with $nextTarget -}}
-        <a href="{{ .RelPermalink }}" aria-label="Next {{ $kind }}: {{ .Title }}">→</a>
+        <a href="{{ .RelPermalink }}" aria-label="Next {{ $kind }}: {{ .Title }}">{{ $count }} →</a>
       {{- else -}}
-        <span class="page-pager-empty" aria-hidden="true">→</span>
+        <span class="page-pager-empty" aria-hidden="true">{{ $count }} →</span>
       {{- end -}}
     </div>
   {{- end -}}
