@@ -221,6 +221,39 @@
 
   <script>
     (() => {
+      const storageKey = "visited-pages-in-tab";
+
+      try {
+        if (!document.referrer || new URL(document.referrer).origin !== window.location.origin) {
+          sessionStorage.removeItem(storageKey);
+        }
+      } catch {
+        // Keep navigation usable when session storage is unavailable.
+      }
+
+      const updateVisitedTitles = () => {
+        try {
+          const visited = new Set(JSON.parse(sessionStorage.getItem(storageKey) || "[]"));
+
+          if (document.querySelector(".single-page")) {
+            visited.add(window.location.pathname);
+            sessionStorage.setItem(storageKey, JSON.stringify([...visited]));
+          }
+
+          document.querySelectorAll(".entry-link").forEach((link) => {
+            link.classList.toggle("is-session-visited", visited.has(new URL(link.href).pathname));
+          });
+        } catch {
+          // Keep the list usable when session storage is unavailable.
+        }
+      };
+
+      window.addEventListener("pageshow", updateVisitedTitles);
+    })();
+  </script>
+
+  <script>
+    (() => {
       const clickedColors = [
         "#d14f3f",
         "#3f6fd1",

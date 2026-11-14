@@ -2,6 +2,7 @@
   /* Colors */
   --color-page-background: #fafafa;
   --color-text-primary: #212121;
+  --color-text-visited: #aaa;
   --color-selection-background: var(--color-text-primary);
   --color-selection-text: var(--color-page-background);
 
@@ -267,7 +268,7 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
 }
 
 .entry-date {
-  color: var(--color-text-primary);
+  color: inherit;
   font-size: var(--list-date-font-size);
   white-space: nowrap;
 }
@@ -282,11 +283,15 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   font-size: var(--list-title-font-size);
 }
 
+.entry-link.is-session-visited {
+  color: var(--color-text-visited);
+}
+
 .entry-category {
   display: block;
   margin-top: 0;
   line-height: 1.2;
-  color: var(--color-text-primary);
+  color: inherit;
   font-style: italic;
   font-size: var(--list-category-font-size);
 }
