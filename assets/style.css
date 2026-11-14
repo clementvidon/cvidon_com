@@ -500,7 +500,7 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   visibility: hidden;
 }
 
-.return-nav a {
+.return-nav > a {
   display: inline-block;
   text-decoration: none;
 }
