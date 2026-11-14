@@ -65,13 +65,13 @@
       {{- with $previousTarget -}}
         <a href="{{ .RelPermalink }}" aria-label="Previous {{ $kind }}: {{ .Title }}">← {{ add $currentIndex 1 }}</a>
       {{- else -}}
-        <span class="page-pager-empty" aria-hidden="true">← {{ add $currentIndex 1 }}</span>
+        <span class="page-pager-inactive"><span class="page-pager-empty" aria-hidden="true">←</span> {{ add $currentIndex 1 }}</span>
       {{- end -}}
       <span aria-hidden="true">/</span>
       {{- with $nextTarget -}}
         <a href="{{ .RelPermalink }}" aria-label="Next {{ $kind }}: {{ .Title }}">{{ $count }} →</a>
       {{- else -}}
-        <span class="page-pager-empty" aria-hidden="true">{{ $count }} →</span>
+        <span class="page-pager-inactive">{{ $count }} <span class="page-pager-empty" aria-hidden="true">→</span></span>
       {{- end -}}
     </div>
   {{- end -}}
