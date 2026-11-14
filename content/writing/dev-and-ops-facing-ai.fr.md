@@ -71,6 +71,12 @@ L’expérience de l’Ops suggère qu’un métier peut déléguer une grande p
 
 À mesure que les agents prennent en charge l’exécution, le développement se rapproche ainsi d’une logique depuis longtemps familière à l’Ops : **ne plus seulement produire, mais orchestrer ce qui produit.**
 
+---
+
+## Discussion
+
+Les commentaires sont ouverts sur [Substack](https://cl3don.substack.com/p/dev-and-ops-facing-ai).
+
 [^1]: Birgitta Böckeler, [*Harness engineering for coding agent users*](https://martinfowler.com/articles/harness-engineering.html), Martin Fowler, 2026.
 [^2]: Ioannis Papapanagiotou et al., [*AI in SRE: How Google is Engineering the Future of Reliable Operations*](https://sre.google/resources/practices-and-processes/ai-engineering-reliable-operations/), Google SRE.
 

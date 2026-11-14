@@ -71,6 +71,11 @@ The experience of Ops suggests that a profession can delegate much of its execut
 
 As agents take over more execution, software development moves toward an approach that has long been familiar to Ops: **not just producing, but orchestrating what produces.**
 
+---
+
+## Discussion
+
+Comments open on [Substack](https://cl3don.substack.com/p/dev-and-ops-facing-ai)
 [^1]: Birgitta Böckeler, [*Harness engineering for coding agent users*](https://martinfowler.com/articles/harness-engineering.html), Martin Fowler, 2026.
 [^2]: Ioannis Papapanagiotou et al., [*AI in SRE: How Google is Engineering the Future of Reliable Operations*](https://sre.google/resources/practices-and-processes/ai-engineering-reliable-operations/), Google SRE.
 
