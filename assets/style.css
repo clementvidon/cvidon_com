@@ -500,6 +500,10 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   visibility: hidden;
 }
 
+.page-pager > :last-child {
+  padding-right: 0;
+}
+
 .return-nav > a {
   display: inline-block;
   text-decoration: none;
