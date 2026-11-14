@@ -296,15 +296,9 @@ body:has(.home-intro) .site-nav a[href="/photo/"] {
   font-size: var(--list-category-font-size);
 }
 
-@media (max-width: 35rem) {
-  .entry {
-    grid-template-columns: minmax(0, 1fr);
-    row-gap: 0.125rem;
-  }
-
-  .entry-date {
-    font-size: var(--list-category-font-size);
-    white-space: normal;
+@media (max-width: 400px) {
+  :root {
+    --list-layout-gap: 0.4rem;
   }
 }
 
