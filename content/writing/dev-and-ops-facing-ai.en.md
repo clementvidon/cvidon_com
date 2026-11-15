@@ -17,9 +17,11 @@ AI agents are already taking over part of the daily work of developers and Ops e
 
 But this automation is not transforming both professions in the same way.
 
-For developers, it directly affects a core activity: writing code.
+For developers, it directly affects a central activity: writing code.
 
-For Ops, it mainly adds another layer of abstraction to a discipline already built around automation and orchestration.
+For Ops, it mainly adds another layer of abstraction to an approach already built around automation and orchestration.
+
+By Dev, I mean software developers. Writing code is not their whole job, but it is one of its pillars. By Ops, I mainly mean engineers responsible for infrastructure and reliability (SRE, platform engineering): the Ops that has already been through the DevOps shift, rather than traditional system administration.
 
 ## Dev Shifts from Production to Orchestration
 
@@ -35,7 +37,7 @@ With agents, this relationship changes.
 
 Developers can describe their intent, provide context, define constraints, delegate implementation, and then validate the result.
 
-Writing code can now be partially or even entirely delegated. Developers can therefore focus more on what comes before and around production: understanding business needs, designing the architecture, breaking down problems, and validating the result.
+Writing code can now be partially or even entirely delegated. Developers can then focus more on what comes before and around production: understanding business needs, designing the architecture, breaking down problems, and checking the result.
 
 They remain responsible for the software without necessarily writing the code themselves. Increasingly, they orchestrate the systems that produce it.[^1]
 
@@ -47,9 +49,9 @@ For Ops, this indirect relationship with the outcome is much less new.
 
 The distinction is not absolute, however: Ops engineers also write code, and developers already practice orchestration. The main difference is how central these activities are to each profession.
 
-Managing infrastructure already involves controlling systems through other systems.
+Managing infrastructure already largely involves controlling systems through other systems.
 
-In many cases, Ops engineers no longer configure every component manually. They describe a desired state, and automated systems help apply and maintain it.
+In many cases, Ops engineers no longer configure every component manually. They describe a desired state, and automated systems then take care of applying and maintaining it.
 
 Ops work has thus been moving away from direct execution for a long time, without fundamentally changing the nature of the profession.
 
@@ -63,9 +65,11 @@ Their autonomy and less deterministic behavior require appropriate safeguards.[^
 
 This continuity does not rule out major changes in day-to-day work.
 
-## Conclusion — Two Converging Paths
+An agent can write the code and the tests that validate it: it then grades its own work. In production, the verdict no longer comes from the agent: the system either runs or it doesn’t. Ops answers for that verdict, and absorbs the errors made upstream.
 
-A core activity of software development is changing, while Ops continues an existing shift toward greater abstraction.
+## Conclusion: Orchestration
+
+A central activity of software development is changing, while Ops continues an existing shift toward greater abstraction.
 
 The experience of Ops suggests that a profession can delegate much of its execution without disappearing: orchestration and control then become even more important.
 
@@ -75,7 +79,8 @@ As agents take over more execution, software development moves toward an approac
 
 ## Discussion
 
-Comments open on [Substack](https://cl3don.substack.com/p/dev-and-ops-facing-ai)
+Comments are open on [Substack](https://cl3don.substack.com/p/dev-and-ops-facing-ai).
+
 [^1]: Birgitta Böckeler, [*Harness engineering for coding agent users*](https://martinfowler.com/articles/harness-engineering.html), Martin Fowler, 2026.
 [^2]: Ioannis Papapanagiotou et al., [*AI in SRE: How Google is Engineering the Future of Reliable Operations*](https://sre.google/resources/practices-and-processes/ai-engineering-reliable-operations/), Google SRE.
 

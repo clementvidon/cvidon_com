@@ -17,9 +17,11 @@ Les agents IA prennent déjà en charge une part du travail quotidien des dével
 
 Mais cette automatisation ne transforme pas les deux métiers de la même manière.
 
-Côté Dev, elle touche directement une activité centrale : l'écriture du code.
+Côté Dev, elle touche directement une activité centrale : l’écriture du code.
 
 Côté Ops, elle ajoute surtout une nouvelle couche d’abstraction à une logique déjà fondée sur l’automatisation et l’orchestration.
+
+Par Dev, j’entends les développeurs. Écrire du code n’est pas tout leur métier, mais c’en est l’un des piliers. Par Ops, j’entends surtout les ingénieurs responsables de l’infrastructure et de la fiabilité (SRE, platform engineering) : l’Ops qui a déjà traversé la vague DevOps, plutôt que l’administration système classique.
 
 ## Le Dev passe de la production à l’orchestration
 
@@ -63,7 +65,9 @@ Leur autonomie et leur comportement moins déterministe exigent des garde-fous a
 
 Cette continuité n’exclut pas une transformation importante du travail quotidien.
 
-## Conclusion — Deux trajectoires qui convergent
+Un agent peut écrire le code et les tests qui le valident : il est alors juge et partie. En production, le verdict ne vient plus de lui : le système fonctionne, ou il ne fonctionne pas. C’est l’Ops qui en répond, et qui absorbe les erreurs commises en amont.
+
+## Conclusion : l’orchestration
 
 Le Dev voit une activité centrale de son métier se transformer, tandis que l’Ops poursuit un mouvement d’abstraction déjà engagé.
 
